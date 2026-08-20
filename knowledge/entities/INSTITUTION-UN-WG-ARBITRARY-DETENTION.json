@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-UN-WG-ARBITRARY-DETENTION",
+  "id": "INSTITUTION-UN-WG-ARBITRARY-DETENTION",
+  "type": "Institution",
+  "name": "United Nations Working Group on Arbitrary Detention",
+  "aliases": ["UN Working Group on Arbitrary Detention", "WGAD"],
+  "dossier": "../../dossiers/states/KGZ.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only UN Special Procedures mechanism referenced in the Kyrgyzstan dossier; its opinion does not create governance by itself."
+}

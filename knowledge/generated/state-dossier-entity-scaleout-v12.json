@@ -1,0 +1,7 @@
+{
+  "version":12,"date":"2026-08-18","purpose":"Priority-34 acronym/noise curation: normalize Human Rights Watch and resolve treaty-body acronyms without materializing review processes or prose words.","follows":"knowledge/generated/state-dossier-entity-scaleout-v11.json","sourceAudit":"tools/audit_state_dossier_entities.py","identityRule":"Acronyms representing stable organizations/institutions may resolve; treaty/review mechanisms and uppercase prose tokens are rejected or deferred.",
+  "identities":[{"id":"ORG-HUMAN-RIGHTS-WATCH","type":"Organization","source":"dossiers/states/BRA.md"}],
+  "relationClaims":[],"formalAssessments":[],"governanceChanges":[],
+  "explicitDeferrals":["Algeria `HRC` remains ambiguous because the historical note says only `UN HRC review` and does not uniquely distinguish Council from Committee.","NPM remains a mechanism/function label in Nigeria and Ukraine at this layer."],
+  "explicitNonGoals":["Do not turn UPR or OPCAT into Actors.","Do not turn uppercase words from adversarial-result prose into entities.","Do not treat HRW reports as governance decisions."]
+}

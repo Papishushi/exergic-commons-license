@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-TUR-CONSTITUTIONAL-COURT","id":"INSTITUTION-TUR-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of Türkiye","aliases":["Turkish Constitutional Court"],"dossier":"../../dossiers/states/TUR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only domestic constitutional counter-institution; the State dossier credits review activity without treating the court as part of restricted scope."
+}

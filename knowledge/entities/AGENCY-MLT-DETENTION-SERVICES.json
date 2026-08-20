@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MLT-DETENTION-SERVICES",
+  "id": "AGENCY-MLT-DETENTION-SERVICES",
+  "type": "Agency",
+  "name": "Detention Services Agency",
+  "aliases": [],
+  "dossier": "../../dossiers/states/MLT.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Malta Schedule-preparation freeze. No detention practice or governance outcome is inherited by identity."
+}

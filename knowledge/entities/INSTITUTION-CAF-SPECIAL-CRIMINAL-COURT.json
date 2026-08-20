@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-CAF-SPECIAL-CRIMINAL-COURT","id":"INSTITUTION-CAF-SPECIAL-CRIMINAL-COURT","type":"Institution","name":"Special Criminal Court","aliases":[],"dossier":"../../dossiers/states/CAF.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only accountability/counter-institution from the Central African Republic dossier; no remediation effectiveness is inferred."
+}

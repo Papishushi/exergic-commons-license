@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-GBR-CROWN-PROSECUTION-SERVICE",
+  "id": "AGENCY-GBR-CROWN-PROSECUTION-SERVICE",
+  "type": "Agency",
+  "name": "Crown Prosecution Service",
+  "aliases": ["CPS"],
+  "dossier": "../../dossiers/states/GBR.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the GBR freeze. Charging/prosecution conduct within any frozen project remains proposition-specific and is not inferred from identity."
+}

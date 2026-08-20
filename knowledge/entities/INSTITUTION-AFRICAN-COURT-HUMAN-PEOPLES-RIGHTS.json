@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS",
+  "id": "INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS",
+  "type": "Institution",
+  "name": "African Court on Human and Peoples' Rights",
+  "aliases": ["African Court"],
+  "dossier": "../../dossiers/states/TUN.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only regional court referenced as an external accountability mechanism; withdrawal from direct-access jurisdiction is not transformed into actor attribution."
+}

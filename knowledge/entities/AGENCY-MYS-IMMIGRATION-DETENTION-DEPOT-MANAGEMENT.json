@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT",
+  "id": "AGENCY-MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT",
+  "type": "Agency",
+  "name": "Immigration Department of Malaysia — Detention and Depot Management Division",
+  "aliases": ["Detention and Depot Management Division"],
+  "dossier": "../../dossiers/states/MYS.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of the exact division named in the MYS detention/digital freeze. Immigration detention conduct and any ECL finding remain proposition-specific."
+}

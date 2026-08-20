@@ -1,0 +1,15 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS",
+  "id": "INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS",
+  "type": "Institution",
+  "name": "European Court of Human Rights",
+  "aliases": [
+    "ECtHR"
+  ],
+  "dossier": "../../dossiers/states/MDA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only external court referenced as an accountability/counter-institution; judgments and State compliance require proposition-specific evidence."
+}

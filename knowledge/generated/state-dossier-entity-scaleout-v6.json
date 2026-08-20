@@ -1,0 +1,33 @@
+{
+  "version": 6,
+  "date": "2026-08-18",
+  "purpose": "High-priority State-dossier prose curation: exact domestic counter-institutions plus stable international review institutions.",
+  "follows": "knowledge/generated/state-dossier-entity-scaleout-v5.json",
+  "sourceAudit": "tools/audit_state_dossier_entities.py",
+  "identityRule": "Promote only stable, disambiguated institutions/organizations whose identity is clear from dossier context. Generic labels, malformed extractor fragments, legislation/acronyms and non-enumerated functional classes remain deferred or rejected in the separate prose-disposition overlay.",
+  "identities": [
+    {"id":"INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL","type":"Institution","source":"dossiers/states/ERI.md"},
+    {"id":"ORG-COUNCIL-OF-EUROPE","type":"Organization","source":"dossiers/states/MDA.md"},
+    {"id":"INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS","type":"Institution","source":"dossiers/states/MDA.md"},
+    {"id":"INSTITUTION-UN-HUMAN-RIGHTS-COMMITTEE","type":"Institution","source":"dossiers/states/VNM.md"},
+    {"id":"INSTITUTION-KAZ-CONSTITUTIONAL-COURT","type":"Institution","state":"KAZ","source":"dossiers/states/KAZ.md"},
+    {"id":"AGENCY-BFA-MINISTRY-JUSTICE","type":"Agency","state":"BFA","source":"dossiers/states/BFA.md"},
+    {"id":"INSTITUTION-GEO-CONSTITUTIONAL-COURT","type":"Institution","state":"GEO","source":"dossiers/states/GEO.md"},
+    {"id":"INSTITUTION-GTM-CONSTITUTIONAL-COURT","type":"Institution","state":"GTM","source":"dossiers/states/GTM.md"},
+    {"id":"AGENCY-MAR-MINISTRY-JUSTICE","type":"Agency","state":"MAR","source":"dossiers/states/MAR.md"}
+  ],
+  "relationClaims": [],
+  "formalAssessments": [],
+  "governanceChanges": [],
+  "explicitDeferrals": [
+    "Generic `Police` mentions are not coerced into a national police identity without an exact body name.",
+    "Generic `UN Committee` mentions remain deferred until the committee is uniquely identified by the dossier.",
+    "Ukraine `TCC` remains deferred at this stage because the dossier wording describes a functional/plural recruitment-center class rather than one single canonical individual.",
+    "Malformed extractor fragments ending in `and` are reviewed as extraction artifacts rather than ontology individuals."
+  ],
+  "explicitNonGoals": [
+    "Do not infer that any counter-institution is effective merely because its identity is materialized.",
+    "Do not infer State membership, control, participation or governance from international review bodies.",
+    "Do not turn constitutional-court or justice-ministry identity into a finding about the whole State."
+  ]
+}

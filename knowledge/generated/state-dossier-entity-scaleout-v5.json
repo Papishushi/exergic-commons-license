@@ -1,0 +1,29 @@
+{
+  "version": 5,
+  "date": "2026-08-18",
+  "purpose": "High-precision private-organization scale-out from canonical State dossiers.",
+  "follows": "knowledge/generated/state-dossier-entity-scaleout-v4.json",
+  "sourceAudit": "tools/audit_private_org_mentions.py",
+  "identityRule": "Promote only a stable named private organization detected through high-signal corporate/vendor context. Generic contractor/supplier classes and product brands without an exact organization boundary remain unmaterialized.",
+  "identities": [
+    {
+      "id": "ORG-CELLEBRITE",
+      "type": "Organization",
+      "state": "SRB",
+      "source": "dossiers/states/SRB.md"
+    }
+  ],
+  "relationClaims": [],
+  "formalAssessments": [],
+  "governanceChanges": [],
+  "explicitDeferrals": [
+    "HTI private contractors are not named in the canonical State dossier, so no company identities are invented.",
+    "USA contractor/vendor classes are not promoted unless the State dossier or an already-curated organization record supplies a stable named referent.",
+    "Product names such as Pegasus and NoviSpy are not coerced into Organization identities; product/deployment projectization requires an exact reviewed object boundary."
+  ],
+  "explicitNonGoals": [
+    "Do not infer that Cellebrite supplied, operated, controlled or materially participated in the Serbian project from identity alone.",
+    "Do not convert supplier remediation into a governance outcome.",
+    "Do not convert unnamed private-contractor classes into fabricated companies."
+  ]
+}

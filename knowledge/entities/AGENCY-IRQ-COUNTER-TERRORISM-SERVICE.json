@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-IRQ-COUNTER-TERRORISM-SERVICE","id":"AGENCY-IRQ-COUNTER-TERRORISM-SERVICE","type":"Agency","name":"Counter-Terrorism Service","aliases":[],"dossier":"../../dossiers/states/IRQ.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion from the canonical Iraq dossier, which expressly excludes the service generally from the frozen attribution boundary."
+}

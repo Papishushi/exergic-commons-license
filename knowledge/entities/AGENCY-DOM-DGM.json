@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-DOM-DGM","id":"AGENCY-DOM-DGM","type":"Agency","name":"General Directorate of Migration of the Dominican Republic","aliases":["DGM","Dirección General de Migración"],"dossier":"../../dossiers/states/DOM.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only migration authority named in evidence and counter-position. Capacity/project-specific attribution remains separate from identity."
+}

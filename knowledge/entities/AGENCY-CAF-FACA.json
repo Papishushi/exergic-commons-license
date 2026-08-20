@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-CAF-FACA","id":"AGENCY-CAF-FACA","type":"Agency","name":"Central African Armed Forces","aliases":["FACA","Forces armées centrafricaines"],"dossier":"../../dossiers/states/CAF.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only national armed forces body. The dossier and freeze remain limited to materially participating personnel/functions in exact incidents; unrelated FACA functions are excluded."
+}

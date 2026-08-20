@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "date": "2026-08-18",
+  "purpose": "First reviewed identity-only promotion tranche from canonical State dossiers and already-curated Schedule-preparation freezes.",
+  "sourceAudit": "tools/audit_state_dossier_entities.py",
+  "identityRule": "Promote only stable, disambiguated referents already named with sufficient identity/boundary precision in canonical dossiers or internal freeze records. Promotion creates no conduct Claim, attribution relation, Formal Exergism assessment, governance outcome or Schedule effect.",
+  "identities": [
+    {"id":"INSTITUTION-DNK-ATP","type":"Institution","state":"DNK","source":"dossiers/states/DNK.md"},
+    {"id":"INSTITUTION-DNK-UDBETALING-DANMARK","type":"Institution","state":"DNK","source":"dossiers/states/DNK.md"},
+    {"id":"AGENCY-HRV-BORDER-DIRECTORATE","type":"Agency","state":"HRV","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"AGENCY-MDV-MEDIA-BROADCASTING-COMMISSION","type":"Agency","state":"MDV","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"AGENCY-MLT-DETENTION-SERVICES","type":"Agency","state":"MLT","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"AGENCY-MLT-POLICE-FORCE","type":"Agency","state":"MLT","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"AGENCY-MLT-ARMED-FORCES","type":"Agency","state":"MLT","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"AGENCY-MKD-BORDER-AFFAIRS-SOUTH","type":"Agency","state":"MKD","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"ORG-NLD-RECLASSERING-NEDERLAND","type":"Organization","state":"NLD","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"ORG-NLD-LEGER-DES-HEILS-RECLASSERING","type":"Organization","state":"NLD","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"ORG-NLD-STICHTING-VERSLAVINGSRECLASSERING-GGZ","type":"Organization","state":"NLD","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"INSTITUTION-GBR-COUNTER-TERRORISM-POLICING","type":"Institution","state":"GBR","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"AGENCY-GBR-CROWN-PROSECUTION-SERVICE","type":"Agency","state":"GBR","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"AGENCY-LKA-CTID","type":"Agency","state":"LKA","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"AGENCY-SOM-NISA","type":"Agency","state":"SOM","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"AGENCY-ZMB-POLICE-SERVICE","type":"Agency","state":"ZMB","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"AGENCY-HUN-ALIENS-POLICING","type":"Agency","state":"HUN","source":"registry/schedule-state-s-freezes/batch-07-identified-projects.yml"},
+    {"id":"PROJECT-KAZ-ATAJURT-KAZ-2-2026","type":"Project","state":"KAZ","source":"registry/schedule-state-s-freezes/batch-07-identified-projects.yml"},
+    {"id":"PROJECT-MEX-CNDH-206VG-2026-GUASAVE","type":"Project","state":"MEX","source":"registry/schedule-state-s-freezes/batch-07-identified-projects.yml"}
+  ],
+  "relationClaims": [],
+  "formalAssessments": [],
+  "governanceChanges": [],
+  "explicitNonGoals": [
+    "Do not infer controls, partOf, operates, participatesIn, deploys, supply, membership, culpability or governance from identity co-occurrence.",
+    "Do not inherit State R/S/U/N to any promoted identity or project.",
+    "Do not change Schedule, registry outcomes, LICENSE, legal artifacts or Formal Exergism assessments.",
+    "Do not treat discovery priority as evidence or as a governance score."
+  ]
+}

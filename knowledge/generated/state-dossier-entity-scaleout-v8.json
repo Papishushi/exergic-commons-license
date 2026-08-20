@@ -1,0 +1,26 @@
+{
+  "version": 8,
+  "date": "2026-08-18",
+  "purpose": "Priority-40/39 State-dossier prose curation: CPT, CNDH, FARDC and SUHAKAM identity normalization.",
+  "follows": "knowledge/generated/state-dossier-entity-scaleout-v7.json",
+  "sourceAudit": "tools/audit_state_dossier_entities.py",
+  "identityRule": "Promote exact named institutions/forces; keep principles, functional mechanisms and broader operation labels out of narrower existing project identities.",
+  "identities": [
+    {"id":"INSTITUTION-COE-CPT","type":"Institution","source":"dossiers/states/MDA.md"},
+    {"id":"INSTITUTION-MEX-CNDH","type":"Institution","state":"MEX","source":"dossiers/states/MEX.md"},
+    {"id":"AGENCY-COD-FARDC","type":"Agency","state":"COD","source":"dossiers/states/COD.md"},
+    {"id":"INSTITUTION-MYS-SUHAKAM","type":"Institution","state":"MYS","source":"dossiers/states/MYS.md"}
+  ],
+  "relationClaims": [],
+  "formalAssessments": [],
+  "governanceChanges": [],
+  "explicitDeferrals": [
+    "USA `Operation Epic Fury` remains broader than the already materialized exact Minab targeting chain; the broad label is not collapsed into the narrower Project.",
+    "Uzbekistan `NPM` remains a functional National Preventive Mechanism label until its exact institutional/legal implementation is separately curated."
+  ],
+  "explicitNonGoals": [
+    "Do not infer FARDC proxy/support relations from identity alone.",
+    "Do not treat CPT/CNDH/SUHAKAM findings as governance outcomes.",
+    "Do not project a narrow Schedule project identity onto the whole Operation Epic Fury label."
+  ]
+}

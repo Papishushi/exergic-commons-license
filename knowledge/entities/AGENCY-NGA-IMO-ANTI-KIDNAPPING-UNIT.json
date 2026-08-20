@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-NGA-IMO-ANTI-KIDNAPPING-UNIT","id":"AGENCY-NGA-IMO-ANTI-KIDNAPPING-UNIT","type":"Agency","name":"Imo State Police Anti-Kidnapping Unit","aliases":["Tiger Base"],"dossier":"../../dossiers/states/NGA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion of the exact unit named in the canonical Nigeria dossier. The Tiger Base detention/custody project and participation remain separate propositions."
+}

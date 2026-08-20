@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "date": "2026-08-18",
+  "purpose": "Second reviewed identity/project tranche resolving exact statutory, case, remediation and current-status references from State Schedule-preparation freezes.",
+  "follows": "knowledge/generated/state-dossier-entity-scaleout-v1.json",
+  "identityRule": "Create neutral first-class identities only for stable named bodies or objectively knowable case/project boundaries. Composite, plural, functional or unspecified authority classes remain unresolved rather than being coerced into a false individual.",
+  "identities": [
+    {"id":"AGENCY-MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT","type":"Agency","state":"MYS","source":"registry/schedule-state-s-freezes/batch-04-detention-digital.yml"},
+    {"id":"AGENCY-PAK-NCCIA","type":"Agency","state":"PAK","source":"registry/schedule-state-s-freezes/batch-04-detention-digital.yml"},
+    {"id":"AGENCY-PAK-MINISTRY-INTERIOR-NARCOTICS-CONTROL","type":"Agency","state":"PAK","source":"registry/schedule-state-s-freezes/batch-04-detention-digital.yml"},
+    {"id":"AGENCY-ETH-ADDIS-ABABA-CITY-ADMINISTRATION","type":"Agency","state":"ETH","source":"registry/schedule-state-s-freezes/batch-05-project-status.yml"},
+    {"id":"AGENCY-ARG-PFA","type":"Agency","state":"ARG","source":"registry/schedule-state-s-freezes/batch-06-statutory-cases.yml"},
+    {"id":"AGENCY-THA-OFFICE-ATTORNEY-GENERAL","type":"Agency","state":"THA","source":"registry/schedule-state-s-freezes/batch-06-statutory-cases.yml"},
+    {"id":"AGENCY-FJI-RFMF","type":"Agency","state":"FJI","source":"registry/schedule-state-s-freezes/batch-05-project-status.yml"},
+    {"id":"AGENCY-PHL-MALATE-POLICE-STATION-9","type":"Agency","state":"PHL","source":"registry/schedule-state-s-freezes/batch-22a-phl-freeze.yml"},
+    {"id":"AGENCY-PHL-MALATE-STATION-DRUG-ENFORCEMENT-UNIT","type":"Agency","state":"PHL","source":"registry/schedule-state-s-freezes/batch-22a-phl-freeze.yml"},
+    {"id":"INSTITUTION-SVK-CONSTITUTIONAL-COURT","type":"Institution","state":"SVK","source":"registry/schedule-state-s-freezes/batch-05-project-status.yml"},
+    {"id":"PROJECT-NLD-OXREC","type":"Project","state":"NLD","source":"dossiers/states/NLD.md"},
+    {"id":"PROJECT-MDV-ACT-16-2025-MEDIA-ENFORCEMENT","type":"Project","state":"MDV","source":"registry/schedule-state-s-freezes/batch-01-identity.yml"},
+    {"id":"PROJECT-GBR-PALESTINE-ACTION-PROSCRIPTION-ENFORCEMENT","type":"Project","state":"GBR","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"PROJECT-ZMB-PECA-ENFORCEMENT","type":"Project","state":"ZMB","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"PROJECT-ZMB-XAVIER-CHUNGU-DETENTION","type":"Project","state":"ZMB","source":"registry/schedule-state-s-freezes/batch-02-statutory-agency.yml"},
+    {"id":"PROJECT-GAB-PLATFORM-SUSPENSION-2026-02-26","type":"Project","state":"GAB","source":"registry/schedule-state-s-freezes/batch-04-detention-digital.yml"},
+    {"id":"PROJECT-ETH-ADDIS-ABABA-CORRIDOR-DEVELOPMENT","type":"Project","state":"ETH","source":"registry/schedule-state-s-freezes/batch-05-project-status.yml"},
+    {"id":"PROJECT-ARG-DECREE-383-2025-PFA-DIGITAL-PREVENTION","type":"Project","state":"ARG","source":"registry/schedule-state-s-freezes/batch-06-statutory-cases.yml"},
+    {"id":"PROJECT-BIH-RS-CRIMINAL-DEFAMATION-ENFORCEMENT","type":"Project","state":"BIH","source":"registry/schedule-state-s-freezes/batch-06-statutory-cases.yml"},
+    {"id":"PROJECT-THA-AOR-498-2567","type":"Project","state":"THA","source":"registry/schedule-state-s-freezes/batch-06-statutory-cases.yml"},
+    {"id":"PROJECT-HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW","type":"Project","state":"HUN","source":"registry/schedule-state-s-freezes/batch-07-identified-projects.yml"},
+    {"id":"PROJECT-PHL-SAN-ISIDRO-2026-01-28-INCIDENT","type":"Project","state":"PHL","source":"registry/schedule-state-s-freezes/batch-22a-phl-freeze.yml"},
+    {"id":"PROJECT-FJI-VAKARISI-CUSTODY-2026-04","type":"Project","state":"FJI","source":"registry/schedule-state-s-freezes/batch-05-project-status.yml"}
+  ],
+  "relationClaims": [],
+  "formalAssessments": [],
+  "governanceChanges": [],
+  "explicitDeferrals": [
+    "GAB candidate party is a non-enumerated executive/digital-administration authority class, not one individual.",
+    "BIH candidate party is a plural class of district public prosecutor offices, not one individual.",
+    "THA detention/enforcement authorities remain unspecified beyond the separately materialized Office of the Attorney General.",
+    "HUN border-police functions are a functional class pending exact organizational boundary."
+  ],
+  "explicitNonGoals": [
+    "Do not infer hierarchy or partOf from nested names.",
+    "Do not infer actor participation from project co-occurrence.",
+    "Do not inherit State outcome to any new Actor or Project.",
+    "Do not reactivate OXREC while the canonical dossier credits its suspension as remediation."
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-SVN-SUPREME-COURT","id":"INSTITUTION-SVN-SUPREME-COURT","type":"Institution","name":"Supreme Court of the Republic of Slovenia","aliases":["Supreme Court of Slovenia"],"dossier":"../../dossiers/states/SVN.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Slovenian judicial counter-institution named in active legal challenge context; no automatic governance effect."
+}

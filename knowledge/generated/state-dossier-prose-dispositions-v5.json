@@ -1,0 +1,23 @@
+{
+  "version":5,"date":"2026-08-18","purpose":"Reviewed dispositions for all discovery-priority 37 acronym candidates.","follows":"knowledge/generated/state-dossier-prose-dispositions-v4.json","sourceAudit":"tools/audit_state_dossier_entities.py","keyRule":"Each disposition is State-scoped by exact `(state, normalized)` candidate key.","allowedStatuses":["curated-identity","deferred","rejected"],
+  "dispositions":[
+    {"state":"CHN","normalized":"ohchr","status":"curated-identity","resolved_ids":["ORG-OHCHR"],"reason":"OHCHR uniquely denotes the UN Human Rights Office in the cited Xinjiang assessment context.","source":"dossiers/states/CHN.md"},
+    {"state":"COD","normalized":"m23","status":"curated-identity","resolved_ids":["ORG-M23"],"reason":"M23 is explicitly separated from FARDC and other actors; identity preserves that attribution boundary without adding sponsorship/control edges.","source":"dossiers/states/COD.md"},
+    {"state":"ERI","normalized":"ohchr","status":"curated-identity","resolved_ids":["ORG-OHCHR"],"reason":"OHCHR is the UN Human Rights Office referenced for cooperation/training/access.","source":"dossiers/states/ERI.md"},
+    {"state":"FRA","normalized":"vsa","status":"deferred","reason":"VSA denotes a class of video-surveillance/algorithmic systems in the scope language, not one exact bounded Project/Deployment.","source":"dossiers/states/FRA.md"},
+    {"state":"GTM","normalized":"iachr","status":"curated-identity","resolved_ids":["INSTITUTION-IACHR"],"reason":"IACHR uniquely denotes the Inter-American Commission on Human Rights in the exact OAS source context.","source":"dossiers/states/GTM.md"},
+    {"state":"ISL","normalized":"upr","status":"rejected","reason":"UPR is the Universal Periodic Review process, not an Actor or independently bounded Project identity.","source":"dossiers/states/ISL.md"},
+    {"state":"ISR","normalized":"ohchr","status":"curated-identity","resolved_ids":["ORG-OHCHR"],"reason":"OHCHR uniquely denotes the UN Human Rights Office in the current evidentiary record.","source":"dossiers/states/ISR.md"},
+    {"state":"LBY","normalized":"ohchr","status":"curated-identity","resolved_ids":["ORG-OHCHR"],"reason":"OHCHR uniquely denotes the UN Human Rights Office co-reporting with UNSMIL.","source":"dossiers/states/LBY.md"},
+    {"state":"LKA","normalized":"npm","status":"deferred","reason":"NPM denotes the National Preventive Mechanism function/access channel; the dossier does not require a separate identity distinct from the Human Rights Commission of Sri Lanka.","source":"dossiers/states/LKA.md"},
+    {"state":"MDA","normalized":"npm","status":"deferred","reason":"NPM denotes a preventive-monitoring function used alongside the Ombudsman; one separate canonical institution is not established by the acronym alone.","source":"dossiers/states/MDA.md"},
+    {"state":"MYS","normalized":"lgbti","status":"rejected","reason":"LGBTI is a population/category label, not an Actor or bounded Project identity.","source":"dossiers/states/MYS.md"},
+    {"state":"NER","normalized":"upr","status":"rejected","reason":"UPR is the Universal Periodic Review process, not an Actor.","source":"dossiers/states/NER.md"},
+    {"state":"NGA","normalized":"nhrc","status":"curated-identity","resolved_ids":["INSTITUTION-NGA-NATIONAL-HUMAN-RIGHTS-COMMISSION"],"reason":"NHRC resolves to the already materialized National Human Rights Commission of Nigeria.","source":"dossiers/states/NGA.md"},
+    {"state":"PSE","normalized":"ohchr","status":"curated-identity","resolved_ids":["ORG-OHCHR"],"reason":"OHCHR uniquely denotes the UN Human Rights Office reporting on Palestinian-authority detention and ill-treatment.","source":"dossiers/states/PSE.md"},
+    {"state":"RUS","normalized":"ohchr","status":"curated-identity","resolved_ids":["ORG-OHCHR"],"reason":"OHCHR uniquely denotes the UN Human Rights Office in the cited conduct baseline.","source":"dossiers/states/RUS.md"},
+    {"state":"RWA","normalized":"m23","status":"curated-identity","resolved_ids":["ORG-M23"],"reason":"M23 is a stable non-State armed-organization identity; the dossier's alleged Rwandan support remains a separate proposition requiring evidence.","source":"dossiers/states/RWA.md"},
+    {"state":"TUR","normalized":"lgbti","status":"rejected","reason":"LGBTI is a population/category label in the association context, not an Actor identity.","source":"dossiers/states/TUR.md"}
+  ],
+  "nonInference":["Acronym resolution is identity resolution only.","M23 identity creates no sponsor/control/support relation.","Monitoring bodies do not generate R/S/U/N.","Process/function/category acronyms are not forced into Actor nodes."]
+}

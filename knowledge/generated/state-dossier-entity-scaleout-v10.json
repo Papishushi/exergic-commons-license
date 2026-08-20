@@ -1,0 +1,7 @@
+{
+  "version":10,"date":"2026-08-18","purpose":"Priority-37 acronym curation: resolve OHCHR, IACHR and M23 while preserving processes/functions/categories as non-actors.","follows":"knowledge/generated/state-dossier-entity-scaleout-v9.json","sourceAudit":"tools/audit_state_dossier_entities.py","identityRule":"Acronyms are promoted only when the dossier context uniquely denotes a stable organization/institution. Review processes, mechanism functions, technology classes and population categories are rejected or deferred instead.",
+  "identities":[{"id":"ORG-OHCHR","type":"Organization","source":"dossiers/states/CHN.md"},{"id":"INSTITUTION-IACHR","type":"Institution","source":"dossiers/states/GTM.md"},{"id":"ORG-M23","type":"Organization","source":"dossiers/states/COD.md"}],
+  "relationClaims":[],"formalAssessments":[],"governanceChanges":[],
+  "explicitDeferrals":["NPM remains a National Preventive Mechanism function label where the dossier does not require a separate institution identity.","VSA remains a generic algorithmic/video-surveillance system class until a bounded system/deployment identity is established."],
+  "explicitNonGoals":["Do not infer Rwandan sponsorship/control of M23 from identity alone.","Do not treat OHCHR/IACHR reports as ECL governance decisions.","Do not materialize UPR or LGBTI as Actors."]
+}

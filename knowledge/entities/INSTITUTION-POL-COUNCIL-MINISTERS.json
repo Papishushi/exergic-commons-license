@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-POL-COUNCIL-MINISTERS",
+  "id": "INSTITUTION-POL-COUNCIL-MINISTERS",
+  "type": "Institution",
+  "name": "Council of Ministers of Poland",
+  "aliases": ["Polish Council of Ministers"],
+  "dossier": "../../dossiers/states/POL.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only executive collegial body referenced for the July 2026 border-regulation instrument; identity alone does not make the body or all members Restricted Parties."
+}

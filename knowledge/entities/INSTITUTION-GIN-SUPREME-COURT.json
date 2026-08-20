@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-GIN-SUPREME-COURT","id":"INSTITUTION-GIN-SUPREME-COURT","type":"Institution","name":"Supreme Court","aliases":[],"dossier":"../../dossiers/states/GIN.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"State-scoped identity-only judicial institution from the Guinea dossier. Electoral-review/remediation significance remains evidence-specific."
+}

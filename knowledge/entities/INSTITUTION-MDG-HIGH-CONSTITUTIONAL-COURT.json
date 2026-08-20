@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-MDG-HIGH-CONSTITUTIONAL-COURT","id":"INSTITUTION-MDG-HIGH-CONSTITUTIONAL-COURT","type":"Institution","name":"High Constitutional Court","aliases":[],"dossier":"../../dossiers/states/MDG.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only constitutional counter-institution from the Madagascar dossier. Pre-takeover remedial capacity is preserved without implying current effectiveness."
+}

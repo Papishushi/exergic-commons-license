@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-BEN-HAAC","id":"INSTITUTION-BEN-HAAC","type":"Institution","name":"High Authority for Audiovisual and Communication of Benin","aliases":["HAAC","Haute Autorité de l'Audiovisuel et de la Communication"],"dossier":"../../dossiers/states/BEN.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only media regulator named in both conduct and reversibility evidence; identity does not by itself classify any HAAC action under ECL."
+}

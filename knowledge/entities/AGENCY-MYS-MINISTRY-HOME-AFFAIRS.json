@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MYS-MINISTRY-HOME-AFFAIRS",
+  "id": "AGENCY-MYS-MINISTRY-HOME-AFFAIRS",
+  "type": "Agency",
+  "name": "Ministry of Home Affairs (Malaysia)",
+  "aliases": ["Malaysia Home Affairs Ministry"],
+  "dossier": "../../dossiers/states/MYS.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only ministry named in detention-depot accountability provenance; the disclosure does not itself establish material participation in a Restricted Project."
+}

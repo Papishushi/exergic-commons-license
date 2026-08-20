@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-DNK-UDBETALING-DANMARK",
+  "id": "INSTITUTION-DNK-UDBETALING-DANMARK",
+  "type": "Institution",
+  "name": "Udbetaling Danmark",
+  "aliases": [],
+  "dossier": "../../dossiers/states/DNK.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the canonical Denmark dossier and Schedule-preparation identity record. No system-wide operation, control, culpability or governance status is inferred."
+}

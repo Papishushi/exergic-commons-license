@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-UN-COMMITTEE-AGAINST-TORTURE",
+  "id": "INSTITUTION-UN-COMMITTEE-AGAINST-TORTURE",
+  "type": "Institution",
+  "name": "United Nations Committee against Torture",
+  "aliases": ["UN Committee against Torture"],
+  "dossier": "../../dossiers/states/BHR.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only UN treaty body referenced in State dossiers; its findings are evidence context and do not themselves create ECL governance."
+}

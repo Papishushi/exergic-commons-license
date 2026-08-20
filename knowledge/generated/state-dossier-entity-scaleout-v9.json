@@ -1,0 +1,33 @@
+{
+  "version":9,
+  "date":"2026-08-18",
+  "purpose":"Priority-38 State-dossier curation: parent agencies, domestic courts, international accountability institutions and transitional bodies.",
+  "follows":"knowledge/generated/state-dossier-entity-scaleout-v8.json",
+  "sourceAudit":"tools/audit_state_dossier_entities.py",
+  "identityRule":"Materialize only stable referents. Keep judicial formations, unnamed commissions, generic offices, malformed conjunction fragments and broad functional/task-force labels deferred or rejected.",
+  "identities":[
+    {"id":"AGENCY-BRA-FEDERAL-POLICE","type":"Agency","state":"BRA","source":"dossiers/states/BRA.md"},
+    {"id":"INSTITUTION-COE-VENICE-COMMISSION","type":"Institution","source":"dossiers/states/GEO.md"},
+    {"id":"INSTITUTION-AU-PEACE-SECURITY-COUNCIL","type":"Institution","source":"dossiers/states/GNB.md"},
+    {"id":"INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY","type":"Institution","state":"KHM","source":"dossiers/states/KHM.md"},
+    {"id":"INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL","type":"Institution","state":"KHM","source":"dossiers/states/KHM.md"},
+    {"id":"AGENCY-LSO-MINISTRY-LAW-JUSTICE","type":"Agency","state":"LSO","source":"dossiers/states/LSO.md"},
+    {"id":"AGENCY-MKD-BUREAU-PUBLIC-SECURITY","type":"Agency","state":"MKD","source":"dossiers/states/MKD.md"},
+    {"id":"AGENCY-MYS-IMMIGRATION-DEPARTMENT","type":"Agency","state":"MYS","source":"dossiers/states/MYS.md"},
+    {"id":"INSTITUTION-NGA-NATIONAL-HUMAN-RIGHTS-COMMISSION","type":"Institution","state":"NGA","source":"dossiers/states/NGA.md"},
+    {"id":"INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS","type":"Institution","state":"PAK","source":"dossiers/states/PAK.md"},
+    {"id":"AGENCY-POL-BORDER-GUARD","type":"Agency","state":"POL","source":"dossiers/states/POL.md"},
+    {"id":"INSTITUTION-SGP-HIGH-COURT","type":"Institution","state":"SGP","source":"dossiers/states/SGP.md"},
+    {"id":"INSTITUTION-SGP-COURT-OF-APPEAL","type":"Institution","state":"SGP","source":"dossiers/states/SGP.md"},
+    {"id":"INSTITUTION-SVN-SUPREME-COURT","type":"Institution","state":"SVN","source":"dossiers/states/SVN.md"},
+    {"id":"INSTITUTION-SVN-CONSTITUTIONAL-COURT","type":"Institution","state":"SVN","source":"dossiers/states/SVN.md"},
+    {"id":"INSTITUTION-SYR-NATIONAL-COMMISSION-MISSING-PERSONS","type":"Institution","state":"SYR","source":"dossiers/states/SYR.md"},
+    {"id":"INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE","type":"Institution","state":"SYR","source":"dossiers/states/SYR.md"},
+    {"id":"INSTITUTION-THA-BANGKOK-CRIMINAL-COURT","type":"Institution","state":"THA","source":"dossiers/states/THA.md"},
+    {"id":"INSTITUTION-TUR-CONSTITUTIONAL-COURT","type":"Institution","state":"TUR","source":"dossiers/states/TUR.md"},
+    {"id":"INSTITUTION-ZWE-HIGH-COURT","type":"Institution","state":"ZWE","source":"dossiers/states/ZWE.md"}
+  ],
+  "relationClaims":[],"formalAssessments":[],"governanceChanges":[],
+  "explicitDeferrals":["GBR Divisional Court is a judicial formation/reference in the dossier, not yet a separately proven stable institution boundary.","GBR `Other Administrative Court` does not identify a single exact court/case.","HTI Security Task Force remains deferred pending exact organizational provenance.","MLT Commissioner of Police is an office/title distinct from the Malta Police Force and is not silently aliased to it.","PSE National Commission against Torture and PHL Truth and Reconciliation Commission remain deferred pending exact constituting/identity provenance."],
+  "explicitNonGoals":["No parent/child relation is asserted between Malaysia Immigration Department and its Detention and Depot Management Division.","No court, commission or oversight body is deemed effective merely because it is represented.","No multi-identity prose phrase creates a relation among the represented identities."]
+}

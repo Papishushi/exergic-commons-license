@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-MEX-CNDH",
+  "id": "INSTITUTION-MEX-CNDH",
+  "type": "Institution",
+  "name": "National Human Rights Commission of Mexico",
+  "aliases": ["CNDH", "Comisión Nacional de los Derechos Humanos"],
+  "dossier": "../../dossiers/states/MEX.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Mexican national human-rights institution referenced for grave-violation recommendations and accountability evidence; no generic State attribution is inferred."
+}

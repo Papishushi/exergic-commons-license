@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-ZMB-XAVIER-CHUNGU-DETENTION",
+  "id": "PROJECT-ZMB-XAVIER-CHUNGU-DETENTION",
+  "type": "Project",
+  "name": "Xavier Chungu State-security/sedition detention case",
+  "aliases": ["Xavier Chungu detention case"],
+  "dossier": "../../dossiers/states/ZMB.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only case project bounded to the Xavier Chungu matter named in the Zambia freeze; no finding of guilt or whole-agency status follows from identity."
+}

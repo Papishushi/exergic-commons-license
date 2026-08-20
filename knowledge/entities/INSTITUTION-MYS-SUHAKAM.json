@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-MYS-SUHAKAM",
+  "id": "INSTITUTION-MYS-SUHAKAM",
+  "type": "Institution",
+  "name": "Human Rights Commission of Malaysia",
+  "aliases": ["SUHAKAM"],
+  "dossier": "../../dossiers/states/MYS.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Malaysian national human-rights counter-institution referenced for detention and speech-enforcement accountability evidence; no effectiveness is inferred."
+}

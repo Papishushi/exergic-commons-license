@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-BIH-RS-CRIMINAL-DEFAMATION-ENFORCEMENT",
+  "id": "PROJECT-BIH-RS-CRIMINAL-DEFAMATION-ENFORCEMENT",
+  "type": "Project",
+  "name": "Republika Srpska criminal-defamation enforcement project",
+  "aliases": ["Articles 208a-208đ criminal-defamation / honour-reputation enforcement"],
+  "dossier": "../../dossiers/states/BIH.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only project class bounded to Articles 208a-208đ as introduced by Official Gazette 73/23. Individual prosecutions and prosecutor-office participation remain separate Claims."
+}

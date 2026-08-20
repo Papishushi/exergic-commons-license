@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-UN-COMMITTEE-ENFORCED-DISAPPEARANCES",
+  "id": "INSTITUTION-UN-COMMITTEE-ENFORCED-DISAPPEARANCES",
+  "type": "Institution",
+  "name": "United Nations Committee on Enforced Disappearances",
+  "aliases": ["UN Committee on Enforced Disappearances"],
+  "dossier": "../../dossiers/states/MEX.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only UN treaty body referenced in the Mexico dossier; its Article 34 action is evidence context, not an ECL outcome."
+}

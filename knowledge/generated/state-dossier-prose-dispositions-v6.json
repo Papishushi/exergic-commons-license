@@ -1,0 +1,15 @@
+{
+  "version":6,"date":"2026-08-18","purpose":"Reviewed dispositions for all discovery-priority 36 candidates.","follows":"knowledge/generated/state-dossier-prose-dispositions-v5.json","sourceAudit":"tools/audit_state_dossier_entities.py","keyRule":"Each disposition is State-scoped by exact `(state, normalized)` candidate key.","allowedStatuses":["curated-identity","deferred","rejected"],
+  "dispositions":[
+    {"state":"BEN","normalized":"haac","status":"curated-identity","resolved_ids":["INSTITUTION-BEN-HAAC"],"reason":"HAAC uniquely denotes Benin's audiovisual/communications regulator in this dossier.","source":"dossiers/states/BEN.md"},
+    {"state":"BGD","normalized":"ict","status":"deferred","reason":"The phrase `ICT and anti-terror charges` does not by itself establish whether ICT denotes a statute/legal framework, charge class, institution or system; no identity is guessed.","source":"dossiers/states/BGD.md"},
+    {"state":"CAF","normalized":"faca","status":"curated-identity","resolved_ids":["AGENCY-CAF-FACA"],"reason":"FACA uniquely denotes the Central African Armed Forces; incident-specific participation remains separate.","source":"dossiers/states/CAF.md"},
+    {"state":"DOM","normalized":"dgm","status":"curated-identity","resolved_ids":["AGENCY-DOM-DGM"],"reason":"DGM uniquely denotes the Dominican General Directorate of Migration.","source":"dossiers/states/DOM.md"},
+    {"state":"NLD","normalized":"acute 2007","status":"curated-identity","resolved_ids":["PROJECT-NLD-ACUTE-2007"],"reason":"Exact named probation risk-assessment workflow in the dossier and Schedule boundary.","source":"dossiers/states/NLD.md"},
+    {"state":"NLD","normalized":"stable 2007","status":"curated-identity","resolved_ids":["PROJECT-NLD-STABLE-2007"],"reason":"Exact named probation risk-assessment workflow in the dossier and Schedule boundary.","source":"dossiers/states/NLD.md"},
+    {"state":"NLD","normalized":"static 99r","status":"curated-identity","resolved_ids":["PROJECT-NLD-STATIC-99R"],"reason":"Exact named probation risk-assessment workflow in the dossier and Schedule boundary.","source":"dossiers/states/NLD.md"},
+    {"state":"PHL","normalized":"napolcom","status":"curated-identity","resolved_ids":["AGENCY-PHL-NAPOLCOM"],"reason":"NAPOLCOM uniquely denotes the Philippine National Police Commission, explicitly acting as an accountability body in the frozen incident.","source":"dossiers/states/PHL.md"},
+    {"state":"SDN","normalized":"rsf","status":"curated-identity","resolved_ids":["ORG-RSF"],"reason":"RSF resolves to the already materialized Rapid Support Forces identity; SAF/RSF attribution remains separate.","source":"dossiers/states/SDN.md"}
+  ],
+  "nonInference":["Workflow identity is not a Formal Exergism assessment or governance outcome.","Oversight identity does not imply effectiveness.","Armed-force identity does not widen an incident/project boundary."]
+}

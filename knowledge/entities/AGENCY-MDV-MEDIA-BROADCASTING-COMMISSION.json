@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MDV-MEDIA-BROADCASTING-COMMISSION",
+  "id": "AGENCY-MDV-MEDIA-BROADCASTING-COMMISSION",
+  "type": "Agency",
+  "name": "Maldives Media and Broadcasting Commission",
+  "aliases": [],
+  "dossier": "../../dossiers/states/MDV.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the MDV renderable-subset freeze. Enforcement capacity and any ECL criterion satisfaction require proposition-specific evidence and are not encoded here."
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:ORG-CELLEBRITE",
+  "id": "ORG-CELLEBRITE",
+  "type": "Organization",
+  "name": "Cellebrite",
+  "aliases": [],
+  "dossier": "../../dossiers/states/SRB.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only private-organization/vendor locator from the canonical Serbia dossier. The dossier records supplier intervention as counter/remediation evidence and expressly rejects treating Cellebrite as a Restricted Party merely because its technology was involved. No supply, operation, participation, control or governance relation is asserted here."
+}

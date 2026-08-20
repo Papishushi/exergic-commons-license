@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-PHL-SAN-ISIDRO-2026-01-28-INCIDENT",
+  "id": "PROJECT-PHL-SAN-ISIDRO-2026-01-28-INCIDENT",
+  "type": "Project",
+  "name": "28 January 2026 Barangay San Isidro incident project",
+  "aliases": ["Barangay San Isidro unauthorized anti-drug / armed-robbery incident"],
+  "dossier": "../../dossiers/states/PHL.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only pending criminal/administrative incident boundary from the PHL freeze. It is explicitly not a finding of individual criminal guilt and does not classify PNP/MPD/station personnel generally."
+}

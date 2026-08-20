@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE",
+  "id": "INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE",
+  "type": "Institution",
+  "name": "Office of the High Representative",
+  "aliases": ["OHR"],
+  "dossier": "../../dossiers/states/BIH.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Bosnia and Herzegovina international oversight office referenced as source/provenance; no participation or governance inference is created."
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-HRV-BORDER-DIRECTORATE",
+  "id": "AGENCY-HRV-BORDER-DIRECTORATE",
+  "type": "Agency",
+  "name": "Border Directorate (Uprava za granicu)",
+  "aliases": ["Police Directorate (Ravnateljstvo policije) — Border Directorate (Uprava za granicu)"],
+  "dossier": "../../dossiers/states/HRV.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of the exact border-police directorate named in the frozen HRV Schedule-preparation record. Subordinate units, qualifying conduct and governance remain separate propositions."
+}

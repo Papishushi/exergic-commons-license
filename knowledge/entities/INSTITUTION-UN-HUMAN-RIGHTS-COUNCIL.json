@@ -1,0 +1,15 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL",
+  "id": "INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL",
+  "type": "Institution",
+  "name": "United Nations Human Rights Council",
+  "aliases": [
+    "UN Human Rights Council"
+  ],
+  "dossier": "../../dossiers/states/ERI.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only external human-rights institution named in State dossiers; no finding about effectiveness, attribution or governance is inferred."
+}

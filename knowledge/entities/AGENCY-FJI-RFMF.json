@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-FJI-RFMF",
+  "id": "AGENCY-FJI-RFMF",
+  "type": "Agency",
+  "name": "Republic of Fiji Military Forces",
+  "aliases": ["RFMF"],
+  "dossier": "../../dossiers/states/FJI.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the FJI current-status review. The exact April 2026 custody incident is separately trackable; identity does not establish a continuing qualifying workflow."
+}

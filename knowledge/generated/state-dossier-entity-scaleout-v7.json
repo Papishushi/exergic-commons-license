@@ -1,0 +1,33 @@
+{
+  "version": 7,
+  "date": "2026-08-18",
+  "purpose": "Priority-41 State-dossier prose curation: international accountability bodies, exact ministries/offices, and jurisdiction-specific executive institutions.",
+  "follows": "knowledge/generated/state-dossier-entity-scaleout-v6.json",
+  "sourceAudit": "tools/audit_state_dossier_entities.py",
+  "identityRule": "Promote only stable institutions/organizations clearly identified by surrounding dossier text. Anaphora may bind to an already named body; malformed fragments, generic forces, geographic scopes and non-enumerated governing/task-force classes are rejected or deferred.",
+  "identities": [
+    {"id":"INSTITUTION-UN-COMMITTEE-AGAINST-TORTURE","type":"Institution","source":"dossiers/states/BHR.md"},
+    {"id":"INSTITUTION-COE-COMMISSIONER-HUMAN-RIGHTS","type":"Institution","source":"dossiers/states/BIH.md"},
+    {"id":"INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE","type":"Institution","source":"dossiers/states/BIH.md","state":"BIH"},
+    {"id":"AGENCY-FRA-MINISTRY-INTERIOR","type":"Agency","source":"dossiers/states/FRA.md","state":"FRA"},
+    {"id":"INSTITUTION-UN-WG-ARBITRARY-DETENTION","type":"Institution","source":"dossiers/states/KGZ.md"},
+    {"id":"INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS","type":"Institution","source":"dossiers/states/MDA.md"},
+    {"id":"INSTITUTION-UN-COMMITTEE-ENFORCED-DISAPPEARANCES","type":"Institution","source":"dossiers/states/MEX.md"},
+    {"id":"AGENCY-MYS-MINISTRY-HOME-AFFAIRS","type":"Agency","source":"dossiers/states/MYS.md","state":"MYS"},
+    {"id":"INSTITUTION-POL-COUNCIL-MINISTERS","type":"Institution","source":"dossiers/states/POL.md","state":"POL"},
+    {"id":"INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS","type":"Institution","source":"dossiers/states/TUN.md"}
+  ],
+  "relationClaims": [],
+  "formalAssessments": [],
+  "governanceChanges": [],
+  "explicitDeferrals": [
+    "Guinea-Bissau `Military High Command / de facto transitional governing apparatus` remains a functional scope until exact legal membership/boundary is enumerated.",
+    "Haiti's Prime-Minister-created Security Task Force remains deferred pending an exact organizational identity/provenance boundary.",
+    "Lesotho's Commission of Inquiry remains deferred because the dossier does not preserve a sufficiently exact official title or constituting instrument."
+  ],
+  "explicitNonGoals": [
+    "Do not treat international findings or judgments as automatic ECL determinations.",
+    "Do not infer that a ministry, council, court or oversight office controls any project merely because it appears in the same dossier.",
+    "Do not turn geographic or functional scope labels into Actors."
+  ]
+}

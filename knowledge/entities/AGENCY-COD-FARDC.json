@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-COD-FARDC",
+  "id": "AGENCY-COD-FARDC",
+  "type": "Agency",
+  "name": "Armed Forces of the Democratic Republic of the Congo",
+  "aliases": ["FARDC", "Forces armées de la République démocratique du Congo"],
+  "dossier": "../../dossiers/states/COD.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only national armed forces record needed for actor-specific attribution; proxy/support relations require separate Claims and evidence."
+}

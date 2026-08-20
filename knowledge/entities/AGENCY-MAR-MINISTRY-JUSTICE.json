@@ -1,0 +1,15 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MAR-MINISTRY-JUSTICE",
+  "id": "AGENCY-MAR-MINISTRY-JUSTICE",
+  "type": "Agency",
+  "name": "Ministry of Justice (Morocco)",
+  "aliases": [
+    "Morocco Justice Ministry"
+  ],
+  "dossier": "../../dossiers/states/MAR.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only ministry preserved as reform/counter-evidence provenance; the dossier expressly distinguishes this from proof of prohibited conduct."
+}

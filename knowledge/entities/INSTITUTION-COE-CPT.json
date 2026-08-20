@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-COE-CPT",
+  "id": "INSTITUTION-COE-CPT",
+  "type": "Institution",
+  "name": "European Committee for the Prevention of Torture and Inhuman or Degrading Treatment or Punishment",
+  "aliases": ["CPT", "Council of Europe CPT"],
+  "dossier": "../../dossiers/states/MDA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Council of Europe anti-torture monitoring body referenced in the Moldova dossier; visit findings do not themselves create governance."
+}

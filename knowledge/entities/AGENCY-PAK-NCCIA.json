@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-PAK-NCCIA",
+  "id": "AGENCY-PAK-NCCIA",
+  "type": "Agency",
+  "name": "National Cyber Crime Investigation Agency",
+  "aliases": ["NCCIA"],
+  "dossier": "../../dossiers/states/PAK.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of NCCIA from the PAK freeze. PECA investigations, prosecutions and any relationship to the Ministry require separate Claims; no whole-agency governance outcome is created."
+}

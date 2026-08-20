@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-GTM-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-GTM-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of Guatemala",
+  "aliases": [],
+  "dossier": "../../dossiers/states/GTM.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only constitutional court referenced as an amparo/constitutionality counter-institution; no governance outcome is inferred."
+}

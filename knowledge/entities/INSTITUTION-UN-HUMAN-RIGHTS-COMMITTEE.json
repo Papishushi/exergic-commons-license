@@ -1,0 +1,15 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-UN-HUMAN-RIGHTS-COMMITTEE",
+  "id": "INSTITUTION-UN-HUMAN-RIGHTS-COMMITTEE",
+  "type": "Institution",
+  "name": "United Nations Human Rights Committee",
+  "aliases": [
+    "UN Human Rights Committee"
+  ],
+  "dossier": "../../dossiers/states/VNM.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only UN treaty body referenced in State review; participation in review is not itself a governance outcome."
+}

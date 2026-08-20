@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-AU-PEACE-SECURITY-COUNCIL","id":"INSTITUTION-AU-PEACE-SECURITY-COUNCIL","type":"Institution","name":"African Union Peace and Security Council","aliases":["AU Peace and Security Council"],"dossier":"../../dossiers/states/GNB.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only African Union organ preserved as provenance; the dossier still records source-precision gaps for the underlying proposition."
+}

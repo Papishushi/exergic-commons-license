@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-ETH-ADDIS-ABABA-CORRIDOR-DEVELOPMENT",
+  "id": "PROJECT-ETH-ADDIS-ABABA-CORRIDOR-DEVELOPMENT",
+  "type": "Project",
+  "name": "Addis Ababa Corridor Development Project",
+  "aliases": ["Addis Ababa Corridor Development"],
+  "dossier": "../../dossiers/states/ETH.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only named project from the ETH freeze. Ordinary corridor construction and rights-compliant relocation are not encoded as qualifying conduct by this identity."
+}

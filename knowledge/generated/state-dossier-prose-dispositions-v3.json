@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "date": "2026-08-18",
+  "purpose": "Reviewed dispositions for discovery priorities 40 and 39.",
+  "follows": "knowledge/generated/state-dossier-prose-dispositions-v2.json",
+  "sourceAudit": "tools/audit_state_dossier_entities.py",
+  "keyRule": "Each disposition is State-scoped by exact `(state, normalized)` candidate key.",
+  "allowedStatuses": ["curated-identity","deferred","rejected"],
+  "dispositions": [
+    {"state":"MDA","normalized":"cpt","status":"curated-identity","resolved_ids":["INSTITUTION-COE-CPT"],"reason":"CPT is the Council of Europe's anti-torture monitoring committee explicitly described in the Moldova dossier.","source":"dossiers/states/MDA.md"},
+    {"state":"MEX","normalized":"cndh","status":"curated-identity","resolved_ids":["INSTITUTION-MEX-CNDH"],"reason":"The dossier expands CNDH through its national human-rights recommendation context; bind the Mexican National Human Rights Commission identity only.","source":"dossiers/states/MEX.md"},
+    {"state":"PRY","normalized":"fpic","status":"rejected","reason":"FPIC is free, prior and informed consent, a rights standard/process rather than an Actor or bounded Project identity.","source":"dossiers/states/PRY.md"},
+    {"state":"USA","normalized":"operation epic fury","status":"deferred","reason":"The existing first-class Project is the exact 28 February 2026 Minab targeting chain. `Operation Epic Fury` can denote a broader operation, so the broad label is not silently collapsed into that narrower project.","source":"dossiers/states/USA.md"},
+    {"state":"UZB","normalized":"npm","status":"deferred","reason":"NPM denotes the National Preventive Mechanism function; the dossier does not by this abbreviation alone establish whether it should be a separate institution or a function of the Parliamentary Ombudsman.","source":"dossiers/states/UZB.md"},
+    {"state":"COD","normalized":"fardc","status":"curated-identity","resolved_ids":["AGENCY-COD-FARDC"],"reason":"FARDC is the Armed Forces of the Democratic Republic of the Congo, explicitly actor-scoped in the dossier.","source":"dossiers/states/COD.md"},
+    {"state":"MYS","normalized":"suhakam","status":"curated-identity","resolved_ids":["INSTITUTION-MYS-SUHAKAM"],"reason":"SUHAKAM is the Human Rights Commission of Malaysia, explicitly used as a counter/accountability institution.","source":"dossiers/states/MYS.md"},
+    {"state":"SDN","normalized":"saf","status":"curated-identity","resolved_ids":["ORG-SAF"],"reason":"SAF resolves to the already materialized Sudanese Armed Forces organization; RSF remains separately attributed.","source":"dossiers/states/SDN.md"}
+  ],
+  "nonInference": [
+    "A broad operation label is not equivalent to a narrower exact Project.",
+    "Institutional monitoring findings do not become ECL outcomes.",
+    "Actor identity does not create proxy/support/command relations."
+  ]
+}

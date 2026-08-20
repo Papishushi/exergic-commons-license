@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS",
+  "id": "INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS",
+  "type": "Institution",
+  "name": "Council of Europe Department for the Execution of Judgments",
+  "aliases": ["Department for the Execution of Judgments"],
+  "dossier": "../../dossiers/states/MDA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Council of Europe implementation-monitoring department referenced as remediation/compliance provenance; no effectiveness is inferred."
+}

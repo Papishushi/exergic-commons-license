@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MLT-ARMED-FORCES",
+  "id": "AGENCY-MLT-ARMED-FORCES",
+  "type": "Agency",
+  "name": "Armed Forces of Malta",
+  "aliases": ["AFM"],
+  "dossier": "../../dossiers/states/MLT.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Malta freeze. Rescue Coordination Centre and maritime/SAR participation are not automatically asserted against the whole force."
+}

@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-IND-SUPREME-COURT","id":"INSTITUTION-IND-SUPREME-COURT","type":"Institution","name":"Supreme Court","aliases":[],"dossier":"../../dossiers/states/IND.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"State-scoped identity-only judicial institution from the India dossier. The repository does not expand the name beyond the canonical dossier wording; constitutional review is counter-evidence, not a relation inferred here."
+}

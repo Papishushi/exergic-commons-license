@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:PROJECT-NLD-STATIC-99R","id":"PROJECT-NLD-STATIC-99R","type":"Project","name":"STATIC-99R probation risk-assessment workflow","aliases":["STATIC-99R"],"dossier":"../../dossiers/states/NLD.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Exact named probation risk-assessment workflow in the current NLD Schedule boundary. Identity does not encode score, outcome, operator relation or current remediation status."
+}

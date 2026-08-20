@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:ORG-NLD-RECLASSERING-NEDERLAND",
+  "id": "ORG-NLD-RECLASSERING-NEDERLAND",
+  "type": "Organization",
+  "name": "Reclassering Nederland",
+  "aliases": [],
+  "dossier": "../../dossiers/states/NLD.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of an operator named in the NLD identity-resolved registry record. Current OXREC deployment/remediation status remains unresolved and no operation Claim is created here."
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:ORG-NLD-LEGER-DES-HEILS-RECLASSERING",
+  "id": "ORG-NLD-LEGER-DES-HEILS-RECLASSERING",
+  "type": "Organization",
+  "name": "Leger des Heils Jeugdbescherming & Reclassering",
+  "aliases": [],
+  "dossier": "../../dossiers/states/NLD.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of an operator named in the NLD identity-resolved registry record. No algorithm operation or governance outcome is inferred."
+}

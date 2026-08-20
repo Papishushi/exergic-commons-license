@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW",
+  "id": "PROJECT-HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW",
+  "type": "Project",
+  "name": "Hungary mass-migration state-of-crisis asylum/border workflow",
+  "aliases": ["Government Decree 41/2016 (III. 9) workflow", "Government Decree 41/2026 (III. 5) extension workflow"],
+  "dossier": "../../dossiers/states/HUN.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only workflow boundary tied to the two named decrees in the HUN freeze. Generic Hungarian border-police functions remain an unresolved actor class, not an inferred participant."
+}

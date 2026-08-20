@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MLT-POLICE-FORCE",
+  "id": "AGENCY-MLT-POLICE-FORCE",
+  "type": "Agency",
+  "name": "Malta Police Force",
+  "aliases": [],
+  "dossier": "../../dossiers/states/MLT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Malta freeze. The separately named Commissioner of Police / Principal Immigration Officer capacity is not treated as an alias of the force; any qualifying detention/removal act requires its own evidence-backed proposition."
+}

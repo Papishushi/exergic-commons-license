@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-ZMB-POLICE-SERVICE",
+  "id": "AGENCY-ZMB-POLICE-SERVICE",
+  "type": "Agency",
+  "name": "Zambia Police Service",
+  "aliases": [],
+  "dossier": "../../dossiers/states/ZMB.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Zambia statutory-agency freeze. Case-specific Cyber Crimes Act or State-security enforcement is not generalized to the service."
+}

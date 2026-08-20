@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-THA-AOR-498-2567",
+  "id": "PROJECT-THA-AOR-498-2567",
+  "type": "Project",
+  "name": "Bangkok Criminal Court black case Aor.498/2567 project",
+  "aliases": ["Aor.498/2567"],
+  "dossier": "../../dossiers/states/THA.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only exact case/project boundary from the THA freeze. It does not create a generic Section 112, court, prosecutor, police or corrections class."
+}

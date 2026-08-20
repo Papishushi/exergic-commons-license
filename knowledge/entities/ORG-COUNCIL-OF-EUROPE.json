@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:ORG-COUNCIL-OF-EUROPE",
+  "id": "ORG-COUNCIL-OF-EUROPE",
+  "type": "Organization",
+  "name": "Council of Europe",
+  "aliases": [],
+  "dossier": "../../dossiers/states/MDA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only international organization used as counter-evidence/provenance across State dossiers; no governance status propagates through membership or review."
+}

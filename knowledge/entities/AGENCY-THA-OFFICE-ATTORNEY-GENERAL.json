@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-THA-OFFICE-ATTORNEY-GENERAL",
+  "id": "AGENCY-THA-OFFICE-ATTORNEY-GENERAL",
+  "type": "Agency",
+  "name": "Office of the Attorney General",
+  "aliases": ["OAG"],
+  "dossier": "../../dossiers/states/THA.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of the exact prosecutorial institution named in the THA freeze. Unspecified detention/enforcement authorities are not merged into this identity."
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-COE-COMMISSIONER-HUMAN-RIGHTS",
+  "id": "INSTITUTION-COE-COMMISSIONER-HUMAN-RIGHTS",
+  "type": "Institution",
+  "name": "Council of Europe Commissioner for Human Rights",
+  "aliases": [],
+  "dossier": "../../dossiers/states/BIH.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only external human-rights office used as review/counter-evidence provenance; no State or actor outcome propagates from its reports."
+}

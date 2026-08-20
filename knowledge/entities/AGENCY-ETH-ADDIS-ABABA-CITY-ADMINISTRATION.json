@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-ETH-ADDIS-ABABA-CITY-ADMINISTRATION",
+  "id": "AGENCY-ETH-ADDIS-ABABA-CITY-ADMINISTRATION",
+  "type": "Agency",
+  "name": "Addis Ababa City Administration",
+  "aliases": [],
+  "dossier": "../../dossiers/states/ETH.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion of the exact municipal administration named in the ETH project-status freeze. Unspecified implementation bodies are deliberately not collapsed into this identity."
+}

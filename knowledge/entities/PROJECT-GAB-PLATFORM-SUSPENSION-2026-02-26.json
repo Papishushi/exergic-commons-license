@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-GAB-PLATFORM-SUSPENSION-2026-02-26",
+  "id": "PROJECT-GAB-PLATFORM-SUSPENSION-2026-02-26",
+  "type": "Project",
+  "name": "Gabon 26 February 2026 digital-platform suspension project",
+  "aliases": ["26 February 2026 social-media / digital-platform suspension"],
+  "dossier": "../../dossiers/states/GAB.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only exact project boundary from the GAB freeze. Later governance dialogue and unrelated digital administration are distinct and no implementing actor is inferred."
+}

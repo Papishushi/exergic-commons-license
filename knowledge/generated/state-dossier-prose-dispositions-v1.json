@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-08-18",
+  "purpose": "Reviewed dispositions for the highest-priority broad State-dossier prose candidates. This overlay classifies extractor output; it is not an attribution or governance surface.",
+  "sourceAudit": "tools/audit_state_dossier_entities.py",
+  "keyRule": "Each disposition is State-scoped by exact `(state, normalized)` candidate key.",
+  "allowedStatuses": ["curated-identity","deferred","rejected"],
+  "dispositions": [
+    {"state":"FRA","normalized":"cctv","status":"rejected","reason":"`CCTV` is a generic technology class in this dossier, not a bounded Project/Deployment identity.","source":"dossiers/states/FRA.md"},
+    {"state":"PRK","normalized":"cctv","status":"rejected","reason":"`CCTV` is a generic technology class in this dossier, not a bounded Project/Deployment identity.","source":"dossiers/states/PRK.md"},
+    {"state":"BDI","normalized":"un committee","status":"deferred","reason":"The dossier says only `UN Committee`; the committee is not uniquely identified, so no international-body identity is guessed.","source":"dossiers/states/BDI.md"},
+    {"state":"ERI","normalized":"human rights council","status":"curated-identity","resolved_ids":["INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL"],"reason":"Context is the July 2026 UN Human Rights Council renewal of the Eritrea Special Rapporteur mandate; bind only the institutional identity, not any governance inference.","source":"dossiers/states/ERI.md"},
+    {"state":"KAZ","normalized":"the constitutional court","status":"curated-identity","resolved_ids":["INSTITUTION-KAZ-CONSTITUTIONAL-COURT"],"reason":"State-scoped wording unambiguously denotes Kazakhstan's Constitutional Court; the generic phrase is not added as a global alias.","source":"dossiers/states/KAZ.md"},
+    {"state":"MEX","normalized":"un committee","status":"deferred","reason":"`UN Committee` is not uniquely identified by this extracted phrase; preserve the ambiguity instead of guessing a treaty body.","source":"dossiers/states/MEX.md"},
+    {"state":"MOZ","normalized":"police","status":"deferred","reason":"Generic `Police` wording does not establish one exact legal body or unit.","source":"dossiers/states/MOZ.md"},
+    {"state":"SGP","normalized":"pofma","status":"rejected","reason":"POFMA is legislation/the statutory framework, not an Actor or independently bounded Project identity in this extraction.","source":"dossiers/states/SGP.md"},
+    {"state":"SVN","normalized":"police","status":"deferred","reason":"Generic `Police` wording does not establish one exact legal body or unit.","source":"dossiers/states/SVN.md"},
+    {"state":"MDA","normalized":"european court","status":"curated-identity","resolved_ids":["INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS"],"reason":"The surrounding Moldova dossier text cites specific ECtHR judgments; `European Court` is a shortened reference to the European Court of Human Rights.","source":"dossiers/states/MDA.md"},
+    {"state":"PAN","normalized":"fpic","status":"rejected","reason":"FPIC denotes free, prior and informed consent, a legal/governance principle rather than an Actor or Project identity.","source":"dossiers/states/PAN.md"},
+    {"state":"UZB","normalized":"lgbti","status":"rejected","reason":"LGBTI denotes a population/category, not an Actor, institution, Project or Deployment.","source":"dossiers/states/UZB.md"},
+    {"state":"AGO","normalized":"police","status":"deferred","reason":"Generic `Police` wording does not establish one exact legal body or unit.","source":"dossiers/states/AGO.md"},
+    {"state":"BFA","normalized":"the justice ministry","status":"curated-identity","resolved_ids":["AGENCY-BFA-MINISTRY-JUSTICE"],"reason":"The Burkina Faso dossier expressly identifies the Justice Ministry as institutional/counter-evidence provenance; identity does not imply participation.","source":"dossiers/states/BFA.md"},
+    {"state":"GEO","normalized":"constitutional court and","status":"rejected","reason":"Extractor fragment ends in `and` and combines text across a conjunction; it is not itself a stable identity.","source":"dossiers/states/GEO.md"},
+    {"state":"GEO","normalized":"the constitutional court","status":"curated-identity","resolved_ids":["INSTITUTION-GEO-CONSTITUTIONAL-COURT"],"reason":"State-scoped wording unambiguously denotes the Constitutional Court of Georgia; no generic global alias is created.","source":"dossiers/states/GEO.md"},
+    {"state":"GTM","normalized":"the constitutional court","status":"curated-identity","resolved_ids":["INSTITUTION-GTM-CONSTITUTIONAL-COURT"],"reason":"State-scoped wording unambiguously denotes the Constitutional Court of Guatemala; no generic global alias is created.","source":"dossiers/states/GTM.md"},
+    {"state":"ISR","normalized":"un committee","status":"deferred","reason":"`UN Committee` is not uniquely identified by this extracted phrase.","source":"dossiers/states/ISR.md"},
+    {"state":"MAR","normalized":"the justice ministry","status":"curated-identity","resolved_ids":["AGENCY-MAR-MINISTRY-JUSTICE"],"reason":"The Morocco dossier preserves the Justice Ministry as reform/counter-evidence provenance; identity does not prove prohibited conduct.","source":"dossiers/states/MAR.md"},
+    {"state":"RUS","normalized":"constitutional court and","status":"rejected","reason":"Extractor fragment ends in `and` and is not a stable identity; this disposition does not decide whether a separately named Russian court should be materialized later.","source":"dossiers/states/RUS.md"},
+    {"state":"SVK","normalized":"the constitutional court","status":"curated-identity","resolved_ids":["INSTITUTION-SVK-CONSTITUTIONAL-COURT"],"reason":"State-scoped phrase resolves to the already materialized Slovak Constitutional Court.","source":"dossiers/states/SVK.md"},
+    {"state":"TJK","normalized":"un committee","status":"deferred","reason":"`UN Committee` is not uniquely identified by this extracted phrase.","source":"dossiers/states/TJK.md"},
+    {"state":"UKR","normalized":"tcc","status":"deferred","reason":"The dossier uses TCC for a functional/plural recruitment-center class; one exact canonical individual is not established by the abbreviation alone.","source":"dossiers/states/UKR.md"},
+    {"state":"UZB","normalized":"police","status":"deferred","reason":"Generic `Police` wording does not establish one exact legal body or unit.","source":"dossiers/states/UZB.md"},
+    {"state":"VEN","normalized":"human rights council","status":"curated-identity","resolved_ids":["INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL"],"reason":"Context is UN Fact-Finding Mission reporting to the Human Rights Council; bind the UN HRC identity only, with no attribution/governance effect.","source":"dossiers/states/VEN.md"}
+  ],
+  "nonInference": [
+    "A curated identity does not prove participation, control, operation, supply or culpability.",
+    "Deferred means the current text is insufficiently exact; it is not evidence for or against the referent.",
+    "Rejected means the extractor candidate is not an ontology individual at this granularity; it is not a substantive governance finding.",
+    "No disposition changes R/S/U/N, Schedule scope, Formal Exergism scores or Claim status."
+  ]
+}

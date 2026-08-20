@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-MYS-IMMIGRATION-DEPARTMENT","id":"AGENCY-MYS-IMMIGRATION-DEPARTMENT","type":"Agency","name":"Immigration Department of Malaysia","aliases":["Malaysia Immigration Department"],"dossier":"../../dossiers/states/MYS.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only parent department. The already materialized Detention and Depot Management Division remains a distinct narrower identity; no partOf or attribution edge is asserted here."
+}

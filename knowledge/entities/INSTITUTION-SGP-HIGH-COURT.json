@@ -1,0 +1,3 @@
+{
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-SGP-HIGH-COURT","id":"INSTITUTION-SGP-HIGH-COURT","type":"Institution","name":"High Court of Singapore","aliases":["Singapore High Court"],"dossier":"../../dossiers/states/SGP.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only judicial counter-institution referenced for POFMA appeals; the availability of review does not by itself establish effective remediation."
+}

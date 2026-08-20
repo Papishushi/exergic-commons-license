@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-FRA-MINISTRY-INTERIOR",
+  "id": "AGENCY-FRA-MINISTRY-INTERIOR",
+  "type": "Agency",
+  "name": "Ministry of the Interior (France)",
+  "aliases": ["French Interior Ministry"],
+  "dossier": "../../dossiers/states/FRA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only French ministry named as project/identity context for the algorithmic-video experiment; restrictability still requires project-specific evidence."
+}

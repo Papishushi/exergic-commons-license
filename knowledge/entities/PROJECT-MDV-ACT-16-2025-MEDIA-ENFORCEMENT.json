@@ -1,0 +1,13 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-MDV-ACT-16-2025-MEDIA-ENFORCEMENT",
+  "id": "PROJECT-MDV-ACT-16-2025-MEDIA-ENFORCEMENT",
+  "type": "Project",
+  "name": "Maldives Media and Broadcasting Regulation Act No. 16/2025 enforcement project",
+  "aliases": ["Act No. 16/2025 media enforcement"],
+  "dossier": "../../dossiers/states/MDV.md",
+  "lastSubstantiveReview": "2026-08-13",
+  "reviewDue": "2026-09-13",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only project boundary from the MDV freeze. Whether a specific enforcement act satisfies ECL §5 remains an independent governance proposition."
+}

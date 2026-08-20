@@ -1,0 +1,15 @@
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-BFA-MINISTRY-JUSTICE",
+  "id": "AGENCY-BFA-MINISTRY-JUSTICE",
+  "type": "Agency",
+  "name": "Ministry of Justice (Burkina Faso)",
+  "aliases": [
+    "Burkina Faso Justice Ministry"
+  ],
+  "dossier": "../../dossiers/states/BFA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only ministry from Burkina Faso counter-evidence provenance; the dossier expressly does not use the ministry locator as proof of material participation."
+}
