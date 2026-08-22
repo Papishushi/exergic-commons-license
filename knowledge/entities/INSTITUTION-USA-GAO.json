@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-USA-GAO","id":"INSTITUTION-USA-GAO","type":"Institution","name":"Government Accountability Office","aliases":["GAO"],"dossier":"../../dossiers/states/USA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only legislative-branch accountability institution explicitly used as counter-evidence; no effectiveness is inferred beyond evidence."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-USA-GAO",
+  "id": "INSTITUTION-USA-GAO",
+  "type": "Institution",
+  "name": "Government Accountability Office",
+  "aliases": [
+    "GAO"
+  ],
+  "dossier": "../../dossiers/institutions/USA-GAO.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only legislative-branch accountability institution explicitly used as counter-evidence; no effectiveness is inferred beyond evidence."
+}

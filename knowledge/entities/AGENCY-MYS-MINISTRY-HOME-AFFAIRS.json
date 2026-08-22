@@ -4,8 +4,10 @@
   "id": "AGENCY-MYS-MINISTRY-HOME-AFFAIRS",
   "type": "Agency",
   "name": "Ministry of Home Affairs (Malaysia)",
-  "aliases": ["Malaysia Home Affairs Ministry"],
-  "dossier": "../../dossiers/states/MYS.md",
+  "aliases": [
+    "Malaysia Home Affairs Ministry"
+  ],
+  "dossier": "../../dossiers/agencies/MYS-MINISTRY-HOME-AFFAIRS.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

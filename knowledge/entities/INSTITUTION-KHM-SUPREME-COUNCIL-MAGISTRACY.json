@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY","id":"INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY","type":"Institution","name":"Supreme Council of Magistracy of Cambodia","aliases":["Supreme Council of Magistracy"],"dossier":"../../dossiers/states/KHM.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Cambodian judicial-governance institution named among reform channels; no independence/effectiveness is inferred."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY",
+  "id": "INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY",
+  "type": "Institution",
+  "name": "Supreme Council of Magistracy of Cambodia",
+  "aliases": ["Supreme Council of Magistracy"],
+  "dossier": "../../dossiers/institutions/KHM-SUPREME-COUNCIL-MAGISTRACY.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Cambodian judicial-governance institution named among reform channels; no independence/effectiveness is inferred."
 }

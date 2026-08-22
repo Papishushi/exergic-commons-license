@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-IRQ-MINISTRY-OF-JUSTICE","id":"AGENCY-IRQ-MINISTRY-OF-JUSTICE","type":"Agency","name":"Ministry of Justice","aliases":[],"dossier":"../../dossiers/states/IRQ.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only ministry locator from the canonical Iraq dossier. The ministry is expressly excluded generally from the frozen attribution boundary."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-IRQ-MINISTRY-OF-JUSTICE",
+  "id": "AGENCY-IRQ-MINISTRY-OF-JUSTICE",
+  "type": "Agency",
+  "name": "Ministry of Justice",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/IRQ-MINISTRY-OF-JUSTICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only ministry locator from the canonical Iraq dossier. The ministry is expressly excluded generally from the frozen attribution boundary."
 }

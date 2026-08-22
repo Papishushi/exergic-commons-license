@@ -1,0 +1,105 @@
+{
+  "version": 28,
+  "date": "2026-08-19",
+  "purpose": "Final Institution backlog tranche 28: materialize five remaining Institution identities with provenance-safe dedicated dossiers (3 direct / 2 partial) while preserving State-context and source-to-entity non-propagation.",
+  "migrationRule": "An Institution counts as migrated only when its ABox record points to a dedicated Institution dossier. Direct rows preserve exact repository-retained source surfaces; partial rows preserve explicit propositions and source-precision gaps. Neither category creates Claim/EvidenceItem, Material Participation, hierarchy, control, culpability or governance inheritance.",
+  "visualRule": "Derived visuals encode State context and source granularity, then terminate at the Institution identity boundary. R/S/U/N context, adjudication, administration, oversight, reform or accountability activity never propagates into an entity-level outcome.",
+  "maxMissingDedicatedDossiers": 104,
+  "entities": [
+    {
+      "id": "INSTITUTION-ARE-FEDERAL-APPEAL-COURT",
+      "name": "Federal Appeal Court",
+      "type": "Institution",
+      "state": "ARE",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/ARE-FEDERAL-APPEAL-COURT.md",
+      "sourceDossier": "dossiers/states/ARE.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "UAE State dossier + Amnesty/HRW mass-trial sources",
+        "proposition": "State dossier records the Federal Appeal Court upholding mass-trial convictions amid serious fair-trial concerns",
+        "boundary": "Mass-trial adjudication evidence does not classify every appellate function or judgment"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-ARE-FEDERAL-APPEAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-ARE-FEDERAL-APPEAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-CHN-SUPREME-PEOPLES-COURT",
+      "name": "Supreme People's Court",
+      "type": "Institution",
+      "state": "CHN",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/CHN-SUPREME-PEOPLES-COURT.md",
+      "sourceDossier": "dossiers/states/CHN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "China State dossier + Supreme People's Court 2026 source",
+        "proposition": "Court source records acquittals, withdrawn prosecutions, compensation and defence-rights measures as counter-evidence",
+        "boundary": "Rights-protective signals do not establish generic court effectiveness or negate separate State conduct"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-CHN-SUPREME-PEOPLES-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-CHN-SUPREME-PEOPLES-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-GBR-COUNTER-TERRORISM-POLICING",
+      "name": "Counter Terrorism Policing",
+      "type": "Institution",
+      "state": "GBR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/GBR-COUNTER-TERRORISM-POLICING.md",
+      "sourceDossier": "dossiers/states/GBR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "GBR batch-02 statutory-agency freeze + current enforcement sources",
+        "proposition": "Freeze names Counter Terrorism Policing only in Palestine Action-proscription enforcement satisfying the capacity limit",
+        "boundary": "Counterterrorism identity does not create a generic policing restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GBR-COUNTER-TERRORISM-POLICING-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GBR-COUNTER-TERRORISM-POLICING-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-GIN-SUPREME-COURT",
+      "name": "Supreme Court",
+      "type": "Institution",
+      "state": "GIN",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/GIN-SUPREME-COURT.md",
+      "sourceDossier": "dossiers/states/GIN.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Guinea State dossier + retained Amnesty 2026 locators",
+        "proposition": "State review credits formal Supreme Court electoral-review capacity as counter-evidence/remediation context",
+        "boundary": "Formal review capacity does not prove effective remediation or independence"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GIN-SUPREME-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GIN-SUPREME-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-IRQ-KARKH-FIRST-INVESTIGATION-COURT",
+      "name": "Karkh First Investigation Court",
+      "type": "Institution",
+      "state": "IRQ",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/IRQ-KARKH-FIRST-INVESTIGATION-COURT.md",
+      "sourceDossier": "dossiers/states/IRQ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Iraq State dossier + Supreme Judicial Council Karkh transfer records",
+        "proposition": "Official records identify the Karkh First Investigation Court as conducting investigations of the transferred cohort",
+        "boundary": "Investigation identity does not establish abusive participation by the court generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-IRQ-KARKH-FIRST-INVESTIGATION-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-IRQ-KARKH-FIRST-INVESTIGATION-COURT-evidence.svg"
+      ]
+    }
+  ]
+}

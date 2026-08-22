@@ -1,0 +1,105 @@
+{
+  "version": 21,
+  "date": "2026-08-19",
+  "purpose": "Direct-locator international accountability tranche: materialize five courts, monitoring, execution-supervision and human-rights institutions from exact repository-retained source surfaces without turning judgments, inspections, precautionary measures or external reporting into institutional governance outcomes.",
+  "migrationRule": "An institution counts as migrated only when its ABox record points to a dedicated institution dossier. Exact judgments, inspection findings, execution-supervision records, precautionary measures and human-rights statements remain proposition-specific evidence; institutional identity does not create ECL governance, Material Participation or generic effectiveness findings.",
+  "visualRule": "Derived visuals display State context and the exact curated evidence proposition, then terminate at the institution identity boundary. State S context and evidence-producing or remedial adjacency never propagate to the institution.",
+  "maxMissingDedicatedDossiers": 139,
+  "entities": [
+    {
+      "id": "INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS",
+      "name": "European Court of Human Rights",
+      "type": "Institution",
+      "state": "MDA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/EUROPEAN-COURT-HUMAN-RIGHTS.md",
+      "sourceDossier": "dossiers/states/MDA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ECtHR Petrov v. Moldova judgment (5 Mar 2026)",
+        "proposition": "Court found degrading treatment, discrimination and forced labour violations linked to Moldova's informal prisoner hierarchy",
+        "boundary": "Judgment evidence does not classify the Court or mechanically determine ECL governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-EUROPEAN-COURT-HUMAN-RIGHTS-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-COE-CPT",
+      "name": "European Committee for the Prevention of Torture and Inhuman or Degrading Treatment or Punishment",
+      "type": "Institution",
+      "state": "MDA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/COE-CPT.md",
+      "sourceDossier": "dossiers/states/MDA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CPT June 2025 Moldova ad hoc visit findings",
+        "proposition": "CPT documented persistent informal-prisoner-hierarchy coercion in three Moldovan penitentiaries",
+        "boundary": "Inspection findings are evidence, not an institution-level governance outcome"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-COE-CPT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-COE-CPT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS",
+      "name": "Council of Europe Department for the Execution of Judgments",
+      "type": "Institution",
+      "state": "MDA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/COE-DEPARTMENT-EXECUTION-JUDGMENTS.md",
+      "sourceDossier": "dossiers/states/MDA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CoE execution supervision record, 20 July 2026",
+        "proposition": "Execution supervision treated Moldova's informal-prisoner-hierarchy problem as systemic and requiring a comprehensive strategy",
+        "boundary": "Compliance supervision does not prove generic remedial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-IACHR",
+      "name": "Inter-American Commission on Human Rights",
+      "type": "Institution",
+      "state": "GTM",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/IACHR.md",
+      "sourceDossier": "dossiers/states/GTM.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "IACHR Resolution 40/2026, MC 171-25, Guatemala",
+        "proposition": "Exact precautionary-measures source is retained for a capacity-limited Guatemala criminalization/detention project",
+        "boundary": "Precautionary measures do not independently prove every underlying Guatemala proposition"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-IACHR-status.svg",
+        "dossiers/assets/generated/INSTITUTION-IACHR-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-COE-COMMISSIONER-HUMAN-RIGHTS",
+      "name": "Council of Europe Commissioner for Human Rights",
+      "type": "Institution",
+      "state": "BIH",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/COE-COMMISSIONER-HUMAN-RIGHTS.md",
+      "sourceDossier": "dossiers/states/BIH.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CoE Commissioner Bosnia and Herzegovina 2026 statement",
+        "proposition": "Commissioner warned against inflammatory speech by senior Republika Srpska political leadership",
+        "boundary": "External human-rights reporting does not create an institutional or State outcome by itself"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-COE-COMMISSIONER-HUMAN-RIGHTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-COE-COMMISSIONER-HUMAN-RIGHTS-evidence.svg"
+      ]
+    }
+  ]
+}

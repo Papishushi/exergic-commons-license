@@ -1,0 +1,105 @@
+{
+  "version": 29,
+  "date": "2026-08-19",
+  "purpose": "Final Institution backlog tranche 29: materialize five remaining Institution identities with provenance-safe dedicated dossiers (4 direct / 1 partial) while preserving State-context and source-to-entity non-propagation.",
+  "migrationRule": "An Institution counts as migrated only when its ABox record points to a dedicated Institution dossier. Direct rows preserve exact repository-retained source surfaces; partial rows preserve explicit propositions and source-precision gaps. Neither category creates Claim/EvidenceItem, Material Participation, hierarchy, control, culpability or governance inheritance.",
+  "visualRule": "Derived visuals encode State context and source granularity, then terminate at the Institution identity boundary. R/S/U/N context, adjudication, administration, oversight, reform or accountability activity never propagates into an entity-level outcome.",
+  "maxMissingDedicatedDossiers": 99,
+  "entities": [
+    {
+      "id": "INSTITUTION-IRQ-SUPREME-JUDICIAL-COUNCIL",
+      "name": "Supreme Judicial Council",
+      "type": "Institution",
+      "state": "IRQ",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/IRQ-SUPREME-JUDICIAL-COUNCIL.md",
+      "sourceDossier": "dossiers/states/IRQ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Iraq State dossier + Supreme Judicial Council transfer records",
+        "proposition": "Council records describe the Al-Karkh transfer project while the freeze expressly excludes the Council generally",
+        "boundary": "Producing or supervising judicial records does not create generic Material Participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-IRQ-SUPREME-JUDICIAL-COUNCIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-IRQ-SUPREME-JUDICIAL-COUNCIL-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-JOR-STATE-SECURITY-COURT",
+      "name": "State Security Court",
+      "type": "Institution",
+      "state": "JOR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/JOR-STATE-SECURITY-COURT.md",
+      "sourceDossier": "dossiers/states/JOR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Jordan dossier + promoted-ready-03a capacity-limited freeze",
+        "proposition": "Freeze names a State Security Court qualifying project class only for case-specific expression/security enforcement",
+        "boundary": "Court identity does not make every security case or judicial function restricted"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-JOR-STATE-SECURITY-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-JOR-STATE-SECURITY-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL",
+      "name": "Constitutional Council of Cambodia",
+      "type": "Institution",
+      "state": "KHM",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/KHM-CONSTITUTIONAL-COUNCIL.md",
+      "sourceDossier": "dossiers/states/KHM.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "OHCHR Cambodia rule-of-law overview retained by the State dossier",
+        "proposition": "OHCHR-supported reform work includes the Constitutional Council among legal and judicial reform channels",
+        "boundary": "Reform-channel identity does not prove independence, effectiveness or State conduct"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY",
+      "name": "Supreme Council of Magistracy of Cambodia",
+      "type": "Institution",
+      "state": "KHM",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/KHM-SUPREME-COUNCIL-MAGISTRACY.md",
+      "sourceDossier": "dossiers/states/KHM.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "OHCHR Cambodia rule-of-law overview retained by the State dossier",
+        "proposition": "OHCHR-supported reform work includes the Supreme Council of Magistracy among judicial reform channels",
+        "boundary": "Judicial-governance identity does not prove independence, effectiveness or culpability"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY-status.svg",
+        "dossiers/assets/generated/INSTITUTION-KHM-SUPREME-COUNCIL-MAGISTRACY-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-LBY-GNU",
+      "name": "Government of National Unity (Libya)",
+      "type": "Institution",
+      "state": "LBY",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/LBY-GNU.md",
+      "sourceDossier": "dossiers/states/LBY.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Libya State dossier + OHCHR/UNSMIL fragmented-authority record",
+        "proposition": "State review uses GNU-linked structures as one attribution class within a fragmented de facto-authority map",
+        "boundary": "Fragmented attribution does not create a whole-GNU restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-LBY-GNU-status.svg",
+        "dossiers/assets/generated/INSTITUTION-LBY-GNU-evidence.svg"
+      ]
+    }
+  ]
+}

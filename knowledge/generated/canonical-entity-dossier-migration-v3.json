@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "date": "2026-08-18",
+  "purpose": "Judicial and accountability institution canonical-dossier migration tranche.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals render State governance context and curated evidence provenance only; source granularity is explicit and no governance propagates to the entity.",
+  "maxMissingDedicatedDossiers": 227,
+  "entities": [
+    {
+      "id": "INSTITUTION-CAF-SPECIAL-CRIMINAL-COURT",
+      "name": "Special Criminal Court",
+      "type": "Institution",
+      "state": "CAF",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/CAF-SPECIAL-CRIMINAL-COURT.md",
+      "sourceDossier": "dossiers/states/CAF.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-CAF-SPECIAL-CRIMINAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-CAF-SPECIAL-CRIMINAL-COURT-evidence.svg"
+      ],
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "State dossier / historical SCC locator",
+        "proposition": "Active accountability institution",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-GBR-COURT-OF-APPEAL",
+      "name": "Court of Appeal",
+      "type": "Institution",
+      "state": "GBR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/GBR-COURT-OF-APPEAL.md",
+      "sourceDossier": "dossiers/states/GBR.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GBR-COURT-OF-APPEAL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GBR-COURT-OF-APPEAL-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Court of Appeal 15 June 2026 judgment",
+        "proposition": "Palestine Action proscription held lawful",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-LTU-SUPREME-ADMINISTRATIVE-COURT",
+      "name": "Supreme Administrative Court",
+      "type": "Institution",
+      "state": "LTU",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/LTU-SUPREME-ADMINISTRATIVE-COURT.md",
+      "sourceDossier": "dossiers/states/LTU.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-LTU-SUPREME-ADMINISTRATIVE-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-LTU-SUPREME-ADMINISTRATIVE-COURT-evidence.svg"
+      ],
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "2026 judicial-remedy record",
+        "proposition": "Specific pushback found unlawful",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-PSE-SUPREME-CONSTITUTIONAL-COURT",
+      "name": "Supreme Constitutional Court",
+      "type": "Institution",
+      "state": "PSE",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/PSE-SUPREME-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/PSE.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-PSE-SUPREME-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-PSE-SUPREME-CONSTITUTIONAL-COURT-evidence.svg"
+      ],
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "OHCHR / 2023 SCC ruling context",
+        "proposition": "Judicial remedy distinguished from later detention workflow",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-IND-SUPREME-COURT",
+      "name": "Supreme Court",
+      "type": "Institution",
+      "state": "IND",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/IND-SUPREME-COURT.md",
+      "sourceDossier": "dossiers/states/IND.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-IND-SUPREME-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-IND-SUPREME-COURT-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Supreme Court jurisdiction / Constitution",
+        "proposition": "Article 32 fundamental-rights review powers",
+        "boundary": "No State S inheritance"
+      }
+    }
+  ]
+}

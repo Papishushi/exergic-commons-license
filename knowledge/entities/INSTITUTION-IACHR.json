@@ -1,3 +1,15 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-IACHR","id":"INSTITUTION-IACHR","type":"Institution","name":"Inter-American Commission on Human Rights","aliases":["IACHR"],"dossier":"../../dossiers/states/GTM.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only inter-American human-rights institution referenced by an exact precautionary-measures source; no State outcome is inferred from its decisions."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-IACHR",
+  "id": "INSTITUTION-IACHR",
+  "type": "Institution",
+  "name": "Inter-American Commission on Human Rights",
+  "aliases": [
+    "IACHR"
+  ],
+  "dossier": "../../dossiers/institutions/IACHR.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only inter-American human-rights institution referenced by an exact precautionary-measures source; no State outcome is inferred from its decisions."
 }

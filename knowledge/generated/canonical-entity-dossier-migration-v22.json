@@ -1,0 +1,105 @@
+{
+  "version": 22,
+  "date": "2026-08-19",
+  "purpose": "Direct-locator external-accountability tranche: materialize five UN, Council of Europe and judicial institutions from exact repository-retained source surfaces while preserving State-context and source-to-entity non-propagation.",
+  "migrationRule": "An institution counts as migrated only when its ABox record points to a dedicated institution dossier. Treaty-body findings, Council review, advisory provenance and judicial counter-evidence remain proposition-specific evidence and do not create ECL governance, Material Participation or generic effectiveness findings.",
+  "visualRule": "Derived visuals display State context and the exact curated evidence proposition, then terminate at the institution identity boundary. R/S State context and evidence-producing, monitoring, advisory or remedial adjacency never propagate to the institution.",
+  "maxMissingDedicatedDossiers": 134,
+  "entities": [
+    {
+      "id": "INSTITUTION-UN-COMMITTEE-AGAINST-TORTURE",
+      "name": "United Nations Committee against Torture",
+      "type": "Institution",
+      "state": "BHR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/UN-COMMITTEE-AGAINST-TORTURE.md",
+      "sourceDossier": "dossiers/states/BHR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN CAT January 2026 Bahrain concluding observations",
+        "proposition": "Committee recorded torture/ill-treatment, detention-safeguard and accountability concerns in Bahrain",
+        "boundary": "Treaty-body findings are evidence, not an institution-level governance outcome"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-UN-COMMITTEE-AGAINST-TORTURE-status.svg",
+        "dossiers/assets/generated/INSTITUTION-UN-COMMITTEE-AGAINST-TORTURE-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-UN-COMMITTEE-ENFORCED-DISAPPEARANCES",
+      "name": "United Nations Committee on Enforced Disappearances",
+      "type": "Institution",
+      "state": "MEX",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/UN-COMMITTEE-ENFORCED-DISAPPEARANCES.md",
+      "sourceDossier": "dossiers/states/MEX.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CED article 34 Mexico decision, 17 Apr 2026",
+        "proposition": "Committee brought Mexico's disappearance situation to the UN General Assembly under article 34",
+        "boundary": "Article 34 action is evidence and does not classify the Committee or every Mexican security body"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-UN-COMMITTEE-ENFORCED-DISAPPEARANCES-status.svg",
+        "dossiers/assets/generated/INSTITUTION-UN-COMMITTEE-ENFORCED-DISAPPEARANCES-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL",
+      "name": "United Nations Human Rights Council",
+      "type": "Institution",
+      "state": "ERI",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/UN-HUMAN-RIGHTS-COUNCIL.md",
+      "sourceDossier": "dossiers/states/ERI.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN Geneva HRC62 closing record, July 2026",
+        "proposition": "Council renewed the Eritrea Special Rapporteur mandate and continued calling for cooperation",
+        "boundary": "Council review activity is external evidence, not participation in Eritrea's State apparatus"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-UN-HUMAN-RIGHTS-COUNCIL-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-COE-VENICE-COMMISSION",
+      "name": "European Commission for Democracy through Law",
+      "type": "Institution",
+      "state": "GEO",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/COE-VENICE-COMMISSION.md",
+      "sourceDossier": "dossiers/states/GEO.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Venice Commission Georgia page / Opinion 1291/2026",
+        "proposition": "Opinion 1291/2026 is retained as project-identity provenance for Georgia's 4 March 2026 amendments",
+        "boundary": "Advisory provenance does not prove every implementation or create an ECL governance decision"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-COE-VENICE-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-COE-VENICE-COMMISSION-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-ZWE-HIGH-COURT",
+      "name": "High Court of Zimbabwe",
+      "type": "Institution",
+      "state": "ZWE",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/ZWE-HIGH-COURT.md",
+      "sourceDossier": "dossiers/states/ZWE.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ZLHR High Court quashed-conviction record",
+        "proposition": "High Court quashed convictions of former opposition legislators over an unsanctioned gathering",
+        "boundary": "One rights-protective judicial outcome does not prove generic judicial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-ZWE-HIGH-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-ZWE-HIGH-COURT-evidence.svg"
+      ]
+    }
+  ]
+}

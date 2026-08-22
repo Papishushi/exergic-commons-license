@@ -1,0 +1,105 @@
+{
+  "version": 36,
+  "date": "2026-08-19",
+  "purpose": "Agency parent/narrow-unit tranche across Malta, Malaysia and Nigeria: direct identity surfaces for police, immigration and Tiger Base plus an explicit Home Affairs source-precision gap, without parent/subordinate inheritance.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Identity, parent/subordinate hierarchy, mandate, project adjacency and source production never create Material Participation or a governance outcome; direct/partial labels preserve repository source precision honestly.",
+  "visualRule": "Derived visuals encode State S as context and terminate at the Agency identity boundary. Every evidence card preserves direct versus partial granularity and forbids partOf/control/operation/participation/supplier inference.",
+  "maxMissingDedicatedDossiers": 64,
+  "entities": [
+    {
+      "id": "AGENCY-MLT-POLICE-FORCE",
+      "name": "Malta Police Force",
+      "type": "Agency",
+      "state": "MLT",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MLT-POLICE-FORCE.md",
+      "sourceDossier": "dossiers/states/MLT.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Malta batch-01 identity freeze + Malta Police identity locator",
+        "proposition": "Police Force / Commissioner capacity is limited to qualifying detention or removal operations",
+        "boundary": "Commissioner/Principal Immigration Officer capacity is not an alias or generic force-wide attribution"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MLT-POLICE-FORCE-status.svg",
+        "dossiers/assets/generated/AGENCY-MLT-POLICE-FORCE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MYS-IMMIGRATION-DEPARTMENT",
+      "name": "Immigration Department of Malaysia",
+      "type": "Agency",
+      "state": "MYS",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MYS-IMMIGRATION-DEPARTMENT.md",
+      "sourceDossier": "dossiers/states/MYS.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Malaysia batch-04 freeze + Immigration Department introduction/org chart",
+        "proposition": "Department is the parent identity; only Detention and Depot Management Division is renderable in qualifying detention capacity",
+        "boundary": "Parent-department identity does not inherit the division's project or create partOf attribution"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MYS-IMMIGRATION-DEPARTMENT-status.svg",
+        "dossiers/assets/generated/AGENCY-MYS-IMMIGRATION-DEPARTMENT-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT",
+      "name": "Immigration Department of Malaysia — Detention and Depot Management Division",
+      "type": "Agency",
+      "state": "MYS",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT.md",
+      "sourceDossier": "dossiers/states/MYS.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Malaysia batch-04 freeze + Immigration Department organization sources",
+        "proposition": "Division is the named party only for qualifying immigration-detention/depot-management operations",
+        "boundary": "Division identity does not classify detention operations generally or prove any individual custody outcome"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT-status.svg",
+        "dossiers/assets/generated/AGENCY-MYS-IMMIGRATION-DETENTION-DEPOT-MANAGEMENT-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MYS-MINISTRY-HOME-AFFAIRS",
+      "name": "Ministry of Home Affairs (Malaysia)",
+      "type": "Agency",
+      "state": "MYS",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MYS-MINISTRY-HOME-AFFAIRS.md",
+      "sourceDossier": "dossiers/states/MYS.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Malaysia State dossier + SUHAKAM July 2026 disclosure; ministry locator gap retained",
+        "proposition": "State dossier records a Home Affairs Ministry parliamentary disclosure of 465 deaths in immigration detention depots",
+        "boundary": "Disclosure provenance does not prove ministry participation in any qualifying detention project"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MYS-MINISTRY-HOME-AFFAIRS-status.svg",
+        "dossiers/assets/generated/AGENCY-MYS-MINISTRY-HOME-AFFAIRS-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-NGA-IMO-ANTI-KIDNAPPING-UNIT",
+      "name": "Imo State Police Anti-Kidnapping Unit",
+      "type": "Agency",
+      "state": "NGA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/NGA-IMO-ANTI-KIDNAPPING-UNIT.md",
+      "sourceDossier": "dossiers/states/NGA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Nigeria State dossier + Amnesty Tiger Base investigation + promoted-ready-03a",
+        "proposition": "Imo State Police Anti-Kidnapping Unit is the named Tiger Base unit for the documented detention/custody project",
+        "boundary": "Named-unit identity does not generalize to Nigeria Police Force or unrelated security units"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-NGA-IMO-ANTI-KIDNAPPING-UNIT-status.svg",
+        "dossiers/assets/generated/AGENCY-NGA-IMO-ANTI-KIDNAPPING-UNIT-evidence.svg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390" role="img" aria-labelledby="title desc">
+  <title id="title">Stichting Verslavingsreclassering GGZ — derived evidence diagram</title>
+  <desc id="desc">Derived evidence diagram linking the curated source surface to the dossier proposition and then to the entity identity, while preserving a no-governance-inheritance boundary.</desc>
+  <defs>
+    <clipPath id="source-column-clip"><rect x="40" y="118" width="300" height="156" rx="14"/></clipPath>
+    <clipPath id="proposition-column-clip"><rect x="390" y="118" width="300" height="156" rx="14"/></clipPath>
+    <clipPath id="identity-column-clip"><rect x="740" y="118" width="320" height="156" rx="14"/></clipPath>
+    <clipPath id="source-box-clip"><rect x="52" y="158" width="276" height="70"/></clipPath>
+    <clipPath id="proposition-box-clip"><rect x="402" y="158" width="276" height="70"/></clipPath>
+    <clipPath id="identity-box-clip"><rect x="752" y="158" width="296" height="70"/></clipPath>
+    <clipPath id="source-footer-clip"><rect x="52" y="234" width="276" height="30"/></clipPath>
+    <clipPath id="proposition-footer-clip"><rect x="402" y="232" width="276" height="34"/></clipPath>
+    <clipPath id="identity-footer-clip"><rect x="752" y="234" width="296" height="30"/></clipPath>
+    <clipPath id="boundary-box-clip"><rect x="172" y="304" width="828" height="48"/></clipPath>
+  </defs>
+  <rect width="1100" height="390" rx="18" fill="#FFFFFF" stroke="#D0D5DD"/>
+  <text x="40" y="48" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#101828">DERIVED EVIDENCE DIAGRAM</text>
+  <text x="40" y="76" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#667085">Not a source facsimile · textual equivalent is preserved in the dossier</text>
+
+  <rect x="40" y="118" width="300" height="156" rx="14" fill="#F9FAFB" stroke="#98A2B3"/>
+  <g clip-path="url(#source-column-clip)">
+  <text x="62" y="148" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#344054">SOURCE SURFACE</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#101828" clip-path="url(#source-box-clip)">
+    <tspan x="62" y="180">Inspectorate Feb 2026 /</tspan>
+    <tspan x="62" dy="19">NLD freeze</tspan>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#667085" clip-path="url(#source-footer-clip)">
+    <tspan x="62" y="252">direct locator</tspan>
+  </text>
+  </g>
+
+  <line x1="340" y1="196" x2="388" y2="196" stroke="#667085" stroke-width="2"/>
+  <polygon points="388,196 376,189 376,203" fill="#667085"/>
+
+  <rect x="390" y="118" width="300" height="156" rx="14" fill="#F9FAFB" stroke="#98A2B3"/>
+  <g clip-path="url(#proposition-column-clip)">
+  <text x="412" y="148" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#344054">CURATED PROPOSITION</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#101828" clip-path="url(#proposition-box-clip)">
+    <tspan x="412" y="180">Named probation</tspan>
+    <tspan x="412" dy="19">organization; tool relation</tspan>
+    <tspan x="412" dy="19">unresolved</tspan>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#667085" clip-path="url(#proposition-footer-clip)">
+    <tspan x="412" y="244">Prose evidence; no</tspan>
+    <tspan x="412" dy="16">Claim/EvidenceItem invented</tspan>
+  </text>
+  </g>
+
+  <line x1="690" y1="196" x2="738" y2="196" stroke="#667085" stroke-width="2"/>
+  <polygon points="738,196 726,189 726,203" fill="#667085"/>
+
+  <rect x="740" y="118" width="320" height="156" rx="14" fill="#F9FAFB" stroke="#98A2B3"/>
+  <g clip-path="url(#identity-column-clip)">
+  <text x="762" y="148" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#344054">IDENTITY BOUNDARY</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#101828" clip-path="url(#identity-box-clip)">
+    <tspan x="762" y="180">Stichting</tspan>
+    <tspan x="762" dy="19">Verslavingsreclassering GGZ</tspan>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#667085" clip-path="url(#identity-footer-clip)">
+    <tspan x="762" y="252">Identity ≠ participation / culpability</tspan>
+  </text>
+  </g>
+
+  <rect x="40" y="304" width="1020" height="58" rx="10" fill="#F2F4F7"/>
+  <text x="60" y="326" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#344054">BOUNDARY:</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475467" clip-path="url(#boundary-box-clip)">
+    <tspan x="172" y="326">No State S inheritance · no partOf/control/operation/participation/supplier inference</tspan>
+  </text>
+</svg>

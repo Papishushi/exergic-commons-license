@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION","id":"INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION","type":"Institution","name":"National Human Rights Commission of Thailand","aliases":["National Human Rights Commission"],"dossier":"../../dossiers/states/THA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Thai national human-rights institution retained from reviewed State-dossier provenance; no finding about independence, effectiveness or governance follows from identity."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION",
+  "id": "INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION",
+  "type": "Institution",
+  "name": "National Human Rights Commission of Thailand",
+  "aliases": [
+    "National Human Rights Commission"
+  ],
+  "dossier": "../../dossiers/institutions/THA-NATIONAL-HUMAN-RIGHTS-COMMISSION.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Thai national human-rights institution retained from reviewed State-dossier provenance; no finding about independence, effectiveness or governance follows from identity."
+}

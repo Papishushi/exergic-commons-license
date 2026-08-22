@@ -1,0 +1,105 @@
+{
+  "version": 26,
+  "date": "2026-08-19",
+  "purpose": "Multi-version Institution scale-out tranche v26: materialize five remaining institutions with 2 direct and 3 partial repository provenance while preserving exact source granularity and non-propagation.",
+  "migrationRule": "An Institution counts as migrated only when its ABox record points to a dedicated Institution dossier. Direct rows remain proposition-limited; partial rows preserve explicit locator/mapping gaps. Neither identity, adjudication, oversight, remediation, State context nor source adjacency creates a Claim/EvidenceItem, Material Participation finding or governance outcome.",
+  "visualRule": "Derived visuals encode State context and source granularity, then terminate at the institution identity boundary. R/S/U/N context never propagates to the institution and partial rows visibly retain their evidence-curation gap.",
+  "maxMissingDedicatedDossiers": 114,
+  "entities": [
+    {
+      "id": "INSTITUTION-GTM-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Guatemala",
+      "type": "Institution",
+      "state": "GTM",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/GTM-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/GTM.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Guatemala dossier + exact IACHR project locator; no court-specific locator retained",
+        "proposition": "State review credits the Constitutional Court as an amparo/constitutionality counter-institution",
+        "boundary": "Counter-institution prose does not turn the IACHR locator into proof of a specific court outcome"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GTM-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GTM-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-LVA-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Latvia",
+      "type": "Institution",
+      "state": "LVA",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/LVA-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/LVA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Latvia State dossier + Amnesty country record; no constitutional-court locator retained",
+        "proposition": "State review credits operative courts and European review mechanisms while current pushback attribution remains unresolved",
+        "boundary": "General court availability does not prove a Constitutional Court remedy or resolve border-project attribution"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-LVA-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-LVA-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-MLT-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Malta",
+      "type": "Institution",
+      "state": "MLT",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/MLT-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/MLT.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Malta dossier + Amnesty/CoE remedial sources; retrial proposition lacks a 1:1 locator",
+        "proposition": "State review records that Malta's Constitutional Court ordered a retrial in the Easter Monday push back case",
+        "boundary": "One remedial outcome does not prove generic court effectiveness or erase separate migration projects"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MLT-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MLT-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-RWA-OMBUDSMAN",
+      "name": "Office of the Ombudsman",
+      "type": "Institution",
+      "state": "RWA",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/RWA-OMBUDSMAN.md",
+      "sourceDossier": "dossiers/states/RWA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Rwanda Ombudsman powers and January 2026 case-resolution records",
+        "proposition": "Ombudsman can pursue injustice complaints and reported resolving more than one hundred citizen cases in outreach",
+        "boundary": "Ordinary remedial activity is excluded from State R and does not prove effectiveness in political-security cases"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-RWA-OMBUDSMAN-status.svg",
+        "dossiers/assets/generated/INSTITUTION-RWA-OMBUDSMAN-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS",
+      "name": "National Assembly Standing Committee on Human Rights (Pakistan)",
+      "type": "Institution",
+      "state": "PAK",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS.md",
+      "sourceDossier": "dossiers/states/PAK.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Pakistan National Assembly committee and 2026 press-release locators",
+        "proposition": "State review credits active parliamentary human-rights oversight as counter-evidence against whole-State attribution",
+        "boundary": "Committee activity does not establish generic remediation or participation in security/media-control projects"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS-evidence.svg"
+      ]
+    }
+  ]
+}

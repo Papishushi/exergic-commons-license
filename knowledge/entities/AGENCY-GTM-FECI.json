@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-GTM-FECI","id":"AGENCY-GTM-FECI","type":"Agency","name":"FECI (Guatemala)","aliases":["FECI"],"dossier":"../../dossiers/states/GTM.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only prosecutorial body; scope remains proposition- and case-specific."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-GTM-FECI",
+  "id": "AGENCY-GTM-FECI",
+  "type": "Agency",
+  "name": "FECI (Guatemala)",
+  "aliases": [
+    "FECI"
+  ],
+  "dossier": "../../dossiers/agencies/GTM-FECI.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only prosecutorial body; scope remains proposition- and case-specific."
+}

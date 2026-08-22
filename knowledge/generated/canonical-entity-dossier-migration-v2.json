@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "date": "2026-08-18",
+  "purpose": "Accountability and remedial institution canonical-dossier migration tranche.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals render State governance context and curated evidence provenance only; they do not propagate governance or create participation, culpability or Material Participation findings.",
+  "maxMissingDedicatedDossiers": 232,
+  "entities": [
+    {
+      "id": "INSTITUTION-LKA-HUMAN-RIGHTS-COMMISSION",
+      "name": "Human Rights Commission of Sri Lanka",
+      "type": "Institution",
+      "state": "LKA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/LKA-HUMAN-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/LKA.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-LKA-HUMAN-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-LKA-HUMAN-RIGHTS-COMMISSION-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "HRCSL statements / NPM record",
+        "proposition": "A-status and preventive-monitoring functions",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-BHR-PRISONERS-DETAINEES-RIGHTS-COMMISSION",
+      "name": "Prisoners' and Detainees' Rights Commission",
+      "type": "Institution",
+      "state": "BHR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BHR-PRISONERS-DETAINEES-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/BHR.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BHR-PRISONERS-DETAINEES-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BHR-PRISONERS-DETAINEES-RIGHTS-COMMISSION-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN CAT January 2026 record",
+        "proposition": "Detention-oversight mechanism",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-UGA-HUMAN-RIGHTS-COMMISSION",
+      "name": "Uganda Human Rights Commission",
+      "type": "Institution",
+      "state": "UGA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/UGA-HUMAN-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/UGA.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-UGA-HUMAN-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-UGA-HUMAN-RIGHTS-COMMISSION-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UHRC tribunal and institutional record",
+        "proposition": "Tribunal, detention-inspection and election-monitoring powers",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-KEN-NATIONAL-COMMISSION-HUMAN-RIGHTS",
+      "name": "Kenya National Commission on Human Rights",
+      "type": "Institution",
+      "state": "KEN",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/KEN-NATIONAL-COMMISSION-HUMAN-RIGHTS.md",
+      "sourceDossier": "dossiers/states/KEN.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-KEN-NATIONAL-COMMISSION-HUMAN-RIGHTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-KEN-NATIONAL-COMMISSION-HUMAN-RIGHTS-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "KNCHR 25 June 2026 protest record",
+        "proposition": "Documented disappearances, torture and accountability demand",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-BRA-SUPREME-FEDERAL-COURT",
+      "name": "Supreme Federal Court",
+      "type": "Institution",
+      "state": "BRA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BRA-SUPREME-FEDERAL-COURT.md",
+      "sourceDossier": "dossiers/states/BRA.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BRA-SUPREME-FEDERAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BRA-SUPREME-FEDERAL-COURT-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "STF ADPF 635 supervision record",
+        "proposition": "Judicial supervision and forensic-evidence order",
+        "boundary": "No State S inheritance"
+      }
+    }
+  ]
+}

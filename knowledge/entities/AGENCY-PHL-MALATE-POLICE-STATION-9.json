@@ -4,8 +4,10 @@
   "id": "AGENCY-PHL-MALATE-POLICE-STATION-9",
   "type": "Agency",
   "name": "Malate Police Station 9",
-  "aliases": ["Malate Police Station"],
-  "dossier": "../../dossiers/states/PHL.md",
+  "aliases": [
+    "Malate Police Station"
+  ],
+  "dossier": "../../dossiers/agencies/PHL-MALATE-POLICE-STATION-9.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

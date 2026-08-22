@@ -1,0 +1,105 @@
+{
+  "version": 4,
+  "date": "2026-08-18",
+  "purpose": "National human-rights and accountability institution canonical-dossier migration tranche.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals render State governance context and curated evidence provenance only; source granularity is explicit and no governance propagates to the entity.",
+  "maxMissingDedicatedDossiers": 222,
+  "entities": [
+    {
+      "id": "INSTITUTION-BHR-NIHR",
+      "name": "NIHR (Bahrain)",
+      "type": "Institution",
+      "state": "BHR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BHR-NIHR.md",
+      "sourceDossier": "dossiers/states/BHR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "UN CAT 2026 / Bahrain dossier",
+        "proposition": "NIHR is a named oversight counter-institution",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BHR-NIHR-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BHR-NIHR-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-HND-CONADEH",
+      "name": "CONADEH (Honduras)",
+      "type": "Institution",
+      "state": "HND",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/HND-CONADEH.md",
+      "sourceDossier": "dossiers/states/HND.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Historical HND emergency-review provenance",
+        "proposition": "CONADEH complaints retained with locator gap",
+        "boundary": "No State U inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-HND-CONADEH-status.svg",
+        "dossiers/assets/generated/INSTITUTION-HND-CONADEH-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-MEX-CNDH",
+      "name": "National Human Rights Commission of Mexico",
+      "type": "Institution",
+      "state": "MEX",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/MEX-CNDH.md",
+      "sourceDossier": "dossiers/states/MEX.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CNDH Recommendation 206VG/2026",
+        "proposition": "CNDH attributes grave violations in Guasave",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MEX-CNDH-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MEX-CNDH-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-MYS-SUHAKAM",
+      "name": "Human Rights Commission of Malaysia",
+      "type": "Institution",
+      "state": "MYS",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/MYS-SUHAKAM.md",
+      "sourceDossier": "dossiers/states/MYS.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "SUHAKAM April/July 2026 statements",
+        "proposition": "Oversight of speech arrests and detention deaths",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MYS-SUHAKAM-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MYS-SUHAKAM-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-NGA-NATIONAL-HUMAN-RIGHTS-COMMISSION",
+      "name": "National Human Rights Commission of Nigeria",
+      "type": "Institution",
+      "state": "NGA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/NGA-NATIONAL-HUMAN-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/NGA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "NHRC 2026 dashboard / torture statement",
+        "proposition": "Active national rights oversight and NPM work",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-NGA-NATIONAL-HUMAN-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-NGA-NATIONAL-HUMAN-RIGHTS-COMMISSION-evidence.svg"
+      ]
+    }
+  ]
+}

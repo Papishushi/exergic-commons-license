@@ -1,7 +1,7 @@
 ---
 id: ECL-ORG-INTELLEXA-PREDATOR-NETWORK
 entity: "Intellexa / Predator commercial spyware network"
-entity_type: organization-network
+entity_type: organization
 provisional_outcome: S
 provisional_scope: "specified Intellexa/Predator legal entities in development, ownership, resale, distribution, operation or financial enablement of Predator spyware projects used for repressive surveillance"
 confidence: high

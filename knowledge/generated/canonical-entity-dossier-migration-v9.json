@@ -1,0 +1,105 @@
+{
+  "version": 9,
+  "date": "2026-08-19",
+  "purpose": "Capacity-limited agency/vendor and statutory-deployment migration tranche covering Serbia digital-surveillance identities plus the Argentina PFA / Decreto 383/2025 project boundary.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals distinguish named identity or counter-evidence from Material Participation: State context and supplier/agency adjacency never create generic governance, operation, participation or culpability.",
+  "maxMissingDedicatedDossiers": 197,
+  "entities": [
+    {
+      "id": "AGENCY-SRB-BIA",
+      "name": "Security Information Agency (Serbia)",
+      "type": "Agency",
+      "state": "SRB",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SRB-BIA.md",
+      "sourceDossier": "dossiers/states/SRB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "SRB dossier / promoted-ready-01 freeze",
+        "proposition": "Named BIA identity; only qualifying repressive deployments",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SRB-BIA-status.svg",
+        "dossiers/assets/generated/AGENCY-SRB-BIA-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS",
+      "name": "Ministry of Internal Affairs",
+      "type": "Agency",
+      "state": "SRB",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SRB-MINISTRY-INTERNAL-AFFAIRS.md",
+      "sourceDossier": "dossiers/states/SRB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "SRB dossier / promoted-ready-01 freeze",
+        "proposition": "Named ministry identity; no ministry-wide restriction",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS-status.svg",
+        "dossiers/assets/generated/AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-CELLEBRITE",
+      "name": "Cellebrite",
+      "type": "Organization",
+      "state": "SRB",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/CELLEBRITE.md",
+      "sourceDossier": "dossiers/states/SRB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "SRB dossier counter-evidence",
+        "proposition": "Supplier intervention; explicitly excluded absent MP",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-CELLEBRITE-status.svg",
+        "dossiers/assets/generated/ORG-CELLEBRITE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-ARG-PFA",
+      "name": "Policía Federal Argentina",
+      "type": "Agency",
+      "state": "ARG",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/ARG-PFA.md",
+      "sourceDossier": "dossiers/states/ARG.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ARG batch-06 statutory-case freeze",
+        "proposition": "PFA only in qualifying Decreto 383/2025 deployments",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-ARG-PFA-status.svg",
+        "dossiers/assets/generated/AGENCY-ARG-PFA-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-ARG-DECREE-383-2025-PFA-DIGITAL-PREVENTION",
+      "name": "Decreto 383/2025 PFA digital-prevention deployment",
+      "type": "Project",
+      "state": "ARG",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/ARG-DECREE-383-2025-PFA-DIGITAL-PREVENTION.md",
+      "sourceDossier": "dossiers/states/ARG.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Decreto 383/2025 / ARG batch-06 freeze",
+        "proposition": "Exact deployment identity; qualifying-use condition",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-ARG-DECREE-383-2025-PFA-DIGITAL-PREVENTION-status.svg",
+        "dossiers/assets/generated/PROJECT-ARG-DECREE-383-2025-PFA-DIGITAL-PREVENTION-evidence.svg"
+      ]
+    }
+  ]
+}

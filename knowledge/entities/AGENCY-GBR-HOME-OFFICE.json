@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-GBR-HOME-OFFICE","id":"AGENCY-GBR-HOME-OFFICE","type":"Agency","name":"Home Office","aliases":[],"dossier":"../../dossiers/states/GBR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only government agency from the UK dossier. The active frozen project is separately bounded to qualifying Palestine Action-proscription enforcement."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-GBR-HOME-OFFICE",
+  "id": "AGENCY-GBR-HOME-OFFICE",
+  "type": "Agency",
+  "name": "Home Office",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/GBR-HOME-OFFICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only government agency from the UK dossier. The active frozen project is separately bounded to qualifying Palestine Action-proscription enforcement."
 }

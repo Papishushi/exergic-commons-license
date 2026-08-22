@@ -1,0 +1,105 @@
+{
+  "version": 6,
+  "date": "2026-08-18",
+  "purpose": "Cross-type identified-project tranche covering agency/project boundaries in Hungary, Kazakhstan and Mexico without generic actor-class inheritance.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals distinguish direct identity/project locators from conduct proof and never propagate State governance or named-case participation to a whole agency.",
+  "maxMissingDedicatedDossiers": 212,
+  "entities": [
+    {
+      "id": "AGENCY-HUN-ALIENS-POLICING",
+      "name": "National Directorate-General for Aliens Policing",
+      "type": "Agency",
+      "state": "HUN",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/HUN-ALIENS-POLICING.md",
+      "sourceDossier": "dossiers/states/HUN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "HUN freeze / OIF legal basis",
+        "proposition": "Named agency only in qualifying asylum workflow",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-HUN-ALIENS-POLICING-status.svg",
+        "dossiers/assets/generated/AGENCY-HUN-ALIENS-POLICING-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW",
+      "name": "Hungary mass-migration state-of-crisis asylum/border workflow",
+      "type": "Project",
+      "state": "HUN",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW.md",
+      "sourceDossier": "dossiers/states/HUN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Gov. Decrees 41/2016 + 41/2026",
+        "proposition": "Exact workflow identity; conduct remains conditional",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW-status.svg",
+        "dossiers/assets/generated/PROJECT-HUN-MASS-MIGRATION-STATE-OF-CRISIS-WORKFLOW-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-KAZ-ATAJURT-KAZ-2-2026",
+      "name": "Atajurt KAZ 2/2026 arrest/detention/prosecution case project",
+      "type": "Project",
+      "state": "KAZ",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/KAZ-ATAJURT-KAZ-2-2026.md",
+      "sourceDossier": "dossiers/states/KAZ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN Special Procedures KAZ 2/2026",
+        "proposition": "Exact Atajurt case; 20 alleged victims",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-KAZ-ATAJURT-KAZ-2-2026-status.svg",
+        "dossiers/assets/generated/PROJECT-KAZ-ATAJURT-KAZ-2-2026-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MEX-SEMAR",
+      "name": "Secretaría de Marina (Mexico)",
+      "type": "Agency",
+      "state": "MEX",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MEX-SEMAR.md",
+      "sourceDossier": "dossiers/states/MEX.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CNDH 206VG/2026 / MEX freeze",
+        "proposition": "Only materially participating SEMAR elements",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MEX-SEMAR-status.svg",
+        "dossiers/assets/generated/AGENCY-MEX-SEMAR-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-MEX-CNDH-206VG-2026-GUASAVE",
+      "name": "CNDH Recommendation 206VG/2026 Guasave, Sinaloa case project",
+      "type": "Project",
+      "state": "MEX",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/MEX-CNDH-206VG-2026-GUASAVE.md",
+      "sourceDossier": "dossiers/states/MEX.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CNDH Recommendation 206VG/2026",
+        "proposition": "Exact Guasave disappearance/torture case",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-MEX-CNDH-206VG-2026-GUASAVE-status.svg",
+        "dossiers/assets/generated/PROJECT-MEX-CNDH-206VG-2026-GUASAVE-evidence.svg"
+      ]
+    }
+  ]
+}

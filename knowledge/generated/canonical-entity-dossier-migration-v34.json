@@ -1,0 +1,105 @@
+{
+  "version": 34,
+  "date": "2026-08-19",
+  "purpose": "Agency identity-boundary tranche across Sri Lanka, Lesotho and Morocco: exact CTID/LCS/reform locators where retained, explicit parent-force/remediation precision gaps where not, and no hierarchy-based propagation.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Identity, parent/subordinate hierarchy, mandate, project adjacency and source production never create Material Participation or a governance outcome; direct/partial labels preserve repository source precision honestly.",
+  "visualRule": "Derived visuals encode State S as context and terminate at the Agency identity boundary. Every evidence card preserves direct versus partial granularity and forbids partOf/control/operation/participation/supplier inference.",
+  "maxMissingDedicatedDossiers": 74,
+  "entities": [
+    {
+      "id": "AGENCY-LKA-CTID",
+      "name": "Sri Lanka Police — Counter Terrorist Investigation Division",
+      "type": "Agency",
+      "state": "LKA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/LKA-CTID.md",
+      "sourceDossier": "dossiers/states/LKA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Sri Lanka batch-02 statutory-agency freeze + police.lk CTID locator",
+        "proposition": "CTID is renderable only in actual PTA/counterterrorism activity independently satisfying ECL criteria",
+        "boundary": "CTID identity does not classify counterterrorism work generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-LKA-CTID-status.svg",
+        "dossiers/assets/generated/AGENCY-LKA-CTID-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-LKA-SRI-LANKA-POLICE",
+      "name": "Sri Lanka Police",
+      "type": "Agency",
+      "state": "LKA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/LKA-SRI-LANKA-POLICE.md",
+      "sourceDossier": "dossiers/states/LKA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Sri Lanka State dossier + CTID freeze; parent-force precision gap retained",
+        "proposition": "Sri Lanka Police is the parent-force identity while the current Schedule boundary remains CTID-specific",
+        "boundary": "Parent-force identity does not inherit CTID participation, scope or outcome"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-LKA-SRI-LANKA-POLICE-status.svg",
+        "dossiers/assets/generated/AGENCY-LKA-SRI-LANKA-POLICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-LSO-CORRECTIONAL-SERVICE",
+      "name": "Lesotho Correctional Service",
+      "type": "Agency",
+      "state": "LSO",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/LSO-CORRECTIONAL-SERVICE.md",
+      "sourceDossier": "dossiers/states/LSO.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Lesotho State dossier + promoted-ready-03a + Amnesty/LENA",
+        "proposition": "LCS is named only for the Maseru correctional abuse/conditions project and materially continuous unremediated practices",
+        "boundary": "LCS identity does not classify correctional functions generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-LSO-CORRECTIONAL-SERVICE-status.svg",
+        "dossiers/assets/generated/AGENCY-LSO-CORRECTIONAL-SERVICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-LSO-MINISTRY-LAW-JUSTICE",
+      "name": "Ministry of Law and Justice (Lesotho)",
+      "type": "Agency",
+      "state": "LSO",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/LSO-MINISTRY-LAW-JUSTICE.md",
+      "sourceDossier": "dossiers/states/LSO.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Lesotho State dossier remediation context; no exact ministry-specific locator retained",
+        "proposition": "State review credits the Ministry's acknowledgement of reform needs as counter-evidence/remediation context",
+        "boundary": "Remediation acknowledgement does not prove prohibited conduct, control or effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-LSO-MINISTRY-LAW-JUSTICE-status.svg",
+        "dossiers/assets/generated/AGENCY-LSO-MINISTRY-LAW-JUSTICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MAR-MINISTRY-JUSTICE",
+      "name": "Ministry of Justice (Morocco)",
+      "type": "Agency",
+      "state": "MAR",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MAR-MINISTRY-JUSTICE.md",
+      "sourceDossier": "dossiers/states/MAR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Morocco State dossier + Justice Ministry 2026 reform locators",
+        "proposition": "Justice Ministry sources are retained as fair-trial/victim-protection reform and counter-evidence provenance",
+        "boundary": "Reform provenance does not make the ministry a participant in Western Sahara/dissent repression"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MAR-MINISTRY-JUSTICE-status.svg",
+        "dossiers/assets/generated/AGENCY-MAR-MINISTRY-JUSTICE-evidence.svg"
+      ]
+    }
+  ]
+}

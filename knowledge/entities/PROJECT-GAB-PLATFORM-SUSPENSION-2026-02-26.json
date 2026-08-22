@@ -4,8 +4,10 @@
   "id": "PROJECT-GAB-PLATFORM-SUSPENSION-2026-02-26",
   "type": "Project",
   "name": "Gabon 26 February 2026 digital-platform suspension project",
-  "aliases": ["26 February 2026 social-media / digital-platform suspension"],
-  "dossier": "../../dossiers/states/GAB.md",
+  "aliases": [
+    "26 February 2026 social-media / digital-platform suspension"
+  ],
+  "dossier": "../../dossiers/projects/GAB-PLATFORM-SUSPENSION-2026-02-26.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

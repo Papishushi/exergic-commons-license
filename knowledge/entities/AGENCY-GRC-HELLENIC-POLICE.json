@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-GRC-HELLENIC-POLICE","id":"AGENCY-GRC-HELLENIC-POLICE","type":"Agency","name":"Hellenic Police","aliases":[],"dossier":"../../dossiers/states/GRC.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"State-scoped identity-only promotion from the canonical Greece dossier. The dossier narrows any material finding to an exact incident/accountability project; no force-wide governance outcome is inferred."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-GRC-HELLENIC-POLICE",
+  "id": "AGENCY-GRC-HELLENIC-POLICE",
+  "type": "Agency",
+  "name": "Hellenic Police",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/GRC-HELLENIC-POLICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "State-scoped identity-only promotion from the canonical Greece dossier. The dossier narrows any material finding to an exact incident/accountability project; no force-wide governance outcome is inferred."
 }

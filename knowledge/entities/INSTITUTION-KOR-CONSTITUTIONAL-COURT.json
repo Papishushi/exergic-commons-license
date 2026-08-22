@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-KOR-CONSTITUTIONAL-COURT","id":"INSTITUTION-KOR-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of Korea","aliases":["Constitutional Court"],"dossier":"../../dossiers/states/KOR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only South Korean constitutional court credited in the dossier's constitutional correction/counter-evidence; no outcome or institutional-performance inference follows from identity."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-KOR-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-KOR-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of Korea",
+  "aliases": [
+    "Constitutional Court"
+  ],
+  "dossier": "../../dossiers/institutions/KOR-CONSTITUTIONAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only South Korean constitutional court credited in the dossier's constitutional correction/counter-evidence; no outcome or institutional-performance inference follows from identity."
+}

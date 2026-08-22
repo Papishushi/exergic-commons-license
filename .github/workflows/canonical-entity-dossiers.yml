@@ -1,0 +1,184 @@
+name: Canonical entity dossiers
+
+on:
+  push:
+    paths:
+      - 'dossiers/**'
+      - 'knowledge/**'
+      - 'spec/VISUAL-EVIDENCE.md'
+      - 'spec/CANONICAL-DOSSIER-MIGRATION.md'
+      - 'schemas/entity.schema.json'
+      - 'schemas/evidence-image-metadata.schema.json'
+      - 'schemas/canonical-entity-dossier-migration.schema.json'
+      - 'ontology/ecl-context.jsonld'
+      - 'requirements-ontology.txt'
+      - 'tools/build_knowledge_graph.py'
+      - 'tools/canonical_dossier_contract.py'
+      - 'tools/canonical_dossier_contract_impl.py'
+      - 'tools/check_canonical_entity_contract.py'
+      - 'tools/check_canonical_entity_contract_round6.py'
+      - 'tools/check_canonical_entity_contract_round6_impl.py'
+      - 'tools/check_canonical_entity_dossiers.py'
+      - 'tools/check_canonical_entity_dossiers_extended.py'
+      - 'tools/check_canonical_entity_provenance.py'
+      - 'tools/check_canonical_entity_provenance_snapshot.py'
+      - 'tools/check_canonical_entity_manifest_history.py'
+      - 'tools/check_canonical_entity_manifest_schema.py'
+      - 'tools/check_canonical_entity_migration_preservation.py'
+      - 'tools/check_canonical_entity_migration_preservation_extended.py'
+      - 'tools/check_canonical_dossier_accessibility.py'
+      - 'tools/check_evidence_image_metadata.py'
+      - 'tools/check_visual_evidence_semantics.py'
+      - 'tools/check_visual_evidence_semantics_live.py'
+      - 'tools/check_dossier_visual_layout.py'
+      - 'tools/render_dossier_visuals.py'
+      - 'tools/render_dossier_visuals_legacy.py'
+      - 'tests/test_canonical_entity_dossier_*.py'
+      - '.github/workflows/canonical-entity-dossiers.yml'
+  pull_request:
+    paths:
+      - 'dossiers/**'
+      - 'knowledge/**'
+      - 'spec/VISUAL-EVIDENCE.md'
+      - 'spec/CANONICAL-DOSSIER-MIGRATION.md'
+      - 'schemas/entity.schema.json'
+      - 'schemas/evidence-image-metadata.schema.json'
+      - 'schemas/canonical-entity-dossier-migration.schema.json'
+      - 'ontology/ecl-context.jsonld'
+      - 'requirements-ontology.txt'
+      - 'tools/build_knowledge_graph.py'
+      - 'tools/canonical_dossier_contract.py'
+      - 'tools/canonical_dossier_contract_impl.py'
+      - 'tools/check_canonical_entity_contract.py'
+      - 'tools/check_canonical_entity_contract_round6.py'
+      - 'tools/check_canonical_entity_contract_round6_impl.py'
+      - 'tools/check_canonical_entity_dossiers.py'
+      - 'tools/check_canonical_entity_dossiers_extended.py'
+      - 'tools/check_canonical_entity_provenance.py'
+      - 'tools/check_canonical_entity_provenance_snapshot.py'
+      - 'tools/check_canonical_entity_manifest_history.py'
+      - 'tools/check_canonical_entity_manifest_schema.py'
+      - 'tools/check_canonical_entity_migration_preservation.py'
+      - 'tools/check_canonical_entity_migration_preservation_extended.py'
+      - 'tools/check_canonical_dossier_accessibility.py'
+      - 'tools/check_evidence_image_metadata.py'
+      - 'tools/check_visual_evidence_semantics.py'
+      - 'tools/check_visual_evidence_semantics_live.py'
+      - 'tools/check_dossier_visual_layout.py'
+      - 'tools/render_dossier_visuals.py'
+      - 'tools/render_dossier_visuals_legacy.py'
+      - 'tests/test_canonical_entity_dossier_*.py'
+      - '.github/workflows/canonical-entity-dossiers.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  canonical-dossiers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Ensure push comparison commit is available
+        if: ${{ github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000' }}
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          if ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            git fetch --no-tags --depth=1 origin "${BEFORE_SHA}"
+          fi
+          git cat-file -e "${BEFORE_SHA}^{commit}"
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install canonical validators
+        run: python -m pip install "jsonschema>=4.26.0,<5" "Pillow>=11.3.0,<12" "markdown-it-py>=4.0.0,<5"
+
+      - name: Run adversarial canonical guard tests
+        run: python -m unittest discover -s tests -p 'test_canonical_entity_dossier_*.py' -v
+
+      - name: Validate canonical migration manifest schema
+        run: python tools/check_canonical_entity_manifest_schema.py
+
+      - name: Validate canonical State provenance snapshots against PR base
+        if: github.event_name == 'pull_request'
+        run: python tools/check_canonical_entity_provenance_snapshot.py --base-ref "${{ github.event.pull_request.base.sha }}"
+
+      - name: Validate canonical State provenance snapshots against push parent
+        if: ${{ github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000' }}
+        run: python tools/check_canonical_entity_provenance_snapshot.py --base-ref "${{ github.event.before }}"
+
+      - name: Validate canonical State provenance snapshots structurally
+        if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.event.before == '0000000000000000000000000000000000000000') }}
+        run: python tools/check_canonical_entity_provenance_snapshot.py
+
+      - name: Validate canonical migration history against PR base
+        if: github.event_name == 'pull_request'
+        run: python tools/check_canonical_entity_manifest_history.py --base-ref "${{ github.event.pull_request.base.sha }}"
+
+      - name: Validate canonical migration history against push parent
+        if: ${{ github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000' }}
+        run: python tools/check_canonical_entity_manifest_history.py --base-ref "${{ github.event.before }}"
+
+      - name: Validate canonical migration history structurally
+        if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.event.before == '0000000000000000000000000000000000000000') }}
+        run: python tools/check_canonical_entity_manifest_history.py
+
+      - name: Validate source-facsimile metadata schema
+        run: python tools/check_evidence_image_metadata.py
+
+      - name: Validate complete canonical dossier contract
+        run: python tools/check_canonical_entity_contract_round6.py
+
+      - name: Validate canonical per-entity dossier ratchet
+        run: |
+          mkdir -p build
+          python tools/check_canonical_entity_dossiers_extended.py --json build/canonical-entity-dossier-coverage.json
+
+      - name: Validate canonical dossier accessibility
+        run: python tools/check_canonical_dossier_accessibility.py
+
+      - name: Validate normative visual evidence semantics
+        run: python tools/check_visual_evidence_semantics_live.py
+
+      - name: Validate ABox migration preservation against PR base
+        if: github.event_name == 'pull_request'
+        run: python tools/check_canonical_entity_migration_preservation_extended.py --base-ref "${{ github.event.pull_request.base.sha }}"
+
+      - name: Validate ABox migration preservation against push parent
+        if: ${{ github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000' }}
+        run: python tools/check_canonical_entity_migration_preservation_extended.py --base-ref "${{ github.event.before }}"
+
+      - name: Validate committed visual layout bounds
+        run: python tools/check_dossier_visual_layout.py dossiers/assets/generated
+
+      - name: Regenerate derived visuals
+        run: |
+          rm -rf build/generated-visuals
+          python tools/render_dossier_visuals.py --out build/generated-visuals
+          diff -ru dossiers/assets/generated build/generated-visuals
+
+      - name: Validate regenerated visual layout bounds
+        run: python tools/check_dossier_visual_layout.py build/generated-visuals
+
+      - name: Prove deterministic visual generation
+        run: |
+          cp -R build/generated-visuals build/generated-visuals.first
+          rm -rf build/generated-visuals
+          python tools/render_dossier_visuals.py --out build/generated-visuals
+          diff -ru build/generated-visuals.first build/generated-visuals
+
+      - name: Upload dossier coverage artifact
+        if: ${{ always() && hashFiles('build/canonical-entity-dossier-coverage.json') != '' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: canonical-entity-dossier-coverage
+          path: |
+            build/canonical-entity-dossier-coverage.json
+            build/generated-visuals/
+          if-no-files-found: error

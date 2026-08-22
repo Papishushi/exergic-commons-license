@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-HND-CONADEH","id":"INSTITUTION-HND-CONADEH","type":"Institution","name":"CONADEH (Honduras)","aliases":["CONADEH"],"dossier":"../../dossiers/states/HND.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Honduran human-rights/accountability institution preserved from historical emergency-review provenance; missing precise old locators are not fabricated."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-HND-CONADEH",
+  "id": "INSTITUTION-HND-CONADEH",
+  "type": "Institution",
+  "name": "CONADEH (Honduras)",
+  "aliases": [
+    "CONADEH"
+  ],
+  "dossier": "../../dossiers/institutions/HND-CONADEH.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Honduran human-rights/accountability institution preserved from historical emergency-review provenance; missing precise old locators are not fabricated."
+}

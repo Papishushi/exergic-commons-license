@@ -1,0 +1,105 @@
+{
+  "version": 18,
+  "date": "2026-08-19",
+  "purpose": "Mixed institutional-attribution tranche: parliamentary evidence provenance, court/prosecution institutions, a media regulator, an international court and a legislative audit body, deliberately covering both adverse and remedial propositions without converting identity into governance.",
+  "migrationRule": "A dossier may record a proposition involving an institution without classifying every action of that institution. Resolutions, judgments, prosecutions, regulatory acts and audits remain proposition-specific evidence; identity alone creates no ECL outcome or Material Participation finding.",
+  "visualRule": "Derived visuals show the source proposition and terminate at the institution identity boundary. State R/S context, adverse conduct adjacency and counter-evidence adjacency are all non-propagating.",
+  "maxMissingDedicatedDossiers": 154,
+  "entities": [
+    {
+      "id": "INSTITUTION-PACE",
+      "name": "Parliamentary Assembly of the Council of Europe",
+      "type": "Institution",
+      "state": "AZE",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/PACE.md",
+      "sourceDossier": "dossiers/states/AZE.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "PACE Resolutions 2663 and related 2026 records",
+        "proposition": "PACE documented the Azerbaijan political-prisoner and civic-space pattern",
+        "boundary": "A parliamentary resolution is evidence, not an ECL governance decision"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-PACE-status.svg",
+        "dossiers/assets/generated/INSTITUTION-PACE-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-BEN-CRIET",
+      "name": "CRIET (Benin)",
+      "type": "Institution",
+      "state": "BEN",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BEN-CRIET.md",
+      "sourceDossier": "dossiers/states/BEN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "BEN 1/2025 and Sossoukpe detention/prosecution sources",
+        "proposition": "CRIET-linked detention/prosecution process is reviewed in a named protected-expression case",
+        "boundary": "Named-case scrutiny is not a blanket court classification"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BEN-CRIET-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BEN-CRIET-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-BEN-HAAC",
+      "name": "High Authority for Audiovisual and Communication of Benin",
+      "type": "Institution",
+      "state": "BEN",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BEN-HAAC.md",
+      "sourceDossier": "dossiers/states/BEN.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "BEN State dossier / Amnesty country record",
+        "proposition": "HAAC media suspensions were part of review and some were later lifted",
+        "boundary": "Regulator identity does not classify every regulatory action"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BEN-HAAC-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BEN-HAAC-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-ICJ",
+      "name": "International Court of Justice",
+      "type": "Institution",
+      "state": "ISR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/ICJ.md",
+      "sourceDossier": "dossiers/states/ISR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ICJ 19 July 2024 advisory opinion",
+        "proposition": "ICJ opinion is retained as evidence concerning the occupied Palestinian territory",
+        "boundary": "An international judicial opinion does not mechanically set an ECL tier"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-ICJ-status.svg",
+        "dossiers/assets/generated/INSTITUTION-ICJ-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-USA-GAO",
+      "name": "Government Accountability Office",
+      "type": "Institution",
+      "state": "USA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/USA-GAO.md",
+      "sourceDossier": "dossiers/states/USA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "GAO official identity and detention-accountability reports",
+        "proposition": "GAO is an independent legislative-branch audit/accountability institution",
+        "boundary": "Audit activity does not imply blanket remedial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-USA-GAO-status.svg",
+        "dossiers/assets/generated/INSTITUTION-USA-GAO-evidence.svg"
+      ]
+    }
+  ]
+}

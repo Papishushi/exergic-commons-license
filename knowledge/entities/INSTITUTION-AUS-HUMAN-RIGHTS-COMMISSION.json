@@ -1,1 +1,13 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION","id":"INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION","type":"Institution","name":"Australian Human Rights Commission","aliases":[],"dossier":"../../dossiers/states/NRU.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Australian human-rights institution used as Nauru/offshore-system evidence provenance; its assessment does not itself determine control or ECL governance."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION",
+  "id": "INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION",
+  "type": "Institution",
+  "name": "Australian Human Rights Commission",
+  "aliases": [],
+  "dossier": "../../dossiers/institutions/AUS-HUMAN-RIGHTS-COMMISSION.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Australian human-rights institution used as Nauru/offshore-system evidence provenance; its assessment does not itself determine control or ECL governance."
+}

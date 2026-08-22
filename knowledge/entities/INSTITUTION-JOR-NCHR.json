@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-JOR-NCHR","id":"INSTITUTION-JOR-NCHR","type":"Institution","name":"National Centre for Human Rights (Jordan)","aliases":["NCHR"],"dossier":"../../dossiers/states/JOR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Jordanian human-rights counter-institution; no effectiveness is inferred."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-JOR-NCHR",
+  "id": "INSTITUTION-JOR-NCHR",
+  "type": "Institution",
+  "name": "National Centre for Human Rights (Jordan)",
+  "aliases": [
+    "NCHR"
+  ],
+  "dossier": "../../dossiers/institutions/JOR-NCHR.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Jordanian human-rights counter-institution; no effectiveness is inferred."
+}

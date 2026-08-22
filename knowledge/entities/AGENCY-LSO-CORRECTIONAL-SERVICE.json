@@ -1,3 +1,15 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-LSO-CORRECTIONAL-SERVICE","id":"AGENCY-LSO-CORRECTIONAL-SERVICE","type":"Agency","name":"Lesotho Correctional Service","aliases":["LCS"],"dossier":"../../dossiers/states/LSO.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion from the Lesotho dossier. The controlling scope remains the documented Maseru abuse/conditions project, not the service generally."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-LSO-CORRECTIONAL-SERVICE",
+  "id": "AGENCY-LSO-CORRECTIONAL-SERVICE",
+  "type": "Agency",
+  "name": "Lesotho Correctional Service",
+  "aliases": [
+    "LCS"
+  ],
+  "dossier": "../../dossiers/agencies/LSO-CORRECTIONAL-SERVICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Lesotho dossier. The controlling scope remains the documented Maseru abuse/conditions project, not the service generally."
 }

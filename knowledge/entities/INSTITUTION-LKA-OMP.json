@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-LKA-OMP","id":"INSTITUTION-LKA-OMP","type":"Institution","name":"Office on Missing Persons (Sri Lanka)","aliases":["OMP"],"dossier":"../../dossiers/states/LKA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only accountability/remediation institution; effectiveness remains evidence-dependent."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-LKA-OMP",
+  "id": "INSTITUTION-LKA-OMP",
+  "type": "Institution",
+  "name": "Office on Missing Persons (Sri Lanka)",
+  "aliases": [
+    "OMP"
+  ],
+  "dossier": "../../dossiers/institutions/LKA-OMP.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only accountability/remediation institution; effectiveness remains evidence-dependent."
+}

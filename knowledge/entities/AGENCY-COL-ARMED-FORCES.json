@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-COL-ARMED-FORCES","id":"AGENCY-COL-ARMED-FORCES","type":"Agency","name":"Armed Forces of Colombia","aliases":["Armed Forces"],"dossier":"../../dossiers/states/COL.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Colombian armed-forces body expressly excluded from generic restriction. Specific military/public-security projects require their own attribution evidence."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-COL-ARMED-FORCES",
+  "id": "AGENCY-COL-ARMED-FORCES",
+  "type": "Agency",
+  "name": "Armed Forces of Colombia",
+  "aliases": [
+    "Armed Forces"
+  ],
+  "dossier": "../../dossiers/agencies/COL-ARMED-FORCES.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Colombian armed-forces body expressly excluded from generic restriction. Specific military/public-security projects require their own attribution evidence."
+}

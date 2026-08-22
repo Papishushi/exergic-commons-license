@@ -1,0 +1,105 @@
+{
+  "version": 23,
+  "date": "2026-08-19",
+  "purpose": "Direct-locator judicial-counterweight tranche: materialize five domestic courts from proposition-specific or official repository-retained review surfaces without converting adjudication, appeal availability or counter-evidence into generic institutional governance outcomes.",
+  "migrationRule": "An institution counts as migrated only when its ABox record points to a dedicated institution dossier. Court decisions, appeal routes and constitutional-review activity remain proposition-specific evidence; judicial identity does not create ECL governance, Material Participation, blanket independence or generic effectiveness findings.",
+  "visualRule": "Derived visuals display State context and the exact curated judicial proposition, then terminate at the institution identity boundary. State S context, adjudicative activity and remedial adjacency never propagate to the institution.",
+  "maxMissingDedicatedDossiers": 129,
+  "entities": [
+    {
+      "id": "INSTITUTION-SGP-HIGH-COURT",
+      "name": "High Court of Singapore",
+      "type": "Institution",
+      "state": "SGP",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/SGP-HIGH-COURT.md",
+      "sourceDossier": "dossiers/states/SGP.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Singapore Judiciary POFMA appeals page",
+        "proposition": "High Court provides the statutory appeal route for POFMA ministerial directions",
+        "boundary": "Availability of judicial review does not prove generic remedial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-SGP-HIGH-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-SGP-HIGH-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-SGP-COURT-OF-APPEAL",
+      "name": "Court of Appeal of Singapore",
+      "type": "Institution",
+      "state": "SGP",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/SGP-COURT-OF-APPEAL.md",
+      "sourceDossier": "dossiers/states/SGP.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Singapore Judiciary Online Citizen POFMA case brief",
+        "proposition": "Court of Appeal established an objective framework under which a POFMA direction may be set aside",
+        "boundary": "One appellate framework does not classify every POFMA use or prove blanket effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-SGP-COURT-OF-APPEAL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-SGP-COURT-OF-APPEAL-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-GEO-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Georgia",
+      "type": "Institution",
+      "state": "GEO",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/GEO-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/GEO.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Georgia Public Defender Constitutional Court records",
+        "proposition": "Constitutional Court accepted and granted rights-protective claims cited in the State dossier",
+        "boundary": "Rights-protective adjudication does not prove generic constitutional-review effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GEO-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GEO-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-THA-BANGKOK-CRIMINAL-COURT",
+      "name": "Bangkok Criminal Court",
+      "type": "Institution",
+      "state": "THA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/THA-BANGKOK-CRIMINAL-COURT.md",
+      "sourceDossier": "dossiers/states/THA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "HRW 24 Feb 2026 Bangkok Criminal Court record",
+        "proposition": "Court sentenced four activists to 32 months in a peaceful-expression lèse-majesté case",
+        "boundary": "Named-case adjudication does not convert court identity into a generic Restricted Party"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-THA-BANGKOK-CRIMINAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-THA-BANGKOK-CRIMINAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-TUR-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Türkiye",
+      "type": "Institution",
+      "state": "TUR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/TUR-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/TUR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Türkiye Constitutional Court individual-application page",
+        "proposition": "Constitutional Court maintains individual-rights review credited as State-dossier counter-evidence",
+        "boundary": "Review-channel existence does not prove implementation or generic remedial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-TUR-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-TUR-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    }
+  ]
+}

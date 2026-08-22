@@ -1,0 +1,105 @@
+{
+  "version": 17,
+  "date": "2026-08-19",
+  "purpose": "Regulator, court and accountability-institution tranche with proposition-specific direct locators where the repository preserves them and explicit partial provenance where it does not.",
+  "migrationRule": "An institution counts as migrated only when its ABox record points to a dedicated institution dossier. Regulatory conclusions, international proceedings and oversight activity remain evidence propositions only and never mechanically create ECL governance, Material Participation or effectiveness findings.",
+  "visualRule": "Derived visuals distinguish source granularity from the curated proposition and stop at the institution identity boundary. State S context is never inherited by the regulator, court or accountability body.",
+  "maxMissingDedicatedDossiers": 159,
+  "entities": [
+    {
+      "id": "INSTITUTION-FRA-CNIL",
+      "name": "CNIL (France)",
+      "type": "Institution",
+      "state": "FRA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/FRA-CNIL.md",
+      "sourceDossier": "dossiers/states/FRA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "FRA dossier / Conseil d'Etat Nice remediation record",
+        "proposition": "CNIL had previously found the Nice algorithmic-CCTV processing unauthorized",
+        "boundary": "Regulatory conclusion is not blanket institutional effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-FRA-CNIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-FRA-CNIL-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-ICC",
+      "name": "International Criminal Court",
+      "type": "Institution",
+      "state": "PHL",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/ICC.md",
+      "sourceDossier": "dossiers/states/PHL.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "PHL historical review / State-dossier provenance",
+        "proposition": "2025 ICC transfer was retained as accountability counter-evidence",
+        "boundary": "International proceedings do not mechanically alter ECL governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-ICC-status.svg",
+        "dossiers/assets/generated/INSTITUTION-ICC-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-GRC-EMIDIPA",
+      "name": "EMIDIPA",
+      "type": "Institution",
+      "state": "GRC",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/GRC-EMIDIPA.md",
+      "sourceDossier": "dossiers/states/GRC.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty June 2026 Greece protest-policing review",
+        "proposition": "Marios Lolos complaint remained in active EMIDIPA oversight/accountability posture",
+        "boundary": "Oversight activity does not prove effective remediation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GRC-EMIDIPA-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GRC-EMIDIPA-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-JOR-NCHR",
+      "name": "National Centre for Human Rights (Jordan)",
+      "type": "Institution",
+      "state": "JOR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/JOR-NCHR.md",
+      "sourceDossier": "dossiers/states/JOR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "NCHR 2026 rights and press-freedom statements",
+        "proposition": "NCHR reaffirmed privacy, expression and press-freedom protections",
+        "boundary": "Rights statements do not prove generic effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-JOR-NCHR-status.svg",
+        "dossiers/assets/generated/INSTITUTION-JOR-NCHR-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-LKA-OMP",
+      "name": "Office on Missing Persons (Sri Lanka)",
+      "type": "Institution",
+      "state": "LKA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/LKA-OMP.md",
+      "sourceDossier": "dossiers/states/LKA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Sri Lanka Ministry of Justice OMP institutional page",
+        "proposition": "Office on Missing Persons remains an operational accountability/remediation institution",
+        "boundary": "Institutional operation does not prove effective accountability outcomes"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-LKA-OMP-status.svg",
+        "dossiers/assets/generated/INSTITUTION-LKA-OMP-evidence.svg"
+      ]
+    }
+  ]
+}

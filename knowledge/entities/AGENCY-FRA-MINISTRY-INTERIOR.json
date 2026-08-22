@@ -5,7 +5,7 @@
   "type": "Agency",
   "name": "Ministry of the Interior (France)",
   "aliases": ["French Interior Ministry"],
-  "dossier": "../../dossiers/states/FRA.md",
+  "dossier": "../../dossiers/agencies/FRA-MINISTRY-INTERIOR.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

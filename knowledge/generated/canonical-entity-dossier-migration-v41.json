@@ -1,0 +1,105 @@
+{
+  "version": 41,
+  "date": "2026-08-19",
+  "purpose": "Canonical per-entity dossier migration tranche v41; preserve existing ABox identity and review metadata while materializing dedicated non-State dossier boundaries.",
+  "migrationRule": "A migrated non-State entity must point to an existing dedicated type-appropriate dossier. Migration changes dossier placement only and creates no relation, participation, culpability, governance or licensing inference.",
+  "visualRule": "Derived visuals render the referenced State dossier context and an identity-boundary evidence flow. State context never becomes an entity-level governance outcome.",
+  "maxMissingDedicatedDossiers": 39,
+  "entities": [
+    {
+      "id": "ORG-GCC",
+      "name": "Gulf Cooperation Council",
+      "type": "Organization",
+      "state": "QAT",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/GCC.md",
+      "sourceDossier": "dossiers/states/QAT.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "QAT State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves Gulf Cooperation Council as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-GCC-status.svg",
+        "dossiers/assets/generated/ORG-GCC-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-HUMAN-RIGHTS-WATCH",
+      "name": "Human Rights Watch",
+      "type": "Organization",
+      "state": "BRA",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/HUMAN-RIGHTS-WATCH.md",
+      "sourceDossier": "dossiers/states/BRA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "BRA State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves Human Rights Watch as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-HUMAN-RIGHTS-WATCH-status.svg",
+        "dossiers/assets/generated/ORG-HUMAN-RIGHTS-WATCH-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-ILO",
+      "name": "International Labour Organization",
+      "type": "Organization",
+      "state": "QAT",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/ILO.md",
+      "sourceDossier": "dossiers/states/QAT.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "QAT State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves International Labour Organization as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-ILO-status.svg",
+        "dossiers/assets/generated/ORG-ILO-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-LBY-LAAF",
+      "name": "LAAF (Libya)",
+      "type": "Organization",
+      "state": "LBY",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/LBY-LAAF.md",
+      "sourceDossier": "dossiers/states/LBY.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "LBY State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves LAAF (Libya) as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-LBY-LAAF-status.svg",
+        "dossiers/assets/generated/ORG-LBY-LAAF-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-LSO-LENA",
+      "name": "Lesotho News Agency",
+      "type": "Organization",
+      "state": "LSO",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/LSO-LENA.md",
+      "sourceDossier": "dossiers/states/LSO.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "LSO State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves Lesotho News Agency as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-LSO-LENA-status.svg",
+        "dossiers/assets/generated/ORG-LSO-LENA-evidence.svg"
+      ]
+    }
+  ]
+}

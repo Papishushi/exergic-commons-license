@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-SSD-NATIONAL-SECURITY-SERVICE","id":"AGENCY-SSD-NATIONAL-SECURITY-SERVICE","type":"Agency","name":"South Sudan National Security Service","aliases":[],"dossier":"../../dossiers/states/SSD.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion from the South Sudan dossier. Only separately evidenced qualifying functions can support project/actor Claims."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-SSD-NATIONAL-SECURITY-SERVICE",
+  "id": "AGENCY-SSD-NATIONAL-SECURITY-SERVICE",
+  "type": "Agency",
+  "name": "South Sudan National Security Service",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/SSD-NATIONAL-SECURITY-SERVICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the South Sudan dossier. Only separately evidenced qualifying functions can support project/actor Claims."
 }

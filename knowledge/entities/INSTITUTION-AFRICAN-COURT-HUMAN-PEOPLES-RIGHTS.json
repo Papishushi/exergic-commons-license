@@ -4,8 +4,10 @@
   "id": "INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS",
   "type": "Institution",
   "name": "African Court on Human and Peoples' Rights",
-  "aliases": ["African Court"],
-  "dossier": "../../dossiers/states/TUN.md",
+  "aliases": [
+    "African Court"
+  ],
+  "dossier": "../../dossiers/institutions/AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

@@ -1,1 +1,13 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-JPN-TOKYO-HIGH-COURT","id":"INSTITUTION-JPN-TOKYO-HIGH-COURT","type":"Institution","name":"Tokyo High Court","aliases":[],"dossier":"../../dossiers/states/JPN.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Japanese appellate court credited with an unlawful-investigation/prosecution finding in the Ohkawara Kakohki matter; no generic judicial effectiveness is inferred."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-JPN-TOKYO-HIGH-COURT",
+  "id": "INSTITUTION-JPN-TOKYO-HIGH-COURT",
+  "type": "Institution",
+  "name": "Tokyo High Court",
+  "aliases": [],
+  "dossier": "../../dossiers/institutions/JPN-TOKYO-HIGH-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Japanese appellate court credited with an unlawful-investigation/prosecution finding in the Ohkawara Kakohki matter; no generic judicial effectiveness is inferred."
+}

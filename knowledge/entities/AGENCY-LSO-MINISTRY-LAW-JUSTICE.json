@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-LSO-MINISTRY-LAW-JUSTICE","id":"AGENCY-LSO-MINISTRY-LAW-JUSTICE","type":"Agency","name":"Ministry of Law and Justice (Lesotho)","aliases":[],"dossier":"../../dossiers/states/LSO.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only ministry referenced as remediation/reform context; acknowledgment of reform needs is not attribution of prohibited conduct."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-LSO-MINISTRY-LAW-JUSTICE",
+  "id": "AGENCY-LSO-MINISTRY-LAW-JUSTICE",
+  "type": "Agency",
+  "name": "Ministry of Law and Justice (Lesotho)",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/LSO-MINISTRY-LAW-JUSTICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only ministry referenced as remediation/reform context; acknowledgment of reform needs is not attribution of prohibited conduct."
 }

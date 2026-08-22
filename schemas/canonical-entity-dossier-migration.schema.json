@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exergism.org/schemas/canonical-entity-dossier-migration.schema.json",
+  "title": "Canonical entity dossier migration manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "date",
+    "purpose",
+    "migrationRule",
+    "visualRule",
+    "maxMissingDedicatedDossiers",
+    "entities"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "migrationRule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visualRule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "maxMissingDedicatedDossiers": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "entities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "baseScaleout": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "type",
+        "state",
+        "stateContext",
+        "dossier",
+        "sourceDossier",
+        "sourceGranularity",
+        "visualModel",
+        "visuals"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "enum": [
+            "Agency",
+            "Institution",
+            "Organization",
+            "Person",
+            "Project",
+            "Deployment"
+          ]
+        },
+        "state": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "stateContext": {
+          "enum": [
+            "R",
+            "S",
+            "U",
+            "N"
+          ]
+        },
+        "dossier": {
+          "type": "string",
+          "pattern": "^dossiers/(agencies|institutions|organizations|persons|projects)/[^/]+\\.md$"
+        },
+        "sourceDossier": {
+          "type": "string",
+          "pattern": "^dossiers/states/[A-Z]{3}\\.md$"
+        },
+        "sourceGranularity": {
+          "enum": [
+            "direct",
+            "partial"
+          ]
+        },
+        "visualModel": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source",
+            "proposition",
+            "boundary"
+          ],
+          "properties": {
+            "source": {
+              "type": "string",
+              "minLength": 1
+            },
+            "proposition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "boundary": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "visuals": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^dossiers/assets/generated/[A-Z][A-Z0-9-]+-(status|evidence)\\.svg$"
+          }
+        }
+      }
+    }
+  }
+}

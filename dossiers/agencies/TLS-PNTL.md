@@ -1,0 +1,51 @@
+---
+id: ECL-AGENCY-TLS-PNTL
+entity: "PNTL (Timor-Leste)"
+entity_type: agency
+jurisdiction: TLS
+evidence_cutoff: 2026-08-11
+last_reviewed: 2026-08-19
+review_stage: canonical-entity-dossier-v39
+operative: false
+---
+# PNTL (Timor-Leste)
+
+> **Canonical per-entity evidence/provenance record.** This dossier has no licensing effect by itself and carries no standalone `provisional_outcome`.
+
+## Identity scope
+
+This record materializes `AGENCY-TLS-PNTL` as the dedicated dossier for **PNTL (Timor-Leste)**. The ABox identity does not by itself establish control, operation, participation, deployment, command, supply, culpability or any ECL governance result.
+
+## State governance context
+
+The canonical `TLS` State dossier records **N — No restriction**. That State status is context only and is **not inherited** by PNTL (Timor-Leste).
+
+![State dossier context for PNTL (Timor-Leste)](../assets/generated/AGENCY-TLS-PNTL-status.svg)
+
+## Evidence record
+
+PNTL appears as human-rights-oriented policing/counter-evidence context while the State review upholds N.
+
+The repository preserves the proposition/context but not a one-to-one locator at the same identity/proposition granularity; this dossier therefore records `partial` rather than manufacturing citation precision.
+
+## Attribution and exclusions
+
+Counter-evidence context does not establish generic effectiveness or a governance outcome for PNTL. Identity, organizational naming, evidence production, parent/subordinate proximity and State context are insufficient to establish a broader restriction or Material Participation.
+
+## Visual evidence
+
+![Derived evidence diagram for PNTL (Timor-Leste)](../assets/generated/AGENCY-TLS-PNTL-evidence.svg)
+
+The diagram encodes the curated proposition **“PNTL appears as human-rights-oriented policing/counter-evidence context while the State review upholds N”** and terminates at the identity boundary. It does not create a new `Claim`, `EvidenceItem`, relation edge, Schedule entry or Material Participation finding.
+
+## Evidence gaps
+
+A one-to-one identity/proposition source mapping remains incomplete. This explicit gap must not be filled by hierarchy, alias similarity, historical adjacency or State context.
+
+## Sources
+
+- [Canonical TLS State dossier](../states/TLS.md)
+
+## Governance boundary
+
+Counter-evidence context does not establish generic effectiveness or a governance outcome for PNTL. No `partOf`, `sameAs`, control, operation, participation, supplier or culpability edge is inferred unless separately encoded and evidenced.

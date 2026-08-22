@@ -1,0 +1,105 @@
+{
+  "version": 20,
+  "date": "2026-08-19",
+  "purpose": "Agency non-propagation tranche spanning Haiti, Uganda, Colombia, the Philippines and the United States: exact freezes where available, explicit partial provenance where current agency-specific locators are absent, and no inheritance from State context.",
+  "migrationRule": "Agency identity, parent hierarchy, historical program association and incident adjacency are not Material Participation. Direct rows preserve exact repo evidence/freeze surfaces; partial rows preserve explicit propositions while keeping missing current agency-specific locators visible.",
+  "visualRule": "Derived visuals encode State context and proposition granularity, then terminate at agency identity. S and U colors never become agency outcomes, and historical context is not rendered as current restriction.",
+  "maxMissingDedicatedDossiers": 144,
+  "entities": [
+    {
+      "id": "AGENCY-HTI-PNH",
+      "name": "Haitian National Police",
+      "type": "Agency",
+      "state": "HTI",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/HTI-PNH.md",
+      "sourceDossier": "dossiers/states/HTI.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Haiti State dossier + batch-05 civic-security translation",
+        "proposition": "PNH/security units enter scope only where materially tied to an unlawful drone or summary-execution project",
+        "boundary": "National police identity does not prove task-force or contractor-project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-HTI-PNH-status.svg",
+        "dossiers/assets/generated/AGENCY-HTI-PNH-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-UGA-UPDF",
+      "name": "Uganda People's Defence Forces",
+      "type": "Agency",
+      "state": "UGA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/UGA-UPDF.md",
+      "sourceDossier": "dossiers/states/UGA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Uganda State dossier + batch-13b Lukwago freeze",
+        "proposition": "UPDF/security functions are relevant only in the exact June 2026 Lukwago detention/prosecution project or separately evidenced projects",
+        "boundary": "Armed-forces identity does not create a generic military restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-UGA-UPDF-status.svg",
+        "dossiers/assets/generated/AGENCY-UGA-UPDF-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-COL-NATIONAL-POLICE",
+      "name": "National Police of Colombia",
+      "type": "Agency",
+      "state": "COL",
+      "stateContext": "U",
+      "dossier": "dossiers/agencies/COL-NATIONAL-POLICE.md",
+      "sourceDossier": "dossiers/states/COL.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Colombia State dossier + Constitutional Court Auto 337/2026",
+        "proposition": "A police-linked jurisdictional conflict remains governance evidence while current obstruction is unresolved/corrected",
+        "boundary": "Police incident context does not classify the National Police as a whole"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-COL-NATIONAL-POLICE-status.svg",
+        "dossiers/assets/generated/AGENCY-COL-NATIONAL-POLICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PHL-PHILIPPINE-NATIONAL-POLICE",
+      "name": "Philippine National Police",
+      "type": "Agency",
+      "state": "PHL",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PHL-PHILIPPINE-NATIONAL-POLICE.md",
+      "sourceDossier": "dossiers/states/PHL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Philippines State dossier + batch-22a Malate SDEU freeze",
+        "proposition": "The frozen January 2026 incident expressly excludes PNP generally while preserving exact participating functions",
+        "boundary": "Parent police identity does not inherit an incident-specific restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PHL-PHILIPPINE-NATIONAL-POLICE-status.svg",
+        "dossiers/assets/generated/AGENCY-PHL-PHILIPPINE-NATIONAL-POLICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-USA-NSA",
+      "name": "National Security Agency",
+      "type": "Agency",
+      "state": "USA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/USA-NSA.md",
+      "sourceDossier": "dossiers/states/USA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "USA State dossier historical surveillance background",
+        "proposition": "Historical NSA bulk-collection programs remain background but do not establish a current qualifying NSA project",
+        "boundary": "Historical program association is not a current generic agency restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-USA-NSA-status.svg",
+        "dossiers/assets/generated/AGENCY-USA-NSA-evidence.svg"
+      ]
+    }
+  ]
+}

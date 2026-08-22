@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-UKR-STATE-BUREAU-INVESTIGATION","id":"AGENCY-UKR-STATE-BUREAU-INVESTIGATION","type":"Agency","name":"State Bureau of Investigation","aliases":[],"dossier":"../../dossiers/states/UKR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion from the canonical Ukraine dossier. Investigative/accountability activity is preserved without implying participation in the incident under review."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-UKR-STATE-BUREAU-INVESTIGATION",
+  "id": "AGENCY-UKR-STATE-BUREAU-INVESTIGATION",
+  "type": "Agency",
+  "name": "State Bureau of Investigation",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/UKR-STATE-BUREAU-INVESTIGATION.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the canonical Ukraine dossier. Investigative/accountability activity is preserved without implying participation in the incident under review."
 }

@@ -4,8 +4,10 @@
   "id": "INSTITUTION-POL-COUNCIL-MINISTERS",
   "type": "Institution",
   "name": "Council of Ministers of Poland",
-  "aliases": ["Polish Council of Ministers"],
-  "dossier": "../../dossiers/states/POL.md",
+  "aliases": [
+    "Polish Council of Ministers"
+  ],
+  "dossier": "../../dossiers/institutions/POL-COUNCIL-MINISTERS.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

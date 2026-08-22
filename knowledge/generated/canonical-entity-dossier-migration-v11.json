@@ -1,0 +1,105 @@
+{
+  "version": 11,
+  "date": "2026-08-19",
+  "purpose": "Agency attribution-boundary tranche covering border, forensic, migration and armed-forces identities without converting institutional capacity into generic Material Participation.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals distinguish agency identity and institutional capacity from proposition-specific participation. State context, co-location and class membership never create generic governance, control, operation or culpability.",
+  "maxMissingDedicatedDossiers": 187,
+  "entities": [
+    {
+      "id": "AGENCY-BGR-BORDER-POLICE",
+      "name": "Bulgarian Border Police",
+      "type": "Agency",
+      "state": "BGR",
+      "stateContext": "U",
+      "dossier": "dossiers/agencies/BGR-BORDER-POLICE.md",
+      "sourceDossier": "dossiers/states/BGR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "FRA migration bulletins / BGR dossier",
+        "proposition": "Identity retained; no fresh attributable 2026 project",
+        "boundary": "No State U inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-BGR-BORDER-POLICE-status.svg",
+        "dossiers/assets/generated/AGENCY-BGR-BORDER-POLICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-BRA-FEDERAL-POLICE",
+      "name": "Federal Police of Brazil",
+      "type": "Agency",
+      "state": "BRA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/BRA-FEDERAL-POLICE.md",
+      "sourceDossier": "dossiers/states/BRA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "STF ADPF 635 February 2026 order",
+        "proposition": "Recipient of independent forensic-examination task",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-BRA-FEDERAL-POLICE-status.svg",
+        "dossiers/assets/generated/AGENCY-BRA-FEDERAL-POLICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-DOM-DGM",
+      "name": "General Directorate of Migration of the Dominican Republic",
+      "type": "Agency",
+      "state": "DOM",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/DOM-DGM.md",
+      "sourceDossier": "dossiers/states/DOM.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Official DGM March/April 2026 figures",
+        "proposition": "Named migration authority; project-specific attribution",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-DOM-DGM-status.svg",
+        "dossiers/assets/generated/AGENCY-DOM-DGM-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-DOM-CESFRONT",
+      "name": "CESFRONT (Dominican Republic)",
+      "type": "Agency",
+      "state": "DOM",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/DOM-CESFRONT.md",
+      "sourceDossier": "dossiers/states/DOM.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "DOM dossier / Amnesty migration record",
+        "proposition": "Named border-security body; capacity-specific scope",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-DOM-CESFRONT-status.svg",
+        "dossiers/assets/generated/AGENCY-DOM-CESFRONT-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-COD-FARDC",
+      "name": "Armed Forces of the Democratic Republic of the Congo",
+      "type": "Agency",
+      "state": "COD",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/COD-FARDC.md",
+      "sourceDossier": "dossiers/states/COD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty June 2026 FARDC/Wazalendo record",
+        "proposition": "Support/collaboration attribution remains unit-specific",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-COD-FARDC-status.svg",
+        "dossiers/assets/generated/AGENCY-COD-FARDC-evidence.svg"
+      ]
+    }
+  ]
+}

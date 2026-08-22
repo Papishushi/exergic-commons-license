@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-LKA-SRI-LANKA-POLICE","id":"AGENCY-LKA-SRI-LANKA-POLICE","type":"Agency","name":"Sri Lanka Police","aliases":[],"dossier":"../../dossiers/states/LKA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only parent-force locator. The current Schedule boundary remains the separately materialized CTID capacity and does not propagate to Sri Lanka Police generally."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-LKA-SRI-LANKA-POLICE",
+  "id": "AGENCY-LKA-SRI-LANKA-POLICE",
+  "type": "Agency",
+  "name": "Sri Lanka Police",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/LKA-SRI-LANKA-POLICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only parent-force locator. The current Schedule boundary remains the separately materialized CTID capacity and does not propagate to Sri Lanka Police generally."
 }

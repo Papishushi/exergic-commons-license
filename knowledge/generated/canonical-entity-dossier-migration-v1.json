@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "date": "2026-08-18",
+  "purpose": "First canonical per-entity dossier migration tranche after State-dossier identity scale-out.",
+  "baseScaleout": "knowledge/generated/state-dossier-entity-scaleout-v19.json",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "All generated visuals are derived evidence diagrams/charts, never source facsimiles. State-context colors do not propagate governance to the entity.",
+  "maxMissingDedicatedDossiers": 237,
+  "entities": [
+    {
+      "id": "INSTITUTION-RWA-SUPREME-COURT",
+      "name": "Supreme Court of Rwanda",
+      "type": "Institution",
+      "state": "RWA",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/RWA-SUPREME-COURT.md",
+      "sourceDossier": "dossiers/states/RWA.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-RWA-SUPREME-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-RWA-SUPREME-COURT-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Ombudsman powers",
+        "proposition": "Ombudsman referral/review power",
+        "boundary": "No State R inheritance"
+      }
+    },
+    {
+      "id": "AGENCY-SSD-MINISTRY-JUSTICE",
+      "name": "Ministry of Justice of South Sudan",
+      "type": "Agency",
+      "state": "SSD",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SSD-MINISTRY-JUSTICE.md",
+      "sourceDossier": "dossiers/states/SSD.md",
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SSD-MINISTRY-JUSTICE-status.svg",
+        "dossiers/assets/generated/AGENCY-SSD-MINISTRY-JUSTICE-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UNMISS justice reporting",
+        "proposition": "Mobile-justice participation",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-MAR-NATIONAL-HUMAN-RIGHTS-COUNCIL",
+      "name": "National Human Rights Council of Morocco",
+      "type": "Institution",
+      "state": "MAR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/MAR-NATIONAL-HUMAN-RIGHTS-COUNCIL.md",
+      "sourceDossier": "dossiers/states/MAR.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MAR-NATIONAL-HUMAN-RIGHTS-COUNCIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MAR-NATIONAL-HUMAN-RIGHTS-COUNCIL-evidence.svg"
+      ],
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Justice Ministry/CNDH record",
+        "proposition": "Victim-protection cooperation",
+        "boundary": "No State S inheritance"
+      }
+    },
+    {
+      "id": "AGENCY-COL-ARMY",
+      "name": "Colombian Army",
+      "type": "Agency",
+      "state": "COL",
+      "stateContext": "U",
+      "dossier": "dossiers/agencies/COL-ARMY.md",
+      "sourceDossier": "dossiers/states/COL.md",
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-COL-ARMY-status.svg",
+        "dossiers/assets/generated/AGENCY-COL-ARMY-evidence.svg"
+      ],
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Constitutional Court Auto 262/2026",
+        "proposition": "Operation Damocles jurisdiction record",
+        "boundary": "No State U inheritance"
+      }
+    },
+    {
+      "id": "INSTITUTION-SEN-CONSTITUTIONAL-COUNCIL",
+      "name": "Constitutional Council of Senegal",
+      "type": "Institution",
+      "state": "SEN",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/SEN-CONSTITUTIONAL-COUNCIL.md",
+      "sourceDossier": "dossiers/states/SEN.md",
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-SEN-CONSTITUTIONAL-COUNCIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-SEN-CONSTITUTIONAL-COUNCIL-evidence.svg"
+      ],
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "State dossier / Amnesty source set",
+        "proposition": "Accountability pathway",
+        "boundary": "No State U inheritance"
+      }
+    }
+  ]
+}

@@ -1,3 +1,15 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-MLT-CONSTITUTIONAL-COURT","id":"INSTITUTION-MLT-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of Malta","aliases":["Malta's Constitutional Court"],"dossier":"../../dossiers/states/MLT.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only judicial/remedial institution from the Malta dossier. Retrial/remediation effects remain evidence-specific."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-MLT-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-MLT-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of Malta",
+  "aliases": [
+    "Malta's Constitutional Court"
+  ],
+  "dossier": "../../dossiers/institutions/MLT-CONSTITUTIONAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only judicial/remedial institution from the Malta dossier. Retrial/remediation effects remain evidence-specific."
 }

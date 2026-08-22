@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-NGA-NIGERIA-POLICE-FORCE","id":"AGENCY-NGA-NIGERIA-POLICE-FORCE","type":"Agency","name":"Nigeria Police Force","aliases":[],"dossier":"../../dossiers/states/NGA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion from the Nigeria dossier, which explicitly rejects a generic Nigeria Police Force restriction."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-NGA-NIGERIA-POLICE-FORCE",
+  "id": "AGENCY-NGA-NIGERIA-POLICE-FORCE",
+  "type": "Agency",
+  "name": "Nigeria Police Force",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/NGA-NIGERIA-POLICE-FORCE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Nigeria dossier, which explicitly rejects a generic Nigeria Police Force restriction."
 }

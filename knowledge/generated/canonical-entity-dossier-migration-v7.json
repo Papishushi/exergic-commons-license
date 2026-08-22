@@ -1,0 +1,105 @@
+{
+  "version": 7,
+  "date": "2026-08-18",
+  "purpose": "Organization/project migration tranche for the Netherlands probation-risk-tool record, preserving the separation between collective operator provenance, named workflow identity and proposition-specific operation relations.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals render collective Inspectorate provenance and exact named-tool boundaries without creating operator-to-tool relation edges or propagating State governance.",
+  "maxMissingDedicatedDossiers": 207,
+  "entities": [
+    {
+      "id": "ORG-NLD-RECLASSERING-NEDERLAND",
+      "name": "Reclassering Nederland",
+      "type": "Organization",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/NLD-RECLASSERING-NEDERLAND.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD freeze",
+        "proposition": "Named probation organization; tool relation unresolved",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-NLD-RECLASSERING-NEDERLAND-status.svg",
+        "dossiers/assets/generated/ORG-NLD-RECLASSERING-NEDERLAND-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-NLD-LEGER-DES-HEILS-RECLASSERING",
+      "name": "Leger des Heils Jeugdbescherming & Reclassering",
+      "type": "Organization",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/NLD-LEGER-DES-HEILS-RECLASSERING.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD freeze",
+        "proposition": "Named probation organization; tool relation unresolved",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-NLD-LEGER-DES-HEILS-RECLASSERING-status.svg",
+        "dossiers/assets/generated/ORG-NLD-LEGER-DES-HEILS-RECLASSERING-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-NLD-STICHTING-VERSLAVINGSRECLASSERING-GGZ",
+      "name": "Stichting Verslavingsreclassering GGZ",
+      "type": "Organization",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/NLD-STICHTING-VERSLAVINGSRECLASSERING-GGZ.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD freeze",
+        "proposition": "Named probation organization; tool relation unresolved",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-NLD-STICHTING-VERSLAVINGSRECLASSERING-GGZ-status.svg",
+        "dossiers/assets/generated/ORG-NLD-STICHTING-VERSLAVINGSRECLASSERING-GGZ-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-NLD-STATIC-99R",
+      "name": "STATIC-99R probation risk-assessment workflow",
+      "type": "Project",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/NLD-STATIC-99R.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD freeze",
+        "proposition": "Named workflow; unremediated-use condition",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-NLD-STATIC-99R-status.svg",
+        "dossiers/assets/generated/PROJECT-NLD-STATIC-99R-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-NLD-STABLE-2007",
+      "name": "STABLE-2007 probation risk-assessment workflow",
+      "type": "Project",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/NLD-STABLE-2007.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD freeze",
+        "proposition": "Named workflow; unremediated-use condition",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-NLD-STABLE-2007-status.svg",
+        "dossiers/assets/generated/PROJECT-NLD-STABLE-2007-evidence.svg"
+      ]
+    }
+  ]
+}

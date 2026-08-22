@@ -1,0 +1,105 @@
+{
+  "version": 13,
+  "date": "2026-08-19",
+  "purpose": "Named-person case tranche with direct proposition-specific locators for detained activists, defenders, lawyers and peaceful-expression defendants.",
+  "migrationRule": "A person counts as migrated only when their entity record points to an existing dedicated person dossier. Being named as a detainee, activist, defender, lawyer or defendant never creates culpability, participation, governance or Material Participation.",
+  "visualRule": "Generated visuals stop at the person-identity boundary. The case source identifies the subject of record only and never reverses project attribution onto that person.",
+  "maxMissingDedicatedDossiers": 177,
+  "entities": [
+    {
+      "id": "PERSON-BGD-SHAHRIAR-KABIR",
+      "name": "Shahriar Kabir",
+      "type": "Person",
+      "state": "BGD",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/BGD-SHAHRIAR-KABIR.md",
+      "sourceDossier": "dossiers/states/BGD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN SP BGD 1/2026 communication",
+        "proposition": "Named subject of continued detention/prosecution",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-BGD-SHAHRIAR-KABIR-status.svg",
+        "dossiers/assets/generated/PERSON-BGD-SHAHRIAR-KABIR-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-CMR-ABDU-KARIM-ALI",
+      "name": "Abdu Karim Ali",
+      "type": "Person",
+      "state": "CMR",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/CMR-ABDU-KARIM-ALI.md",
+      "sourceDossier": "dossiers/states/CMR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty Abdu Karim Ali case report",
+        "proposition": "Named peace activist in frozen detention project",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-CMR-ABDU-KARIM-ALI-status.svg",
+        "dossiers/assets/generated/PERSON-CMR-ABDU-KARIM-ALI-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-IDN-KHARIQ-ANHAR",
+      "name": "Khariq Anhar",
+      "type": "Person",
+      "state": "IDN",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/IDN-KHARIQ-ANHAR.md",
+      "sourceDossier": "dossiers/states/IDN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty ASA21 2026 case locators",
+        "proposition": "Named subject of peaceful-expression prosecution",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-IDN-KHARIQ-ANHAR-status.svg",
+        "dossiers/assets/generated/PERSON-IDN-KHARIQ-ANHAR-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-MAR-MHAMED-HALI",
+      "name": "M'hamed Hali",
+      "type": "Person",
+      "state": "MAR",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/MAR-MHAMED-HALI.md",
+      "sourceDossier": "dossiers/states/MAR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN SP MAR 2/2026",
+        "proposition": "Named lawyer/defender in professional-exclusion case",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-MAR-MHAMED-HALI-status.svg",
+        "dossiers/assets/generated/PERSON-MAR-MHAMED-HALI-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-UZB-JAVOKHIR-MUMINOV",
+      "name": "Javokhir Muminov",
+      "type": "Person",
+      "state": "UZB",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/UZB-JAVOKHIR-MUMINOV.md",
+      "sourceDossier": "dossiers/states/UZB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "HRW 18 June 2026 case record",
+        "proposition": "Named defender in detention/prosecution project",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-UZB-JAVOKHIR-MUMINOV-status.svg",
+        "dossiers/assets/generated/PERSON-UZB-JAVOKHIR-MUMINOV-evidence.svg"
+      ]
+    }
+  ]
+}

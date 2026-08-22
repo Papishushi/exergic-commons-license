@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-PACE","id":"INSTITUTION-PACE","type":"Institution","name":"Parliamentary Assembly of the Council of Europe","aliases":["PACE"],"dossier":"../../dossiers/states/AZE.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only parliamentary body used as evidence provenance; resolutions are not ECL governance decisions."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-PACE",
+  "id": "INSTITUTION-PACE",
+  "type": "Institution",
+  "name": "Parliamentary Assembly of the Council of Europe",
+  "aliases": [
+    "PACE"
+  ],
+  "dossier": "../../dossiers/institutions/PACE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only parliamentary body used as evidence provenance; resolutions are not ECL governance decisions."
+}

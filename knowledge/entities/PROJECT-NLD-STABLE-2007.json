@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:PROJECT-NLD-STABLE-2007","id":"PROJECT-NLD-STABLE-2007","type":"Project","name":"STABLE-2007 probation risk-assessment workflow","aliases":["STABLE-2007"],"dossier":"../../dossiers/states/NLD.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Exact named probation risk-assessment workflow in the current NLD Schedule boundary. Identity does not encode score, outcome, operator relation or current remediation status."
+  "@context":"../../ontology/ecl-context.jsonld",
+  "iri":"ecl:PROJECT-NLD-STABLE-2007",
+  "id":"PROJECT-NLD-STABLE-2007",
+  "type":"Project",
+  "name":"STABLE-2007 probation risk-assessment workflow",
+  "aliases":["STABLE-2007"],
+  "dossier":"../../dossiers/projects/NLD-STABLE-2007.md",
+  "lastSubstantiveReview":"2026-08-18",
+  "reviewDue":"2026-09-18",
+  "reviewClass":"active",
+  "reviewReason":"Exact named probation risk-assessment workflow in the current NLD Schedule boundary. Identity does not encode score, outcome, operator relation or current remediation status."
 }

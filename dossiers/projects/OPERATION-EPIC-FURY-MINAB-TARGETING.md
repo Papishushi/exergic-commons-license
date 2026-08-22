@@ -1,5 +1,5 @@
 ---
-id: ECL-PROJECT-EPIC-FURY-MINAB
+id: ECL-PROJECT-OPERATION-EPIC-FURY-MINAB-TARGETING
 entity: "Operation Epic Fury — Minab school targeting chain"
 entity_type: project
 provisional_outcome: S

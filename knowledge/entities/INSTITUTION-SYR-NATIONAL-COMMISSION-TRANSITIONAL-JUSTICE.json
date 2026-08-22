@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE","id":"INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE","type":"Institution","name":"National Commission for Transitional Justice (Syria)","aliases":[],"dossier":"../../dossiers/states/SYR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only transitional accountability body named in the Syria dossier; creation of a mechanism does not establish effectiveness or exoneration."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE",
+  "id": "INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE",
+  "type": "Institution",
+  "name": "National Commission for Transitional Justice (Syria)",
+  "aliases": [],
+  "dossier": "../../dossiers/institutions/SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only transitional accountability body named in the Syria dossier; creation of a mechanism does not establish effectiveness or exoneration."
 }

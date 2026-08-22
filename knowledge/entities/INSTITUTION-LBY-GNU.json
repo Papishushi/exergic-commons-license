@@ -1,1 +1,13 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-LBY-GNU","id":"INSTITUTION-LBY-GNU","type":"Institution","name":"Government of National Unity (Libya)","aliases":["GNU"],"dossier":"../../dossiers/states/LBY.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only de facto/government authority used for fragmented attribution; no whole-authority restriction follows from identity."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-LBY-GNU",
+  "id": "INSTITUTION-LBY-GNU",
+  "type": "Institution",
+  "name": "Government of National Unity (Libya)",
+  "aliases": ["GNU"],
+  "dossier": "../../dossiers/institutions/LBY-GNU.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only de facto/government authority used for fragmented attribution; no whole-authority restriction follows from identity."
+}

@@ -1,0 +1,105 @@
+{
+  "version": 37,
+  "date": "2026-08-19",
+  "purpose": "Agency closure tranche across Nigeria, Pakistan and the Philippines: exact exclusion/capacity boundaries and incident-specific identities without hierarchy propagation.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Identity, naming, hierarchy, evidence production and State context never create Material Participation or a governance outcome; direct/partial labels preserve repository source precision honestly.",
+  "visualRule": "Derived visuals encode State context and terminate at the Agency identity boundary. Every evidence card preserves direct versus partial granularity and forbids partOf/sameAs/control/operation/participation/supplier inference.",
+  "maxMissingDedicatedDossiers": 59,
+  "entities": [
+    {
+      "id": "AGENCY-NGA-NIGERIA-POLICE-FORCE",
+      "name": "Nigeria Police Force",
+      "type": "Agency",
+      "state": "NGA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/NGA-NIGERIA-POLICE-FORCE.md",
+      "sourceDossier": "dossiers/states/NGA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Nigeria State dossier + promoted-ready-03a Tiger Base-only boundary",
+        "proposition": "Nigeria Police Force is expressly not restricted generically; only separately evidenced units/projects may enter scope",
+        "boundary": "Whole-force identity does not inherit Tiger Base participation or scope"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-NGA-NIGERIA-POLICE-FORCE-status.svg",
+        "dossiers/assets/generated/AGENCY-NGA-NIGERIA-POLICE-FORCE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PAK-MINISTRY-INTERIOR-NARCOTICS-CONTROL",
+      "name": "Ministry of Interior and Narcotics Control",
+      "type": "Agency",
+      "state": "PAK",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PAK-MINISTRY-INTERIOR-NARCOTICS-CONTROL.md",
+      "sourceDossier": "dossiers/states/PAK.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Pakistan batch-04 freeze candidate-party string + NCCIA identity surfaces",
+        "proposition": "The freeze names the Ministry alongside NCCIA while limiting renderability to qualifying PECA enforcement",
+        "boundary": "Naming alongside NCCIA does not establish hierarchy, control or Material Participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PAK-MINISTRY-INTERIOR-NARCOTICS-CONTROL-status.svg",
+        "dossiers/assets/generated/AGENCY-PAK-MINISTRY-INTERIOR-NARCOTICS-CONTROL-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PAK-NCCIA",
+      "name": "National Cyber Crime Investigation Agency",
+      "type": "Agency",
+      "state": "PAK",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PAK-NCCIA.md",
+      "sourceDossier": "dossiers/states/PAK.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Pakistan batch-04 freeze + official NCCIA What We Are / mandate / FAQ locators",
+        "proposition": "NCCIA is renderable only in PECA investigations/prosecutions against protected journalism or expression independently satisfying ECL criteria",
+        "boundary": "NCCIA identity does not classify cybercrime investigation generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PAK-NCCIA-status.svg",
+        "dossiers/assets/generated/AGENCY-PAK-NCCIA-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PHL-MALATE-POLICE-STATION-9",
+      "name": "Malate Police Station 9",
+      "type": "Agency",
+      "state": "PHL",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PHL-MALATE-POLICE-STATION-9.md",
+      "sourceDossier": "dossiers/states/PHL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Philippines batch-22a incident freeze + NAPOLCOM/GMA identity-event locators",
+        "proposition": "The freeze expressly excludes Malate Police Station 9 generally while preserving only the 28 January 2026 incident",
+        "boundary": "Station identity does not inherit alleged conduct of six incident participants"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PHL-MALATE-POLICE-STATION-9-status.svg",
+        "dossiers/assets/generated/AGENCY-PHL-MALATE-POLICE-STATION-9-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PHL-MALATE-STATION-DRUG-ENFORCEMENT-UNIT",
+      "name": "Malate Police Station 9 Station Drug Enforcement Unit",
+      "type": "Agency",
+      "state": "PHL",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PHL-MALATE-STATION-DRUG-ENFORCEMENT-UNIT.md",
+      "sourceDossier": "dossiers/states/PHL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Philippines batch-22a exact incident freeze + NAPOLCOM/GMA locators",
+        "proposition": "The SDEU identity anchors the finite incident, but only six materially participating personnel/functions are frozen",
+        "boundary": "Unit identity does not create unit-wide culpability or a partOf inference"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PHL-MALATE-STATION-DRUG-ENFORCEMENT-UNIT-status.svg",
+        "dossiers/assets/generated/AGENCY-PHL-MALATE-STATION-DRUG-ENFORCEMENT-UNIT-evidence.svg"
+      ]
+    }
+  ]
+}

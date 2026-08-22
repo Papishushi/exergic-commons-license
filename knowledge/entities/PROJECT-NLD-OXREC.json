@@ -5,7 +5,7 @@
   "type": "Project",
   "name": "OXREC recidivism-risk algorithm",
   "aliases": ["OXREC"],
-  "dossier": "../../dossiers/states/NLD.md",
+  "dossier": "../../dossiers/projects/NLD-OXREC.md",
   "lastSubstantiveReview": "2026-08-14",
   "reviewDue": "2026-09-14",
   "reviewClass": "active",

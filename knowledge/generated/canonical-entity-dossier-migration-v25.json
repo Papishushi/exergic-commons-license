@@ -1,0 +1,105 @@
+{
+  "version": 25,
+  "date": "2026-08-19",
+  "purpose": "Multi-version Institution scale-out tranche v25: materialize five remaining institutions with 3 direct and 2 partial repository provenance while preserving exact source granularity and non-propagation.",
+  "migrationRule": "An Institution counts as migrated only when its ABox record points to a dedicated Institution dossier. Direct rows remain proposition-limited; partial rows preserve explicit locator/mapping gaps. Neither identity, adjudication, oversight, remediation, State context nor source adjacency creates a Claim/EvidenceItem, Material Participation finding or governance outcome.",
+  "visualRule": "Derived visuals encode State context and source granularity, then terminate at the institution identity boundary. R/S/U/N context never propagates to the institution and partial rows visibly retain their evidence-curation gap.",
+  "maxMissingDedicatedDossiers": 119,
+  "entities": [
+    {
+      "id": "INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION",
+      "name": "Australian Human Rights Commission",
+      "type": "Institution",
+      "state": "NRU",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/AUS-HUMAN-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/NRU.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Nauru State dossier source description; exact AHRC assessment locator not retained",
+        "proposition": "State review cites a 2026 AHRC assessment as offshore-system evidence while Australia/Nauru control remains unresolved",
+        "boundary": "Commission evidence does not resolve cross-State control or classify the Commission"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-AUS-HUMAN-RIGHTS-COMMISSION-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE",
+      "name": "Office of the High Representative",
+      "type": "Institution",
+      "state": "BIH",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BIH-OFFICE-HIGH-REPRESENTATIVE.md",
+      "sourceDossier": "dossiers/states/BIH.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "OHR 69th implementation report on Bosnia and Herzegovina",
+        "proposition": "OHR reported deterioration in Republika Srpska's media environment through April 2026",
+        "boundary": "Oversight reporting is evidence and does not make OHR part of the restricted RS projects"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-CZE-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of the Czech Republic",
+      "type": "Institution",
+      "state": "CZE",
+      "stateContext": "N",
+      "dossier": "dossiers/institutions/CZE-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/CZE.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Czechia State dossier + Amnesty country record; no court-specific locator retained",
+        "proposition": "State review credits functioning courts/remedies among counter-evidence supporting the U-to-N downgrade",
+        "boundary": "Generic remedial context does not prove a specific Constitutional Court outcome or effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-CZE-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-CZE-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-DNK-ATP",
+      "name": "ATP",
+      "type": "Institution",
+      "state": "DNK",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/DNK-ATP.md",
+      "sourceDossier": "dossiers/states/DNK.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ATP organization locator + Denmark dossier / Amnesty technical records",
+        "proposition": "State review limits scope to specified ATP/Udbetaling Danmark profiling systems and excludes ATP generally",
+        "boundary": "Institutional identity and system adjacency do not classify ATP's unrelated pension or investment activity"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-DNK-ATP-status.svg",
+        "dossiers/assets/generated/INSTITUTION-DNK-ATP-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-DNK-UDBETALING-DANMARK",
+      "name": "Udbetaling Danmark",
+      "type": "Institution",
+      "state": "DNK",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/DNK-UDBETALING-DANMARK.md",
+      "sourceDossier": "dossiers/states/DNK.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Udbetaling Danmark identity locator + Denmark dossier / Amnesty technical records",
+        "proposition": "State review narrows S to specified automated fraud/risk-profiling models and materially connected workflows",
+        "boundary": "Named welfare administrator identity does not create a system-wide institutional restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-DNK-UDBETALING-DANMARK-status.svg",
+        "dossiers/assets/generated/INSTITUTION-DNK-UDBETALING-DANMARK-evidence.svg"
+      ]
+    }
+  ]
+}

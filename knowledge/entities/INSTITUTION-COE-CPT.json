@@ -4,8 +4,11 @@
   "id": "INSTITUTION-COE-CPT",
   "type": "Institution",
   "name": "European Committee for the Prevention of Torture and Inhuman or Degrading Treatment or Punishment",
-  "aliases": ["CPT", "Council of Europe CPT"],
-  "dossier": "../../dossiers/states/MDA.md",
+  "aliases": [
+    "CPT",
+    "Council of Europe CPT"
+  ],
+  "dossier": "../../dossiers/institutions/COE-CPT.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

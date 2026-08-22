@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-LVA-CONSTITUTIONAL-COURT","id":"INSTITUTION-LVA-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of Latvia","aliases":["Constitutional Court"],"dossier":"../../dossiers/states/LVA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Latvian constitutional court/counter-institution retained for representational completeness; identity alone does not prove a remedy, attribution or governance result."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-LVA-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-LVA-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of Latvia",
+  "aliases": [
+    "Constitutional Court"
+  ],
+  "dossier": "../../dossiers/institutions/LVA-CONSTITUTIONAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Latvian constitutional court/counter-institution retained for representational completeness; identity alone does not prove a remedy, attribution or governance result."
+}

@@ -1,0 +1,105 @@
+{
+  "version": 39,
+  "date": "2026-08-19",
+  "purpose": "Final Agency closure tranche across South Sudan, Thailand, Timor-Leste, Ukraine and the United States: preserve duplicate-identity/source gaps and accountability boundaries without manufactured equivalence.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Identity, naming, hierarchy, evidence production and State context never create Material Participation or a governance outcome; direct/partial labels preserve repository source precision honestly.",
+  "visualRule": "Derived visuals encode State context and terminate at the Agency identity boundary. Every evidence card preserves direct versus partial granularity and forbids partOf/sameAs/control/operation/participation/supplier inference.",
+  "maxMissingDedicatedDossiers": 49,
+  "entities": [
+    {
+      "id": "AGENCY-SSD-NSS",
+      "name": "National Security Service (South Sudan)",
+      "type": "Agency",
+      "state": "SSD",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SSD-NSS.md",
+      "sourceDossier": "dossiers/states/SSD.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "South Sudan State dossier + batch-19d freeze; separate canonical identity remains unresolved",
+        "proposition": "Repository preserves this NSS identity separately from the exact 'South Sudan National Security Service' freeze identity",
+        "boundary": "No sameAs, alias-collapse or governance inheritance is inferred between the two ABox IDs"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SSD-NSS-status.svg",
+        "dossiers/assets/generated/AGENCY-SSD-NSS-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-THA-OFFICE-ATTORNEY-GENERAL",
+      "name": "Office of the Attorney General",
+      "type": "Agency",
+      "state": "THA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/THA-OFFICE-ATTORNEY-GENERAL.md",
+      "sourceDossier": "dossiers/states/THA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Thailand State dossier + batch-06 statutory-case freeze + AGO organizational locator",
+        "proposition": "OAG is the named prosecutorial institution for Aor.498/2567, but the locator is identity context rather than conduct proof",
+        "boundary": "Prosecutorial identity does not classify OAG generally or prove each detention/enforcement act"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-THA-OFFICE-ATTORNEY-GENERAL-status.svg",
+        "dossiers/assets/generated/AGENCY-THA-OFFICE-ATTORNEY-GENERAL-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-TLS-PNTL",
+      "name": "PNTL (Timor-Leste)",
+      "type": "Agency",
+      "state": "TLS",
+      "stateContext": "N",
+      "dossier": "dossiers/agencies/TLS-PNTL.md",
+      "sourceDossier": "dossiers/states/TLS.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Timor-Leste State dossier; 2026 PDHJ/PNTL materials named without exact locator",
+        "proposition": "PNTL appears as human-rights-oriented policing/counter-evidence context while the State review upholds N",
+        "boundary": "Counter-evidence context does not establish generic effectiveness or a governance outcome for PNTL"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-TLS-PNTL-status.svg",
+        "dossiers/assets/generated/AGENCY-TLS-PNTL-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-UKR-STATE-BUREAU-INVESTIGATION",
+      "name": "State Bureau of Investigation",
+      "type": "Agency",
+      "state": "UKR",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/UKR-STATE-BUREAU-INVESTIGATION.md",
+      "sourceDossier": "dossiers/states/UKR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Ukraine State dossier + official SBI incident/investigation locators + batch-21c exclusion",
+        "proposition": "SBI defines and investigates the frozen TCC incident and is counter-evidence/remediation, expressly outside the restricted project",
+        "boundary": "Investigating or evidencing an incident does not make SBI a participant in the incident"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-UKR-STATE-BUREAU-INVESTIGATION-status.svg",
+        "dossiers/assets/generated/AGENCY-UKR-STATE-BUREAU-INVESTIGATION-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-USA-CIA",
+      "name": "Central Intelligence Agency",
+      "type": "Agency",
+      "state": "USA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/USA-CIA.md",
+      "sourceDossier": "dossiers/states/USA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "United States State dossier historical CIA background; no current CIA project locator retained",
+        "proposition": "Historical CIA detention/rendition remains background and does not create a current generic CIA project designation",
+        "boundary": "Historical adjacency does not establish current participation, scope or restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-USA-CIA-status.svg",
+        "dossiers/assets/generated/AGENCY-USA-CIA-evidence.svg"
+      ]
+    }
+  ]
+}

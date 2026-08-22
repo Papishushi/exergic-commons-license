@@ -1,0 +1,105 @@
+{
+  "version": 35,
+  "date": "2026-08-19",
+  "purpose": "Agency exact-freeze tranche across Maldives, North Macedonia and Malta: five directly sourced regulatory, border, public-security, military and detention identities with capacity-limited Schedule boundaries.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Identity, parent/subordinate hierarchy, mandate, project adjacency and source production never create Material Participation or a governance outcome; direct/partial labels preserve repository source precision honestly.",
+  "visualRule": "Derived visuals encode State S as context and terminate at the Agency identity boundary. Every evidence card preserves direct versus partial granularity and forbids partOf/control/operation/participation/supplier inference.",
+  "maxMissingDedicatedDossiers": 69,
+  "entities": [
+    {
+      "id": "AGENCY-MDV-MEDIA-BROADCASTING-COMMISSION",
+      "name": "Maldives Media and Broadcasting Commission",
+      "type": "Agency",
+      "state": "MDV",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MDV-MEDIA-BROADCASTING-COMMISSION.md",
+      "sourceDossier": "dossiers/states/MDV.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Maldives batch-01 identity freeze + Presidency identity locators",
+        "proposition": "Commission is named only for Act No. 16/2025 enforcement in qualifying coercive media-control capacity",
+        "boundary": "Commission identity does not classify media regulation generally or prove a specific enforcement act"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MDV-MEDIA-BROADCASTING-COMMISSION-status.svg",
+        "dossiers/assets/generated/AGENCY-MDV-MEDIA-BROADCASTING-COMMISSION-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MKD-BORDER-AFFAIRS-SOUTH",
+      "name": "Bureau for Public Security — Regional Center for Border Affairs South",
+      "type": "Agency",
+      "state": "MKD",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MKD-BORDER-AFFAIRS-SOUTH.md",
+      "sourceDossier": "dossiers/states/MKD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "North Macedonia batch-01 freeze + Interior Ministry border/Bureau locators",
+        "proposition": "Regional Center South is named only for qualifying southern-border pushback/violence/protection-denial operations",
+        "boundary": "Regional-center identity does not infer subordinate-station participation or generic border-police restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MKD-BORDER-AFFAIRS-SOUTH-status.svg",
+        "dossiers/assets/generated/AGENCY-MKD-BORDER-AFFAIRS-SOUTH-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MKD-BUREAU-PUBLIC-SECURITY",
+      "name": "Bureau for Public Security (North Macedonia)",
+      "type": "Agency",
+      "state": "MKD",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MKD-BUREAU-PUBLIC-SECURITY.md",
+      "sourceDossier": "dossiers/states/MKD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "North Macedonia batch-01 freeze + official Bureau locator",
+        "proposition": "Bureau is the parent public-security identity; renderability remains limited to Regional Center South qualifying operations",
+        "boundary": "Parent-bureau identity does not inherit the regional project or detention/ill-treatment scope"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MKD-BUREAU-PUBLIC-SECURITY-status.svg",
+        "dossiers/assets/generated/AGENCY-MKD-BUREAU-PUBLIC-SECURITY-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MLT-ARMED-FORCES",
+      "name": "Armed Forces of Malta",
+      "type": "Agency",
+      "state": "MLT",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MLT-ARMED-FORCES.md",
+      "sourceDossier": "dossiers/states/MLT.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Malta batch-01 identity freeze + AFM Operations/Defence Roles locators",
+        "proposition": "AFM/RCC is relevant only to separately evidenced maritime non-assistance, pushback or unsafe-transfer operations",
+        "boundary": "AFM identity does not imply RCC participation or generic SAR restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MLT-ARMED-FORCES-status.svg",
+        "dossiers/assets/generated/AGENCY-MLT-ARMED-FORCES-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MLT-DETENTION-SERVICES",
+      "name": "Detention Services Agency",
+      "type": "Agency",
+      "state": "MLT",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MLT-DETENTION-SERVICES.md",
+      "sourceDossier": "dossiers/states/MLT.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Malta batch-01 identity freeze + Home Affairs DSA locator",
+        "proposition": "DSA is named only for immigration-detention practices independently satisfying ECL §5.6",
+        "boundary": "Agency identity does not establish arbitrary or punitive detention in any specific case"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MLT-DETENTION-SERVICES-status.svg",
+        "dossiers/assets/generated/AGENCY-MLT-DETENTION-SERVICES-evidence.svg"
+      ]
+    }
+  ]
+}

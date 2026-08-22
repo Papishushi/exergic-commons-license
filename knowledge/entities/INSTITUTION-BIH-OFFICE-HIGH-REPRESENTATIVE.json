@@ -4,8 +4,10 @@
   "id": "INSTITUTION-BIH-OFFICE-HIGH-REPRESENTATIVE",
   "type": "Institution",
   "name": "Office of the High Representative",
-  "aliases": ["OHR"],
-  "dossier": "../../dossiers/states/BIH.md",
+  "aliases": [
+    "OHR"
+  ],
+  "dossier": "../../dossiers/institutions/BIH-OFFICE-HIGH-REPRESENTATIVE.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

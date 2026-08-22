@@ -5,7 +5,7 @@
   "type": "Agency",
   "name": "Policía Federal Argentina",
   "aliases": ["PFA", "Argentine Federal Police"],
-  "dossier": "../../dossiers/states/ARG.md",
+  "dossier": "../../dossiers/agencies/ARG-PFA.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

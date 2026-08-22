@@ -28,6 +28,8 @@
     "aliases": {"@id": "ecl:alias", "@container": "@set"},
     "iso3": "ecl:iso3",
     "dossier": "ecl:dossier",
+    "identityLifecycle": "ecl:status",
+    "supersededBy": {"@reverse": "ecl:supersedes", "@type": "@id"},
     "publicReviewIssue": {"@id": "ecl:publicReviewIssue", "@type": "@id"},
     "trackedObjects": {"@id": "ecl:tracks", "@type": "@id", "@container": "@set"},
     "monitorIds": {"@id": "ecl:monitorId", "@container": "@set"},

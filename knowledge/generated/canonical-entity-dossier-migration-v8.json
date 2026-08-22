@@ -1,0 +1,105 @@
+{
+  "version": 8,
+  "date": "2026-08-18",
+  "purpose": "Remediation-sensitive project and named-case migration tranche covering the final Netherlands probation-tool identities plus a case-bounded Zambia police/journalist project cluster.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals preserve both positive and negative scope propositions: State context never overrides explicit remediation/exclusion, and named-case adjacency never creates generic agency participation or person culpability.",
+  "maxMissingDedicatedDossiers": 202,
+  "entities": [
+    {
+      "id": "PROJECT-NLD-ACUTE-2007",
+      "name": "ACUTE-2007 probation risk-assessment workflow",
+      "type": "Project",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/NLD-ACUTE-2007.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD freeze",
+        "proposition": "Named workflow; unremediated-use condition",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-NLD-ACUTE-2007-status.svg",
+        "dossiers/assets/generated/PROJECT-NLD-ACUTE-2007-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-NLD-OXREC",
+      "name": "OXREC recidivism-risk algorithm",
+      "type": "Project",
+      "state": "NLD",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/NLD-OXREC.md",
+      "sourceDossier": "dossiers/states/NLD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Inspectorate Feb 2026 / NLD dossier",
+        "proposition": "Suspended workflow; excluded from active scope",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-NLD-OXREC-status.svg",
+        "dossiers/assets/generated/PROJECT-NLD-OXREC-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-ZMB-POLICE-SERVICE",
+      "name": "Zambia Police Service",
+      "type": "Agency",
+      "state": "ZMB",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/ZMB-POLICE-SERVICE.md",
+      "sourceDossier": "dossiers/states/ZMB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ZMB statutory-agency freeze",
+        "proposition": "Case-specific candidate party; no generic police class",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-ZMB-POLICE-SERVICE-status.svg",
+        "dossiers/assets/generated/AGENCY-ZMB-POLICE-SERVICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-ZMB-MACPHERSON-MUKUKA",
+      "name": "MacPherson Mukuka",
+      "type": "Person",
+      "state": "ZMB",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/ZMB-MACPHERSON-MUKUKA.md",
+      "sourceDossier": "dossiers/states/ZMB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty July 2026 / ZMB dossier",
+        "proposition": "Named journalist subject of 2026 cyber case",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-ZMB-MACPHERSON-MUKUKA-status.svg",
+        "dossiers/assets/generated/PERSON-ZMB-MACPHERSON-MUKUKA-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-ZMB-MACPHERSON-MUKUKA-2026",
+      "name": "MacPherson Mukuka Cyber Crimes Act case project",
+      "type": "Project",
+      "state": "ZMB",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/ZMB-MACPHERSON-MUKUKA-2026.md",
+      "sourceDossier": "dossiers/states/ZMB.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty July 2026 / ZMB dossier",
+        "proposition": "Exact Cyber Crimes Act case project",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-ZMB-MACPHERSON-MUKUKA-2026-status.svg",
+        "dossiers/assets/generated/PROJECT-ZMB-MACPHERSON-MUKUKA-2026-evidence.svg"
+      ]
+    }
+  ]
+}

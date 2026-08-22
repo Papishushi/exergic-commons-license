@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exergism.org/schemas/evidence-image-metadata.schema.json",
+  "title": "ECL Evidence Image Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "asset",
+    "sourceUrl",
+    "capturedAt",
+    "contentSha256",
+    "licenseBasis",
+    "propositions",
+    "transformation"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "asset": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^/\\\\]+\\.(?:[Pp][Nn][Gg]|[Jj][Pp][Ee]?[Gg]|[Ww][Ee][Bb][Pp])$"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "capturedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "contentSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "licenseBasis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "propositions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "transformation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

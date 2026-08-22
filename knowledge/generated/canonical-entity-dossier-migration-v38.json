@@ -1,0 +1,105 @@
+{
+  "version": 38,
+  "date": "2026-08-19",
+  "purpose": "Agency closure tranche across the Philippines, Poland, Somalia and South Sudan: exact Schedule boundaries, fragmented attribution and no cross-agency propagation.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Identity, naming, hierarchy, evidence production and State context never create Material Participation or a governance outcome; direct/partial labels preserve repository source precision honestly.",
+  "visualRule": "Derived visuals encode State context and terminate at the Agency identity boundary. Every evidence card preserves direct versus partial granularity and forbids partOf/sameAs/control/operation/participation/supplier inference.",
+  "maxMissingDedicatedDossiers": 54,
+  "entities": [
+    {
+      "id": "AGENCY-PHL-MANILA-POLICE-DISTRICT",
+      "name": "Manila Police District",
+      "type": "Agency",
+      "state": "PHL",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PHL-MANILA-POLICE-DISTRICT.md",
+      "sourceDossier": "dossiers/states/PHL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Philippines batch-22a incident freeze",
+        "proposition": "Manila Police District is expressly excluded generally from the frozen 28 January 2026 SDEU incident",
+        "boundary": "District identity does not inherit station, unit or individual incident conduct"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PHL-MANILA-POLICE-DISTRICT-status.svg",
+        "dossiers/assets/generated/AGENCY-PHL-MANILA-POLICE-DISTRICT-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-POL-BORDER-GUARD",
+      "name": "Polish Border Guard",
+      "type": "Agency",
+      "state": "POL",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/POL-BORDER-GUARD.md",
+      "sourceDossier": "dossiers/states/POL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Poland State dossier + promoted-ready-02 Belarus-border project boundary",
+        "proposition": "Polish Border Guard is Schedule-ready only in Belarus-border asylum/pushback implementation meeting the capacity limit",
+        "boundary": "Border Guard identity does not classify unrelated migration or public-order functions"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-POL-BORDER-GUARD-status.svg",
+        "dossiers/assets/generated/AGENCY-POL-BORDER-GUARD-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-SOM-NISA",
+      "name": "National Intelligence and Security Agency",
+      "type": "Agency",
+      "state": "SOM",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SOM-NISA.md",
+      "sourceDossier": "dossiers/states/SOM.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Somalia State dossier + batch-02 statutory-agency freeze + Amnesty/Sadia locator",
+        "proposition": "NISA is frozen only in federal detention/intimidation/censorship/prosecution against protected civic activity satisfying ECL criteria",
+        "boundary": "NISA identity does not classify intelligence or counterterrorism work generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SOM-NISA-status.svg",
+        "dossiers/assets/generated/AGENCY-SOM-NISA-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-SOM-SOMALI-POLICE-FORCE",
+      "name": "Somali Police Force",
+      "type": "Agency",
+      "state": "SOM",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SOM-SOMALI-POLICE-FORCE.md",
+      "sourceDossier": "dossiers/states/SOM.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Somalia batch-02 freeze + State dossier residual-scope statement",
+        "proposition": "Somali Police Force is excluded from the NISA freeze; police repression remains residual until exact unit/case attribution exists",
+        "boundary": "Police-force identity does not inherit NISA scope or fragmented federal allegations"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SOM-SOMALI-POLICE-FORCE-status.svg",
+        "dossiers/assets/generated/AGENCY-SOM-SOMALI-POLICE-FORCE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-SSD-NATIONAL-SECURITY-SERVICE",
+      "name": "South Sudan National Security Service",
+      "type": "Agency",
+      "state": "SSD",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/SSD-NATIONAL-SECURITY-SERVICE.md",
+      "sourceDossier": "dossiers/states/SSD.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "South Sudan batch-19d exact NSS freeze + two HRW identity/context locators",
+        "proposition": "South Sudan National Security Service is renderable only in qualifying arrest/detention/surveillance/search/intimidation activity",
+        "boundary": "NSS identity does not classify lawful intelligence or security services generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-SSD-NATIONAL-SECURITY-SERVICE-status.svg",
+        "dossiers/assets/generated/AGENCY-SSD-NATIONAL-SECURITY-SERVICE-evidence.svg"
+      ]
+    }
+  ]
+}

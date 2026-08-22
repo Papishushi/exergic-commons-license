@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-ICJ","id":"INSTITUTION-ICJ","type":"Institution","name":"International Court of Justice","aliases":["ICJ"],"dossier":"../../dossiers/states/ISR.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only international court; advisory opinions/judgments remain evidence, not automatic ECL outcomes."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-ICJ",
+  "id": "INSTITUTION-ICJ",
+  "type": "Institution",
+  "name": "International Court of Justice",
+  "aliases": [
+    "ICJ"
+  ],
+  "dossier": "../../dossiers/institutions/ICJ.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only international court; advisory opinions/judgments remain evidence, not automatic ECL outcomes."
+}

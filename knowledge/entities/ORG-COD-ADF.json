@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:ORG-COD-ADF","id":"ORG-COD-ADF","type":"Organization","name":"ADF (DRC armed group)","aliases":["ADF"],"dossier":"../../dossiers/states/COD.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only non-State armed group used to preserve actor separation from FARDC/M23; no sponsor/control relation is inferred."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:ORG-COD-ADF",
+  "id": "ORG-COD-ADF",
+  "type": "Organization",
+  "name": "ADF (DRC armed group)",
+  "aliases": [
+    "ADF"
+  ],
+  "dossier": "../../dossiers/organizations/COD-ADF.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only non-State armed group used to preserve actor separation from FARDC/M23; no sponsor/control relation is inferred."
+}

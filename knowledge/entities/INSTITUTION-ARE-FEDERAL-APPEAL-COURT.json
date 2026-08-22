@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-ARE-FEDERAL-APPEAL-COURT","id":"INSTITUTION-ARE-FEDERAL-APPEAL-COURT","type":"Institution","name":"Federal Appeal Court","aliases":[],"dossier":"../../dossiers/states/ARE.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"State-scoped identity-only court locator from the UAE dossier. Specific mass-trial judgments remain proposition-specific evidence."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-ARE-FEDERAL-APPEAL-COURT",
+  "id": "INSTITUTION-ARE-FEDERAL-APPEAL-COURT",
+  "type": "Institution",
+  "name": "Federal Appeal Court",
+  "aliases": [],
+  "dossier": "../../dossiers/institutions/ARE-FEDERAL-APPEAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "State-scoped identity-only court locator from the UAE dossier. Specific mass-trial judgments remain proposition-specific evidence."
 }

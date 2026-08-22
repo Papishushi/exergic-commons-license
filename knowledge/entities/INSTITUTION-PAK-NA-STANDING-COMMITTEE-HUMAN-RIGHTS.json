@@ -1,3 +1,15 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS","id":"INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS","type":"Institution","name":"National Assembly Standing Committee on Human Rights (Pakistan)","aliases":["National Assembly Standing Committee on Human Rights"],"dossier":"../../dossiers/states/PAK.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only parliamentary oversight committee referenced as counter-institution; no effectiveness or governance outcome is inferred."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS",
+  "id": "INSTITUTION-PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS",
+  "type": "Institution",
+  "name": "National Assembly Standing Committee on Human Rights (Pakistan)",
+  "aliases": [
+    "National Assembly Standing Committee on Human Rights"
+  ],
+  "dossier": "../../dossiers/institutions/PAK-NA-STANDING-COMMITTEE-HUMAN-RIGHTS.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only parliamentary oversight committee referenced as counter-institution; no effectiveness or governance outcome is inferred."
 }

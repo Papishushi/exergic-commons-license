@@ -1,1 +1,13 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-COL-CONSTITUTIONAL-COURT","id":"INSTITUTION-COL-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of Colombia","aliases":[],"dossier":"../../dossiers/states/COL.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Colombian constitutional court credited with assigning a matter to ordinary jurisdiction; no blanket effectiveness is inferred."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-COL-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-COL-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of Colombia",
+  "aliases": [],
+  "dossier": "../../dossiers/institutions/COL-CONSTITUTIONAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Colombian constitutional court credited with assigning a matter to ordinary jurisdiction; no blanket effectiveness is inferred."
+}

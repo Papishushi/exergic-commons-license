@@ -1,3 +1,15 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-MKD-BUREAU-PUBLIC-SECURITY","id":"AGENCY-MKD-BUREAU-PUBLIC-SECURITY","type":"Agency","name":"Bureau for Public Security (North Macedonia)","aliases":["Bureau for Public Security"],"dossier":"../../dossiers/states/MKD.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only public-security body; any conduct attribution requires proposition-specific Claim/Evidence records."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-MKD-BUREAU-PUBLIC-SECURITY",
+  "id": "AGENCY-MKD-BUREAU-PUBLIC-SECURITY",
+  "type": "Agency",
+  "name": "Bureau for Public Security (North Macedonia)",
+  "aliases": [
+    "Bureau for Public Security"
+  ],
+  "dossier": "../../dossiers/agencies/MKD-BUREAU-PUBLIC-SECURITY.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only public-security body; any conduct attribution requires proposition-specific Claim/Evidence records."
 }

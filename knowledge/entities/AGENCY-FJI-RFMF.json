@@ -5,7 +5,7 @@
   "type": "Agency",
   "name": "Republic of Fiji Military Forces",
   "aliases": ["RFMF"],
-  "dossier": "../../dossiers/states/FJI.md",
+  "dossier": "../../dossiers/agencies/FJI-RFMF.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

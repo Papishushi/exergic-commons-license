@@ -4,8 +4,10 @@
   "id": "AGENCY-PAK-NCCIA",
   "type": "Agency",
   "name": "National Cyber Crime Investigation Agency",
-  "aliases": ["NCCIA"],
-  "dossier": "../../dossiers/states/PAK.md",
+  "aliases": [
+    "NCCIA"
+  ],
+  "dossier": "../../dossiers/agencies/PAK-NCCIA.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

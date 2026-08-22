@@ -1,0 +1,67 @@
+{
+  "version": 14,
+  "date": "2026-08-19",
+  "purpose": "Person-category closure tranche for the final three named political-detention/case subjects, preserving partial locator granularity where the freeze names the person but the retained source is broader than a person-specific case document.",
+  "migrationRule": "A person counts as migrated only when their entity record points to an existing dedicated person dossier. Person identity never creates culpability, governance, participation, control or Material Participation.",
+  "visualRule": "Generated visuals stop at the person-identity boundary. A named detention or State-security case identifies the subject of record only and cannot reverse attribution onto that person.",
+  "maxMissingDedicatedDossiers": 174,
+  "entities": [
+    {
+      "id": "PERSON-COG-ANDRE-OKOMBI-SALISSA",
+      "name": "André Okombi Salissa",
+      "type": "Person",
+      "state": "COG",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/COG-ANDRE-OKOMBI-SALISSA.md",
+      "sourceDossier": "dossiers/states/COG.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "COG named-detention freeze / Amnesty",
+        "proposition": "Named former candidate in continued-detention project",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-COG-ANDRE-OKOMBI-SALISSA-status.svg",
+        "dossiers/assets/generated/PERSON-COG-ANDRE-OKOMBI-SALISSA-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-COG-JEAN-MARIE-MICHEL-MOKOKO",
+      "name": "Jean-Marie Michel Mokoko",
+      "type": "Person",
+      "state": "COG",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/COG-JEAN-MARIE-MICHEL-MOKOKO.md",
+      "sourceDossier": "dossiers/states/COG.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "COG named-detention freeze / Amnesty",
+        "proposition": "Named former candidate in continued-detention project",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-COG-JEAN-MARIE-MICHEL-MOKOKO-status.svg",
+        "dossiers/assets/generated/PERSON-COG-JEAN-MARIE-MICHEL-MOKOKO-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-ZMB-XAVIER-CHUNGU",
+      "name": "Xavier Chungu",
+      "type": "Person",
+      "state": "ZMB",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/ZMB-XAVIER-CHUNGU.md",
+      "sourceDossier": "dossiers/states/ZMB.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "ZMB dossier / statutory-agency freeze",
+        "proposition": "Named subject of State-security/sedition detention",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-ZMB-XAVIER-CHUNGU-status.svg",
+        "dossiers/assets/generated/PERSON-ZMB-XAVIER-CHUNGU-evidence.svg"
+      ]
+    }
+  ]
+}

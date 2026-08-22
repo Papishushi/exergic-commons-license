@@ -1,0 +1,105 @@
+{
+  "version": 40,
+  "date": "2026-08-19",
+  "purpose": "Canonical per-entity dossier migration tranche v40; preserve existing ABox identity and review metadata while materializing dedicated non-State dossier boundaries.",
+  "migrationRule": "A migrated non-State entity must point to an existing dedicated type-appropriate dossier. Migration changes dossier placement only and creates no relation, participation, culpability, governance or licensing inference.",
+  "visualRule": "Derived visuals render the referenced State dossier context and an identity-boundary evidence flow. State context never becomes an entity-level governance outcome.",
+  "maxMissingDedicatedDossiers": 44,
+  "entities": [
+    {
+      "id": "ORG-ASEAN",
+      "name": "Association of Southeast Asian Nations",
+      "type": "Organization",
+      "state": "MMR",
+      "stateContext": "R",
+      "dossier": "dossiers/organizations/ASEAN.md",
+      "sourceDossier": "dossiers/states/MMR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "MMR State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves Association of Southeast Asian Nations as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-ASEAN-status.svg",
+        "dossiers/assets/generated/ORG-ASEAN-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-BINUH",
+      "name": "BINUH",
+      "type": "Organization",
+      "state": "HTI",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/BINUH.md",
+      "sourceDossier": "dossiers/states/HTI.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "HTI State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves BINUH as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-BINUH-status.svg",
+        "dossiers/assets/generated/ORG-BINUH-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-CARICOM",
+      "name": "Caribbean Community",
+      "type": "Organization",
+      "state": "DMA",
+      "stateContext": "N",
+      "dossier": "dossiers/organizations/CARICOM.md",
+      "sourceDossier": "dossiers/states/DMA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "DMA State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves Caribbean Community as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-CARICOM-status.svg",
+        "dossiers/assets/generated/ORG-CARICOM-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-COD-ADF",
+      "name": "ADF (DRC armed group)",
+      "type": "Organization",
+      "state": "COD",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/COD-ADF.md",
+      "sourceDossier": "dossiers/states/COD.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "COD State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves ADF (DRC armed group) as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-COD-ADF-status.svg",
+        "dossiers/assets/generated/ORG-COD-ADF-evidence.svg"
+      ]
+    },
+    {
+      "id": "ORG-COUNCIL-OF-EUROPE",
+      "name": "Council of Europe",
+      "type": "Organization",
+      "state": "MDA",
+      "stateContext": "S",
+      "dossier": "dossiers/organizations/COUNCIL-OF-EUROPE.md",
+      "sourceDossier": "dossiers/states/MDA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "MDA State dossier + existing ABox identity/review record",
+        "proposition": "Dedicated dossier migration preserves Council of Europe as an identity-only non-State record",
+        "boundary": "Identity and State-context adjacency do not establish participation, control, culpability or governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/ORG-COUNCIL-OF-EUROPE-status.svg",
+        "dossiers/assets/generated/ORG-COUNCIL-OF-EUROPE-evidence.svg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": 31,
+  "date": "2026-08-19",
+  "purpose": "Agency identity/capacity tranche spanning counter-evidence, armed-forces incident boundaries, municipal project scope and source-producing provenance without agency-wide inheritance.",
+  "migrationRule": "An Agency counts as migrated only when its ABox record points to a dedicated Agency dossier. Formal mandate, armed-forces identity, municipal project naming and evidence production do not create Material Participation or governance inheritance.",
+  "visualRule": "Derived visuals show State context and the curated agency proposition, then stop at identity. Source production, counter-evidence, incident acknowledgment and municipal naming do not propagate governance.",
+  "maxMissingDedicatedDossiers": 89,
+  "entities": [
+    {
+      "id": "AGENCY-BFA-MINISTRY-JUSTICE",
+      "name": "Ministry of Justice (Burkina Faso)",
+      "type": "Agency",
+      "state": "BFA",
+      "stateContext": "R",
+      "dossier": "dossiers/agencies/BFA-MINISTRY-JUSTICE.md",
+      "sourceDossier": "dossiers/states/BFA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Burkina Faso Justice Ministry institutional page",
+        "proposition": "State review credits the Justice Ministry's formal rule-of-law and human-rights functions as counter-evidence",
+        "boundary": "Formal ministerial functions do not prove restraint effectiveness or participation in the military governing apparatus"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-BFA-MINISTRY-JUSTICE-status.svg",
+        "dossiers/assets/generated/AGENCY-BFA-MINISTRY-JUSTICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-CAF-FACA",
+      "name": "Central African Armed Forces",
+      "type": "Agency",
+      "state": "CAF",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/CAF-FACA.md",
+      "sourceDossier": "dossiers/states/CAF.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "MINUSCA Ouanda-Djalé incident and follow-up mission records",
+        "proposition": "Local FACA detachment acknowledged partial responsibility for the 27 February 2026 Ouanda-Djalé events",
+        "boundary": "Named-incident acknowledgement does not classify FACA or unrelated military functions generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-CAF-FACA-status.svg",
+        "dossiers/assets/generated/AGENCY-CAF-FACA-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-COL-ARMED-FORCES",
+      "name": "Armed Forces of Colombia",
+      "type": "Agency",
+      "state": "COL",
+      "stateContext": "U",
+      "dossier": "dossiers/agencies/COL-ARMED-FORCES.md",
+      "sourceDossier": "dossiers/states/COL.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Colombia State dossier + 2026 Constitutional Court jurisdiction records",
+        "proposition": "The Armed Forces remain outside generic restriction while military-jurisdiction conflicts stay under monitored case-specific review",
+        "boundary": "Case-level jurisdiction disputes do not classify the Armed Forces as a whole"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-COL-ARMED-FORCES-status.svg",
+        "dossiers/assets/generated/AGENCY-COL-ARMED-FORCES-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-ETH-ADDIS-ABABA-CITY-ADMINISTRATION",
+      "name": "Addis Ababa City Administration",
+      "type": "Agency",
+      "state": "ETH",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/ETH-ADDIS-ABABA-CITY-ADMINISTRATION.md",
+      "sourceDossier": "dossiers/states/ETH.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "ETH batch-05 project-status freeze + Corridor Development identity sources",
+        "proposition": "Addis Ababa City Administration is named only in the capacity-limited Corridor Development relocation/clearance project",
+        "boundary": "Municipal identity does not classify urban-development or remediation activity generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-ETH-ADDIS-ABABA-CITY-ADMINISTRATION-status.svg",
+        "dossiers/assets/generated/AGENCY-ETH-ADDIS-ABABA-CITY-ADMINISTRATION-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-EUAA",
+      "name": "European Union Agency for Asylum",
+      "type": "Agency",
+      "state": "SYR",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/EUAA.md",
+      "sourceDossier": "dossiers/states/SYR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "EUAA 2026 Syria Country Focus",
+        "proposition": "EUAA country information is retained as evidence on detention conditions and affected communities in Syria",
+        "boundary": "Country-information reporting is provenance, not participation in Syrian coercive projects"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-EUAA-status.svg",
+        "dossiers/assets/generated/AGENCY-EUAA-evidence.svg"
+      ]
+    }
+  ]
+}

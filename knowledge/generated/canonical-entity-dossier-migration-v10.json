@@ -1,0 +1,105 @@
+{
+  "version": 10,
+  "date": "2026-08-19",
+  "purpose": "Constitutional-court canonical-dossier tranche spanning scoped, under-review, no-restriction and whole-State contexts without governance inheritance.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals render State governance context and curated constitutional-remedy provenance only; court identity, rulings and class-level judicial references never create standalone governance, participation or effectiveness findings.",
+  "maxMissingDedicatedDossiers": 192,
+  "entities": [
+    {
+      "id": "INSTITUTION-BIH-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Bosnia and Herzegovina",
+      "type": "Institution",
+      "state": "BIH",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/BIH-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/BIH.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CoE constitutional-justice programme",
+        "proposition": "Rights-guarantor and remedy-strengthening role",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-BIH-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-BIH-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-ESP-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Spain",
+      "type": "Institution",
+      "state": "ESP",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/ESP-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/ESP.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Spain dossier / Amnesty 2026",
+        "proposition": "Pending constitutional complaints as remedy channel",
+        "boundary": "No State U inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-ESP-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-ESP-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-KOR-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Korea",
+      "type": "Institution",
+      "state": "KOR",
+      "stateContext": "N",
+      "dossier": "dossiers/institutions/KOR-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/KOR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "KOR dossier / Amnesty 2026",
+        "proposition": "Martial-law declaration held unconstitutional",
+        "boundary": "No State N inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-KOR-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-KOR-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-MWI-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Malawi",
+      "type": "Institution",
+      "state": "MWI",
+      "stateContext": "N",
+      "dossier": "dossiers/institutions/MWI-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/MWI.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "MWI dossier / 2026 rights reports",
+        "proposition": "Criminal-defamation provisions struck down",
+        "boundary": "No State N inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MWI-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MWI-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-RUS-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of the Russian Federation",
+      "type": "Institution",
+      "state": "RUS",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/RUS-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/RUS.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "KSRF rulings portal / RUS dossier",
+        "proposition": "Formal constitutional-remedy mechanism recorded",
+        "boundary": "No State R inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-RUS-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-RUS-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    }
+  ]
+}

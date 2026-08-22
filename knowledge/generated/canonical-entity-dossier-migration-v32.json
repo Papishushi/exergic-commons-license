@@ -1,0 +1,90 @@
+{
+  "version": 32,
+  "date": "2026-08-19",
+  "purpose": "Agency direct-locator tranche spanning an unresolved military-custody incident, algorithmic-video sponsorship, prosecution/judicial contestability and incident-specific protest policing.",
+  "migrationRule": "Exact agency or proceeding locators remain proposition-specific. Incident adjacency, policy sponsorship, charging activity, judicial review and force membership never create an agency-wide outcome.",
+  "visualRule": "Derived visuals retain exact direct source surfaces and terminate at the agency boundary; State U/S, unresolved incidents and frozen projects are context rather than agency-level scores.",
+  "maxMissingDedicatedDossiers": 84,
+  "entities": [
+    {
+      "id": "AGENCY-FJI-RFMF",
+      "name": "Republic of Fiji Military Forces",
+      "type": "Agency",
+      "state": "FJI",
+      "stateContext": "U",
+      "dossier": "dossiers/agencies/FJI-RFMF.md",
+      "sourceDossier": "dossiers/states/FJI.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Fiji project-status freeze + RFMF identity source",
+        "proposition": "RFMF is identified in the April 2026 Vakarisi custody incident while continuity and remediation remain under review",
+        "boundary": "One unresolved custody incident does not establish a continuing military-wide abusive workflow"
+      },
+      "visuals": ["dossiers/assets/generated/AGENCY-FJI-RFMF-status.svg","dossiers/assets/generated/AGENCY-FJI-RFMF-evidence.svg"]
+    },
+    {
+      "id": "AGENCY-FRA-MINISTRY-INTERIOR",
+      "name": "Ministry of the Interior (France)",
+      "type": "Agency",
+      "state": "FRA",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/FRA-MINISTRY-INTERIOR.md",
+      "sourceDossier": "dossiers/states/FRA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "French Interior Ministry algorithmic-video experiment page",
+        "proposition": "Interior Ministry identifies the national Olympic-derived algorithmic-video experiment retained for project-level review",
+        "boundary": "Ministry identity or policy sponsorship does not classify all Interior Ministry activity"
+      },
+      "visuals": ["dossiers/assets/generated/AGENCY-FRA-MINISTRY-INTERIOR-status.svg","dossiers/assets/generated/AGENCY-FRA-MINISTRY-INTERIOR-evidence.svg"]
+    },
+    {
+      "id": "AGENCY-GBR-CROWN-PROSECUTION-SERVICE",
+      "name": "Crown Prosecution Service",
+      "type": "Agency",
+      "state": "GBR",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/GBR-CROWN-PROSECUTION-SERVICE.md",
+      "sourceDossier": "dossiers/states/GBR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "CPS Palestine Action prosecution record",
+        "proposition": "CPS charging/prosecution activity is retained only within the capacity-limited Palestine Action enforcement project",
+        "boundary": "A frozen prosecution project does not classify CPS or charging activity generally"
+      },
+      "visuals": ["dossiers/assets/generated/AGENCY-GBR-CROWN-PROSECUTION-SERVICE-status.svg","dossiers/assets/generated/AGENCY-GBR-CROWN-PROSECUTION-SERVICE-evidence.svg"]
+    },
+    {
+      "id": "AGENCY-GBR-HOME-OFFICE",
+      "name": "Home Office",
+      "type": "Agency",
+      "state": "GBR",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/GBR-HOME-OFFICE.md",
+      "sourceDossier": "dossiers/states/GBR.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UK Judiciary Home Office review decisions + GBR freeze",
+        "proposition": "Home Office decisions remain judicially contestable and unrelated Home Office functions are excluded from the frozen project",
+        "boundary": "Judicial-review adjacency does not classify the Home Office or every Home Office decision"
+      },
+      "visuals": ["dossiers/assets/generated/AGENCY-GBR-HOME-OFFICE-status.svg","dossiers/assets/generated/AGENCY-GBR-HOME-OFFICE-evidence.svg"]
+    },
+    {
+      "id": "AGENCY-GRC-HELLENIC-POLICE",
+      "name": "Hellenic Police",
+      "type": "Agency",
+      "state": "GRC",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/GRC-HELLENIC-POLICE.md",
+      "sourceDossier": "dossiers/states/GRC.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty June 2026 Greece protest-policing record",
+        "proposition": "The frozen Lolos incident is operation-specific; membership in Hellenic Police is expressly insufficient",
+        "boundary": "Incident/accountability evidence does not classify Hellenic Police force-wide"
+      },
+      "visuals": ["dossiers/assets/generated/AGENCY-GRC-HELLENIC-POLICE-status.svg","dossiers/assets/generated/AGENCY-GRC-HELLENIC-POLICE-evidence.svg"]
+    }
+  ]
+}

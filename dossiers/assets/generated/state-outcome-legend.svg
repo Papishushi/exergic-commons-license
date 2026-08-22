@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="245" viewBox="0 0 1000 245" role="img" aria-labelledby="title desc">
+  <title id="title">ECL dossier state-context palette</title>
+  <desc id="desc">Canonical R, S, U, N and unknown colors. Letters and labels accompany every swatch; colors are never entity culpability scores.</desc>
+  <defs>
+    <clipPath id="legend-0-clip"><rect x="52" y="126" width="144" height="42"/></clipPath>
+    <clipPath id="legend-1-clip"><rect x="236" y="126" width="144" height="42"/></clipPath>
+    <clipPath id="legend-2-clip"><rect x="420" y="126" width="144" height="42"/></clipPath>
+    <clipPath id="legend-3-clip"><rect x="604" y="126" width="144" height="42"/></clipPath>
+    <clipPath id="legend-4-clip"><rect x="788" y="126" width="144" height="42"/></clipPath>
+  </defs>
+  <rect width="1000" height="245" rx="18" fill="#FFFFFF" stroke="#D0D5DD"/>
+  <text x="40" y="47" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#101828">ECL STATE-CONTEXT PALETTE</text>
+  <text x="40" y="73" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#667085">Rendering vocabulary only · not a severity scale · no governance inheritance</text>
+  <rect x="40" y="92" width="168" height="88" rx="12" fill="#B42318"/>
+  <text x="58" y="121" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">R</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" clip-path="url(#legend-0-clip)">
+    <tspan x="58" y="146">Restricted</tspan>
+  </text>
+  <rect x="224" y="92" width="168" height="88" rx="12" fill="#E67E22"/>
+  <text x="242" y="121" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">S</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" clip-path="url(#legend-1-clip)">
+    <tspan x="242" y="146">Scoped restriction</tspan>
+  </text>
+  <rect x="408" y="92" width="168" height="88" rx="12" fill="#D4A017"/>
+  <text x="426" y="121" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">U</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" clip-path="url(#legend-2-clip)">
+    <tspan x="426" y="146">Under review /</tspan>
+    <tspan x="426" dy="16">unresolved</tspan>
+  </text>
+  <rect x="592" y="92" width="168" height="88" rx="12" fill="#2E7D32"/>
+  <text x="610" y="121" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">N</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" clip-path="url(#legend-3-clip)">
+    <tspan x="610" y="146">No restriction</tspan>
+  </text>
+  <rect x="776" y="92" width="168" height="88" rx="12" fill="#667085"/>
+  <text x="794" y="121" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">UNKNOWN</text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" clip-path="url(#legend-4-clip)">
+    <tspan x="794" y="146">Insufficient</tspan>
+    <tspan x="794" dy="16">information</tspan>
+  </text>
+  <text x="40" y="222" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#667085">Always render letter + text label together with color.</text>
+</svg>

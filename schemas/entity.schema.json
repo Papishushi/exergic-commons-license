@@ -3,16 +3,7 @@
   "$id": "urn:ecl:schema:entity",
   "title": "ECL JSON-LD ABox tracked-object record",
   "type": "object",
-  "required": [
-    "@context",
-    "iri",
-    "id",
-    "type",
-    "name",
-    "dossier",
-    "lastSubstantiveReview",
-    "reviewClass"
-  ],
+  "required": ["@context", "iri", "id", "type", "name", "dossier", "lastSubstantiveReview", "reviewClass"],
   "properties": {
     "@context": {"type": "string"},
     "iri": {"type": "string", "pattern": "^ecl:[A-Z][A-Z0-9-]+$"},
@@ -22,30 +13,16 @@
     "iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
     "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
     "dossier": {"type": "string", "minLength": 1},
-    "provenance": {
-      "type": "array",
-      "items": {"type": "string", "minLength": 1},
-      "minItems": 1,
-      "uniqueItems": true
-    },
-    "publicReviewIssue": {
-      "type": "string",
-      "pattern": "^https://github\\.com/Papishushi/exergic-commons-license/issues/[1-9][0-9]*$"
-    },
+    "provenance": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true},
+    "publicReviewIssue": {"type": "string", "pattern": "^https://github\\.com/Papishushi/exergic-commons-license/issues/[1-9][0-9]*$"},
     "lastSubstantiveReview": {"type": "string", "format": "date"},
     "reviewDue": {"type": "string", "format": "date"},
     "reviewClass": {"enum": ["hot", "active", "stable", "manual"]},
     "reviewReason": {"type": "string"},
-    "trackedObjects": {
-      "type": "array",
-      "items": {"type": "string", "pattern": "^ecl:[A-Z][A-Z0-9-]+$"},
-      "uniqueItems": true
-    },
-    "monitorIds": {
-      "type": "array",
-      "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]+$"},
-      "uniqueItems": true
-    },
+    "identityLifecycle": {"enum": ["active", "retired", "superseded"]},
+    "supersededBy": {"type": "string", "pattern": "^ecl:[A-Z][A-Z0-9-]+$"},
+    "trackedObjects": {"type": "array", "items": {"type": "string", "pattern": "^ecl:[A-Z][A-Z0-9-]+$"}, "uniqueItems": true},
+    "monitorIds": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]+$"}, "uniqueItems": true},
     "partOf": {"$ref": "#/$defs/iriList"},
     "controls": {"$ref": "#/$defs/iriList"},
     "participatesIn": {"$ref": "#/$defs/iriList"},
@@ -57,18 +34,11 @@
     "reviews": {"$ref": "#/$defs/iriList"}
   },
   "$defs": {
-    "iriList": {
-      "type": "array",
-      "items": {"type": "string", "pattern": "^ecl:[A-Z][A-Z0-9-]+$"},
-      "uniqueItems": true
-    }
+    "iriList": {"type": "array", "items": {"type": "string", "pattern": "^ecl:[A-Z][A-Z0-9-]+$"}, "uniqueItems": true}
   },
   "allOf": [
     {
-      "if": {
-        "properties": {"reviewClass": {"enum": ["hot", "active", "stable"]}},
-        "required": ["reviewClass"]
-      },
+      "if": {"properties": {"reviewClass": {"enum": ["hot", "active", "stable"]}}, "required": ["reviewClass"]},
       "then": {"required": ["reviewDue"]}
     },
     {
@@ -82,24 +52,24 @@
         },
         "not": {
           "anyOf": [
-            {"required": ["currentGovernance"]},
-            {"required": ["governanceStatus"]},
-            {"required": ["restrictionStatus"]},
-            {"required": ["tier"]},
-            {"required": ["outcome"]},
-            {"required": ["provisional_outcome"]},
-            {"required": ["status"]}
+            {"required": ["currentGovernance"]}, {"required": ["governanceStatus"]},
+            {"required": ["restrictionStatus"]}, {"required": ["tier"]},
+            {"required": ["outcome"]}, {"required": ["provisional_outcome"]}, {"required": ["status"]}
           ]
         }
       }
     },
     {
       "if": {"required": ["partOf"]},
-      "then": {
-        "properties": {
-          "type": {"enum": ["State", "Organization", "Person", "Agency", "Institution"]}
-        }
-      }
+      "then": {"properties": {"type": {"enum": ["State", "Organization", "Person", "Agency", "Institution"]}}}
+    },
+    {
+      "if": {"properties": {"identityLifecycle": {"const": "superseded"}}, "required": ["identityLifecycle"]},
+      "then": {"required": ["supersededBy"]}
+    },
+    {
+      "if": {"required": ["supersededBy"]},
+      "then": {"properties": {"identityLifecycle": {"const": "superseded"}}, "required": ["identityLifecycle"]}
     }
   ],
   "additionalProperties": false

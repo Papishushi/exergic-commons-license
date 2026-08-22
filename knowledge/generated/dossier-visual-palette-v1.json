@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "date": "2026-08-18",
+  "purpose": "Canonical visual vocabulary for ECL dossier governance-context rendering.",
+  "states": {
+    "R": {
+      "label": "Restricted",
+      "hex": "#B42318"
+    },
+    "S": {
+      "label": "Scoped restriction",
+      "hex": "#E67E22"
+    },
+    "U": {
+      "label": "Under review / unresolved",
+      "hex": "#D4A017"
+    },
+    "N": {
+      "label": "No restriction",
+      "hex": "#2E7D32"
+    },
+    "UNKNOWN": {
+      "label": "Insufficient information",
+      "hex": "#667085"
+    }
+  },
+  "accessibility": {
+    "rule": "Color MUST NOT be the sole carrier of meaning. Render the state letter and text label with every color.",
+    "contrast": "SVG status cards use dark text on light surfaces and include explicit letter/label text."
+  },
+  "semanticBoundary": "Palette colors communicate the referenced governance state only. They never imply culpability, participation, hierarchy, or inheritance by a non-State entity."
+}

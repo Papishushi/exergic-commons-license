@@ -4,8 +4,11 @@
   "id": "AGENCY-LKA-CTID",
   "type": "Agency",
   "name": "Sri Lanka Police — Counter Terrorist Investigation Division",
-  "aliases": ["Counter Terrorist Investigation Division", "CTID"],
-  "dossier": "../../dossiers/states/LKA.md",
+  "aliases": [
+    "Counter Terrorist Investigation Division",
+    "CTID"
+  ],
+  "dossier": "../../dossiers/agencies/LKA-CTID.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

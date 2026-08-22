@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-MWI-CONSTITUTIONAL-COURT","id":"INSTITUTION-MWI-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of Malawi","aliases":["Constitutional Court"],"dossier":"../../dossiers/states/MWI.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Malawian constitutional court credited in the dossier for a rights-protective 2026 ruling; identity does not generalize that ruling into a governance outcome."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-MWI-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-MWI-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of Malawi",
+  "aliases": [
+    "Constitutional Court"
+  ],
+  "dossier": "../../dossiers/institutions/MWI-CONSTITUTIONAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Malawian constitutional court credited in the dossier for a rights-protective 2026 ruling; identity does not generalize that ruling into a governance outcome."
+}

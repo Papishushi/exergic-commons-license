@@ -1,0 +1,105 @@
+{
+  "version": 12,
+  "date": "2026-08-19",
+  "purpose": "Named-person case tranche separating victim, journalist, defender and lawyer identity from the coercive projects in which each person is a subject of record.",
+  "migrationRule": "A person counts as migrated only when their entity record points to an existing dedicated person dossier. Being named as a victim, detainee, journalist, defender, lawyer or case subject never creates culpability, participation, governance or Material Participation.",
+  "visualRule": "Generated visuals stop at the person-identity boundary. Case adjacency identifies the subject of record only and never reverses the direction of attribution from the coercive project onto that person.",
+  "maxMissingDedicatedDossiers": 182,
+  "entities": [
+    {
+      "id": "PERSON-DZA-HASSAN-BOURAS",
+      "name": "Hassan Bouras",
+      "type": "Person",
+      "state": "DZA",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/DZA-HASSAN-BOURAS.md",
+      "sourceDossier": "dossiers/states/DZA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "DZA 3/2026 case freeze",
+        "proposition": "Named subject of continued-detention project",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-DZA-HASSAN-BOURAS-status.svg",
+        "dossiers/assets/generated/PERSON-DZA-HASSAN-BOURAS-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-KGZ-MAKHABAT-TAZHIBEK-KYZY",
+      "name": "Makhabat Tazhibek-kyzy",
+      "type": "Person",
+      "state": "KGZ",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/KGZ-MAKHABAT-TAZHIBEK-KYZY.md",
+      "sourceDossier": "dossiers/states/KGZ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty / 24.kg 2026 case locators",
+        "proposition": "Named journalist in retrial/travel-restriction case",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-KGZ-MAKHABAT-TAZHIBEK-KYZY-status.svg",
+        "dossiers/assets/generated/PERSON-KGZ-MAKHABAT-TAZHIBEK-KYZY-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-UGA-ERIAS-LUKWAGO",
+      "name": "Erias Lukwago",
+      "type": "Person",
+      "state": "UGA",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/UGA-ERIAS-LUKWAGO.md",
+      "sourceDossier": "dossiers/states/UGA.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "HRW 16 July 2026 case record",
+        "proposition": "Named lawyer in June detention/prosecution chain",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-UGA-ERIAS-LUKWAGO-status.svg",
+        "dossiers/assets/generated/PERSON-UGA-ERIAS-LUKWAGO-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-FJI-JONE-VAKARISI",
+      "name": "Jone Vakarisi",
+      "type": "Person",
+      "state": "FJI",
+      "stateContext": "U",
+      "dossier": "dossiers/persons/FJI-JONE-VAKARISI.md",
+      "sourceDossier": "dossiers/states/FJI.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty / Fiji Times custody-death record",
+        "proposition": "Named custody subject; responsibility unresolved",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-FJI-JONE-VAKARISI-status.svg",
+        "dossiers/assets/generated/PERSON-FJI-JONE-VAKARISI-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-GRC-MARIOS-LOLOS",
+      "name": "Marios Lolos",
+      "type": "Person",
+      "state": "GRC",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/GRC-MARIOS-LOLOS.md",
+      "sourceDossier": "dossiers/states/GRC.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty June 2026 protest-policing review",
+        "proposition": "Named photojournalist injured in frozen incident",
+        "boundary": "Person identity is not project participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-GRC-MARIOS-LOLOS-status.svg",
+        "dossiers/assets/generated/PERSON-GRC-MARIOS-LOLOS-evidence.svg"
+      ]
+    }
+  ]
+}

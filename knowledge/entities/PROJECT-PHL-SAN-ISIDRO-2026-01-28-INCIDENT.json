@@ -4,8 +4,10 @@
   "id": "PROJECT-PHL-SAN-ISIDRO-2026-01-28-INCIDENT",
   "type": "Project",
   "name": "28 January 2026 Barangay San Isidro incident project",
-  "aliases": ["Barangay San Isidro unauthorized anti-drug / armed-robbery incident"],
-  "dossier": "../../dossiers/states/PHL.md",
+  "aliases": [
+    "Barangay San Isidro unauthorized anti-drug / armed-robbery incident"
+  ],
+  "dossier": "../../dossiers/projects/PHL-SAN-ISIDRO-2026-01-28-INCIDENT.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

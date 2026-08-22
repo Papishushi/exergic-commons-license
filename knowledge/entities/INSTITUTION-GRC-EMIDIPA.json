@@ -1,1 +1,13 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-GRC-EMIDIPA","id":"INSTITUTION-GRC-EMIDIPA","type":"Institution","name":"EMIDIPA","aliases":[],"dossier":"../../dossiers/states/GRC.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Greek oversight mechanism named as counter-evidence; no effectiveness is inferred."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-GRC-EMIDIPA",
+  "id": "INSTITUTION-GRC-EMIDIPA",
+  "type": "Institution",
+  "name": "EMIDIPA",
+  "aliases": [],
+  "dossier": "../../dossiers/institutions/GRC-EMIDIPA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Greek oversight mechanism named as counter-evidence; no effectiveness is inferred."
+}

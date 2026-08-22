@@ -4,8 +4,10 @@
   "id": "PROJECT-ZMB-PECA-ENFORCEMENT",
   "type": "Project",
   "name": "Zambia Cyber Crimes Act No. 4 of 2025 enforcement project",
-  "aliases": ["Cyber Crimes Act No. 4 of 2025 enforcement"],
-  "dossier": "../../dossiers/states/ZMB.md",
+  "aliases": [
+    "Cyber Crimes Act No. 4 of 2025 enforcement"
+  ],
+  "dossier": "../../dossiers/projects/ZMB-PECA-ENFORCEMENT.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

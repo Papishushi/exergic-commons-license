@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-TLS-PNTL","id":"AGENCY-TLS-PNTL","type":"Agency","name":"PNTL (Timor-Leste)","aliases":["PNTL"],"dossier":"../../dossiers/states/TLS.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Timor-Leste police body named in 2026 human-rights policing materials; no project attribution or governance outcome follows from identity."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-TLS-PNTL",
+  "id": "AGENCY-TLS-PNTL",
+  "type": "Agency",
+  "name": "PNTL (Timor-Leste)",
+  "aliases": [
+    "PNTL"
+  ],
+  "dossier": "../../dossiers/agencies/TLS-PNTL.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Timor-Leste police body named in 2026 human-rights policing materials; no project attribution or governance outcome follows from identity."
+}

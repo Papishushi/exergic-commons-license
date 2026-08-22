@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-SEN-SUPREME-COURT","id":"INSTITUTION-SEN-SUPREME-COURT","type":"Institution","name":"Supreme Court of Senegal","aliases":["The Supreme Court"],"dossier":"../../dossiers/states/SEN.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Senegalese court credited with holding a ministerial media suspension unlawful; no blanket effectiveness is inferred."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-SEN-SUPREME-COURT",
+  "id": "INSTITUTION-SEN-SUPREME-COURT",
+  "type": "Institution",
+  "name": "Supreme Court of Senegal",
+  "aliases": [
+    "The Supreme Court"
+  ],
+  "dossier": "../../dossiers/institutions/SEN-SUPREME-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Senegalese court credited with holding a ministerial media suspension unlawful; no blanket effectiveness is inferred."
+}

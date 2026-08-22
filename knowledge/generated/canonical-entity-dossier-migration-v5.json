@@ -1,0 +1,105 @@
+{
+  "version": 5,
+  "date": "2026-08-18",
+  "purpose": "Cross-type named-case migration tranche covering persons, projects and an agency while preserving exact Schedule-freeze attribution boundaries.",
+  "migrationRule": "An entity counts as migrated only when its knowledge/entities record points to an existing dossier in the directory appropriate to its own type; a State dossier is provenance, not the entity's canonical dossier.",
+  "visualRule": "Generated visuals render State governance context and curated evidence provenance only; named-case adjacency never creates person culpability or generic agency participation.",
+  "maxMissingDedicatedDossiers": 217,
+  "entities": [
+    {
+      "id": "PERSON-IND-UMAR-KHALID",
+      "name": "Umar Khalid",
+      "type": "Person",
+      "state": "IND",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/IND-UMAR-KHALID.md",
+      "sourceDossier": "dossiers/states/IND.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN Special Procedures IND 5/2026",
+        "proposition": "Named subject of the continued-detention case",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-IND-UMAR-KHALID-status.svg",
+        "dossiers/assets/generated/PERSON-IND-UMAR-KHALID-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-IND-UMAR-KHALID-IND-5-2026",
+      "name": "IND 5/2026 — Umar Khalid continued detention project",
+      "type": "Project",
+      "state": "IND",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/IND-UMAR-KHALID-IND-5-2026.md",
+      "sourceDossier": "dossiers/states/IND.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "UN Special Procedures IND 5/2026",
+        "proposition": "Exact continued-detention project boundary",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-IND-UMAR-KHALID-IND-5-2026-status.svg",
+        "dossiers/assets/generated/PROJECT-IND-UMAR-KHALID-IND-5-2026-evidence.svg"
+      ]
+    },
+    {
+      "id": "PERSON-MOZ-ESTACIO-VALOI",
+      "name": "Estácio Valoi",
+      "type": "Person",
+      "state": "MOZ",
+      "stateContext": "S",
+      "dossier": "dossiers/persons/MOZ-ESTACIO-VALOI.md",
+      "sourceDossier": "dossiers/states/MOZ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty AFR41/1255/2026",
+        "proposition": "Named journalist subject of the retention case",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PERSON-MOZ-ESTACIO-VALOI-status.svg",
+        "dossiers/assets/generated/PERSON-MOZ-ESTACIO-VALOI-evidence.svg"
+      ]
+    },
+    {
+      "id": "PROJECT-MOZ-ESTACIO-VALOI-EQUIPMENT-RETENTION",
+      "name": "Estácio Valoi equipment-retention project — Pemba",
+      "type": "Project",
+      "state": "MOZ",
+      "stateContext": "S",
+      "dossier": "dossiers/projects/MOZ-ESTACIO-VALOI-EQUIPMENT-RETENTION.md",
+      "sourceDossier": "dossiers/states/MOZ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty AFR41/1255/2026",
+        "proposition": "Named search/seizure and equipment-retention project",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/PROJECT-MOZ-ESTACIO-VALOI-EQUIPMENT-RETENTION-status.svg",
+        "dossiers/assets/generated/PROJECT-MOZ-ESTACIO-VALOI-EQUIPMENT-RETENTION-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-MOZ-SERNIC",
+      "name": "SERNIC (Mozambique)",
+      "type": "Agency",
+      "state": "MOZ",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MOZ-SERNIC.md",
+      "sourceDossier": "dossiers/states/MOZ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Amnesty AFR41/1255/2026 / freeze",
+        "proposition": "Named agency in project; generic SERNIC excluded",
+        "boundary": "No State S inheritance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MOZ-SERNIC-status.svg",
+        "dossiers/assets/generated/AGENCY-MOZ-SERNIC-evidence.svg"
+      ]
+    }
+  ]
+}

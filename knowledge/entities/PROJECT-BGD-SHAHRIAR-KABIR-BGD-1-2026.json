@@ -1,1 +1,13 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:PROJECT-BGD-SHAHRIAR-KABIR-BGD-1-2026","id":"PROJECT-BGD-SHAHRIAR-KABIR-BGD-1-2026","type":"Project","name":"BGD 1/2026 — Shahriar Kabir continued detention/prosecution project","aliases":[],"dossier":"../../dossiers/states/BGD.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only exact UN-communication-bounded case project; actor participation remains separate evidence."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:PROJECT-BGD-SHAHRIAR-KABIR-BGD-1-2026",
+  "id": "PROJECT-BGD-SHAHRIAR-KABIR-BGD-1-2026",
+  "type": "Project",
+  "name": "BGD 1/2026 — Shahriar Kabir continued detention/prosecution project",
+  "aliases": [],
+  "dossier": "../../dossiers/projects/BGD-SHAHRIAR-KABIR-BGD-1-2026.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only exact UN-communication-bounded case project; actor participation remains separate evidence."
+}

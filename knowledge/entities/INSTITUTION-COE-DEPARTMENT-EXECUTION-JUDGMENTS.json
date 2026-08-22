@@ -4,8 +4,10 @@
   "id": "INSTITUTION-COE-DEPARTMENT-EXECUTION-JUDGMENTS",
   "type": "Institution",
   "name": "Council of Europe Department for the Execution of Judgments",
-  "aliases": ["Department for the Execution of Judgments"],
-  "dossier": "../../dossiers/states/MDA.md",
+  "aliases": [
+    "Department for the Execution of Judgments"
+  ],
+  "dossier": "../../dossiers/institutions/COE-DEPARTMENT-EXECUTION-JUDGMENTS.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

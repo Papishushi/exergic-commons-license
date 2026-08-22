@@ -1,15 +1,3 @@
 {
-  "@context": "../../ontology/ecl-context.jsonld",
-  "iri": "ecl:INSTITUTION-KAZ-CONSTITUTIONAL-COURT",
-  "id": "INSTITUTION-KAZ-CONSTITUTIONAL-COURT",
-  "type": "Institution",
-  "name": "Constitutional Court of the Republic of Kazakhstan",
-  "aliases": [
-    "Constitutional Court of Kazakhstan"
-  ],
-  "dossier": "../../dossiers/states/KAZ.md",
-  "lastSubstantiveReview": "2026-08-18",
-  "reviewDue": "2026-09-18",
-  "reviewClass": "active",
-  "reviewReason": "Identity-only domestic constitutional court credited as counter-institution in the Kazakhstan dossier; no effectiveness or whole-State inference is created."
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-KAZ-CONSTITUTIONAL-COURT","id":"INSTITUTION-KAZ-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of the Republic of Kazakhstan","aliases":["Constitutional Court of Kazakhstan"],"dossier":"../../dossiers/institutions/KAZ-CONSTITUTIONAL-COURT.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only domestic constitutional court credited as counter-institution in the Kazakhstan dossier; no effectiveness or whole-State inference is created."
 }

@@ -1,3 +1,15 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-THA-BANGKOK-CRIMINAL-COURT","id":"INSTITUTION-THA-BANGKOK-CRIMINAL-COURT","type":"Institution","name":"Bangkok Criminal Court","aliases":["Criminal Court, Bangkok"],"dossier":"../../dossiers/states/THA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only court associated in prose with an exact case project; the court identity is not itself a Restricted Party determination."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-THA-BANGKOK-CRIMINAL-COURT",
+  "id": "INSTITUTION-THA-BANGKOK-CRIMINAL-COURT",
+  "type": "Institution",
+  "name": "Bangkok Criminal Court",
+  "aliases": [
+    "Criminal Court, Bangkok"
+  ],
+  "dossier": "../../dossiers/institutions/THA-BANGKOK-CRIMINAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only court associated in prose with an exact case project; the court identity is not itself a Restricted Party determination."
 }

@@ -1,0 +1,105 @@
+{
+  "version": 30,
+  "date": "2026-08-19",
+  "purpose": "Final Institution backlog tranche 30: materialize five remaining Institution identities with provenance-safe dedicated dossiers (1 direct / 4 partial) while preserving State-context and source-to-entity non-propagation.",
+  "migrationRule": "An Institution counts as migrated only when its ABox record points to a dedicated Institution dossier. Direct rows preserve exact repository-retained source surfaces; partial rows preserve explicit propositions and source-precision gaps. Neither category creates Claim/EvidenceItem, Material Participation, hierarchy, control, culpability or governance inheritance.",
+  "visualRule": "Derived visuals encode State context and source granularity, then terminate at the Institution identity boundary. R/S/U/N context, adjudication, administration, oversight, reform or accountability activity never propagates into an entity-level outcome.",
+  "maxMissingDedicatedDossiers": 94,
+  "entities": [
+    {
+      "id": "INSTITUTION-MDG-HIGH-CONSTITUTIONAL-COURT",
+      "name": "High Constitutional Court",
+      "type": "Institution",
+      "state": "MDG",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/MDG-HIGH-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/MDG.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Madagascar State dossier + retained Amnesty transition sources",
+        "proposition": "State review credits pre-takeover High Constitutional Court remedial capacity as counter-evidence",
+        "boundary": "Pre-takeover capacity does not prove present effectiveness under the transitional order"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MDG-HIGH-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MDG-HIGH-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-POL-COUNCIL-MINISTERS",
+      "name": "Council of Ministers of Poland",
+      "type": "Institution",
+      "state": "POL",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/POL-COUNCIL-MINISTERS.md",
+      "sourceDossier": "dossiers/states/POL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Poland State dossier + 13 July 2026 ELI regulation",
+        "proposition": "Council of Ministers regulation extended the Belarus-border international-protection restriction in July 2026",
+        "boundary": "Issuing one regulation does not classify the Council or all ministers generically"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-POL-COUNCIL-MINISTERS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-POL-COUNCIL-MINISTERS-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-SYR-NATIONAL-COMMISSION-MISSING-PERSONS",
+      "name": "National Commission for Missing Persons (Syria)",
+      "type": "Institution",
+      "state": "SYR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/SYR-NATIONAL-COMMISSION-MISSING-PERSONS.md",
+      "sourceDossier": "dossiers/states/SYR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Syria State dossier + grouped transition/accountability sources",
+        "proposition": "State review records creation of a National Commission for Missing Persons as counter-evidence and an exclusion",
+        "boundary": "Creation of a mechanism does not establish independence, effectiveness or exoneration"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-SYR-NATIONAL-COMMISSION-MISSING-PERSONS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-SYR-NATIONAL-COMMISSION-MISSING-PERSONS-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE",
+      "name": "National Commission for Transitional Justice (Syria)",
+      "type": "Institution",
+      "state": "SYR",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE.md",
+      "sourceDossier": "dossiers/states/SYR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Syria State dossier + grouped transition/accountability sources",
+        "proposition": "State review records creation of a National Commission for Transitional Justice as counter-evidence and an exclusion",
+        "boundary": "Transitional-justice identity does not establish effectiveness or negate separately evidenced abuse"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE-status.svg",
+        "dossiers/assets/generated/INSTITUTION-SYR-NATIONAL-COMMISSION-TRANSITIONAL-JUSTICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION",
+      "name": "National Human Rights Commission of Thailand",
+      "type": "Institution",
+      "state": "THA",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/THA-NATIONAL-HUMAN-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/THA.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Thailand reviewed provenance; current State dossier lacks a one-to-one NHRC locator",
+        "proposition": "ABox retains the NHRC identity as human-rights oversight provenance without a current proposition-specific locator",
+        "boundary": "Identity alone does not prove independence, effectiveness or a governance outcome"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-THA-NATIONAL-HUMAN-RIGHTS-COMMISSION-evidence.svg"
+      ]
+    }
+  ]
+}

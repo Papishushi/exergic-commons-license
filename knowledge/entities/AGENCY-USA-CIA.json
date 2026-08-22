@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-USA-CIA","id":"AGENCY-USA-CIA","type":"Agency","name":"Central Intelligence Agency","aliases":["CIA"],"dossier":"../../dossiers/states/USA.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only U.S. agency. Historical detention/rendition background does not create a current generic CIA restriction."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-USA-CIA",
+  "id": "AGENCY-USA-CIA",
+  "type": "Agency",
+  "name": "Central Intelligence Agency",
+  "aliases": [
+    "CIA"
+  ],
+  "dossier": "../../dossiers/agencies/USA-CIA.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only U.S. agency. Historical detention/rendition background does not create a current generic CIA restriction."
+}

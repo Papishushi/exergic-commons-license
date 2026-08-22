@@ -1,0 +1,105 @@
+{
+  "version": 19,
+  "date": "2026-08-19",
+  "purpose": "Agency capacity-boundary tranche: maritime rescue coordination, Kenyan investigative/police bodies, Philippine police accountability and a Paraguayan emergency authority, all tied to exact evidence or Schedule surfaces without agency-wide inheritance.",
+  "migrationRule": "Naming an agency in a freeze, translation, investigation or accountability record does not classify the agency generally. Restrictability remains project-, incident-, unit- and capacity-specific, and remedial/accountability activity remains non-propagating.",
+  "visualRule": "Derived visuals show State S context and the exact agency proposition, then terminate at the agency identity boundary. Neither adverse participation adjacency nor accountability adjacency creates agency-wide governance.",
+  "maxMissingDedicatedDossiers": 149,
+  "entities": [
+    {
+      "id": "AGENCY-MLT-RCC",
+      "name": "Armed Forces of Malta Rescue Coordination Centre",
+      "type": "Agency",
+      "state": "MLT",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/MLT-RCC.md",
+      "sourceDossier": "dossiers/states/MLT.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Malta State dossier + batch-01 identity freeze",
+        "proposition": "AFM/RCC is named only for capacity-limited qualifying maritime-SAR projects",
+        "boundary": "RCC identity does not imply generic SAR participation or restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-MLT-RCC-status.svg",
+        "dossiers/assets/generated/AGENCY-MLT-RCC-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-KEN-DCI",
+      "name": "Directorate of Criminal Investigations (Kenya)",
+      "type": "Agency",
+      "state": "KEN",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/KEN-DCI.md",
+      "sourceDossier": "dossiers/states/KEN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "KNCHR 25 June 2026 protest record + Kenya freeze",
+        "proposition": "DCI may be relevant only where an exact unit/operation is materially tied to the frozen coercive project",
+        "boundary": "Investigative-agency identity is not generic project attribution"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-KEN-DCI-status.svg",
+        "dossiers/assets/generated/AGENCY-KEN-DCI-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-KEN-NPS",
+      "name": "National Police Service (Kenya)",
+      "type": "Agency",
+      "state": "KEN",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/KEN-NPS.md",
+      "sourceDossier": "dossiers/states/KEN.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "KNCHR 25 June 2026 protest record + Kenya translation/freeze",
+        "proposition": "NPS is a parent police identity while only exact materially participating units/operations may enter scope",
+        "boundary": "National police identity does not inherit a protest-operation restriction"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-KEN-NPS-status.svg",
+        "dossiers/assets/generated/AGENCY-KEN-NPS-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PHL-NAPOLCOM",
+      "name": "National Police Commission of the Philippines",
+      "type": "Agency",
+      "state": "PHL",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PHL-NAPOLCOM.md",
+      "sourceDossier": "dossiers/states/PHL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "NAPOLCOM 30 January 2026 administrative proceedings",
+        "proposition": "NAPOLCOM initiated accountability proceedings concerning the six-officer Malate SDEU incident",
+        "boundary": "Accountability role is expressly excluded from the frozen abusive project"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PHL-NAPOLCOM-status.svg",
+        "dossiers/assets/generated/AGENCY-PHL-NAPOLCOM-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-PRY-SEN",
+      "name": "Secretaría de Emergencia Nacional (Paraguay)",
+      "type": "Agency",
+      "state": "PRY",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/PRY-SEN.md",
+      "sourceDossier": "dossiers/states/PRY.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Paraguay State dossier + batch-18c 2 de Enero freeze",
+        "proposition": "SEN is named in the 16 August 2024 food-delivery incident underlying a continuing prosecution",
+        "boundary": "Incident adjacency does not classify emergency-response activity generally"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-PRY-SEN-status.svg",
+        "dossiers/assets/generated/AGENCY-PRY-SEN-evidence.svg"
+      ]
+    }
+  ]
+}

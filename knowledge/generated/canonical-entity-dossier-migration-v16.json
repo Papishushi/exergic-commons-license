@@ -1,0 +1,105 @@
+{
+  "version": 16,
+  "date": "2026-08-19",
+  "purpose": "Partial-locator counter-institution tranche: materialize explicitly named courts and human-rights oversight institutions while preserving the repository's unresolved case/institution locator gaps instead of manufacturing precision.",
+  "migrationRule": "An institution counts as migrated only when its ABox record points to a dedicated institution dossier. An explicit institutional proposition may be curated from State-dossier provenance even when the retained external locator is broader, but that gap must remain marked partial.",
+  "visualRule": "Derived visuals distinguish the explicit curated proposition from the partial source surface and stop at the institution-identity boundary; neither N nor U State context is inherited by the institution.",
+  "maxMissingDedicatedDossiers": 164,
+  "entities": [
+    {
+      "id": "INSTITUTION-MWI-HIGH-COURT",
+      "name": "High Court of Malawi",
+      "type": "Institution",
+      "state": "MWI",
+      "stateContext": "N",
+      "dossier": "dossiers/institutions/MWI-HIGH-COURT.md",
+      "sourceDossier": "dossiers/states/MWI.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "MWI State dossier / country-rights sources",
+        "proposition": "High Court issued rights-protective rulings",
+        "boundary": "Rights-protective rulings do not prove generic judicial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MWI-HIGH-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MWI-HIGH-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-MNG-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Mongolia",
+      "type": "Institution",
+      "state": "MNG",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/MNG-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/MNG.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "MNG State dossier / Amnesty country record",
+        "proposition": "Constitutional Court struck a speech restriction",
+        "boundary": "One constitutional ruling is not blanket effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-MNG-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-MNG-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-JPN-TOKYO-HIGH-COURT",
+      "name": "Tokyo High Court",
+      "type": "Institution",
+      "state": "JPN",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/JPN-TOKYO-HIGH-COURT.md",
+      "sourceDossier": "dossiers/states/JPN.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "JPN State dossier / 2026 rights-report set",
+        "proposition": "Court found investigation/prosecution unlawful in Ohkawara Kakohki",
+        "boundary": "Case correction does not prove generic judicial effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-JPN-TOKYO-HIGH-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-JPN-TOKYO-HIGH-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-ZAF-HUMAN-RIGHTS-COMMISSION",
+      "name": "South African Human Rights Commission",
+      "type": "Institution",
+      "state": "ZAF",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/ZAF-HUMAN-RIGHTS-COMMISSION.md",
+      "sourceDossier": "dossiers/states/ZAF.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "ZAF State dossier / retained source-family descriptions",
+        "proposition": "Human Rights Commission contests unlawful migration practices",
+        "boundary": "Counter-institution identity does not prove effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-ZAF-HUMAN-RIGHTS-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-ZAF-HUMAN-RIGHTS-COMMISSION-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-TLS-PDHJ",
+      "name": "PDHJ (Timor-Leste)",
+      "type": "Institution",
+      "state": "TLS",
+      "stateContext": "N",
+      "dossier": "dossiers/institutions/TLS-PDHJ.md",
+      "sourceDossier": "dossiers/states/TLS.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "TLS State dossier / 2026 PDHJ-PNTL materials",
+        "proposition": "PDHJ continued human-rights/justice oversight work in 2026",
+        "boundary": "Oversight identity does not prove generic effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-TLS-PDHJ-status.svg",
+        "dossiers/assets/generated/INSTITUTION-TLS-PDHJ-evidence.svg"
+      ]
+    }
+  ]
+}

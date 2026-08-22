@@ -4,8 +4,10 @@
   "id": "AGENCY-MLT-ARMED-FORCES",
   "type": "Agency",
   "name": "Armed Forces of Malta",
-  "aliases": ["AFM"],
-  "dossier": "../../dossiers/states/MLT.md",
+  "aliases": [
+    "AFM"
+  ],
+  "dossier": "../../dossiers/agencies/MLT-ARMED-FORCES.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

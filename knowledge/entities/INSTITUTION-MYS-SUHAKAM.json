@@ -4,8 +4,10 @@
   "id": "INSTITUTION-MYS-SUHAKAM",
   "type": "Institution",
   "name": "Human Rights Commission of Malaysia",
-  "aliases": ["SUHAKAM"],
-  "dossier": "../../dossiers/states/MYS.md",
+  "aliases": [
+    "SUHAKAM"
+  ],
+  "dossier": "../../dossiers/institutions/MYS-SUHAKAM.md",
   "lastSubstantiveReview": "2026-08-18",
   "reviewDue": "2026-09-18",
   "reviewClass": "active",

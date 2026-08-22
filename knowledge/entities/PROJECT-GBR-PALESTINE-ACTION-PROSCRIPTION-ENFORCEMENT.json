@@ -4,8 +4,10 @@
   "id": "PROJECT-GBR-PALESTINE-ACTION-PROSCRIPTION-ENFORCEMENT",
   "type": "Project",
   "name": "Palestine Action proscription enforcement project",
-  "aliases": ["Terrorism Act 2000 enforcement arising from the 5 July 2025 proscription of Palestine Action"],
-  "dossier": "../../dossiers/states/GBR.md",
+  "aliases": [
+    "Terrorism Act 2000 enforcement arising from the 5 July 2025 proscription of Palestine Action"
+  ],
+  "dossier": "../../dossiers/projects/GBR-PALESTINE-ACTION-PROSCRIPTION-ENFORCEMENT.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

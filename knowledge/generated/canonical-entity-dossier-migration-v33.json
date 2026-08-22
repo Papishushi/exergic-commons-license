@@ -1,0 +1,105 @@
+{
+  "version": 33,
+  "date": "2026-08-19",
+  "purpose": "Agency precision-boundary tranche spanning prosecutorial citation gaps, a capacity-limited border directorate, explicit Iraqi exclusions and order-specific media regulation.",
+  "migrationRule": "Freeze inclusion or exclusion is preserved exactly at the stated capacity. Partial provenance remains explicit; no missing case locator is repaired by inference and no agency inherits State context.",
+  "visualRule": "Derived visuals distinguish direct freeze boundaries from partial citation mapping and never infer operation, control, participation or culpability from agency identity.",
+  "maxMissingDedicatedDossiers": 79,
+  "entities": [
+    {
+      "id": "AGENCY-GTM-FECI",
+      "name": "FECI (Guatemala)",
+      "type": "Agency",
+      "state": "GTM",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/GTM-FECI.md",
+      "sourceDossier": "dossiers/states/GTM.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Guatemala dossier + recovered IACHR project locator",
+        "proposition": "FECI is retained in a capacity-limited criminalization/detention scope, with proposition-specific citation gaps still open",
+        "boundary": "Project association does not create a generic FECI restriction or fill missing case provenance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-GTM-FECI-status.svg",
+        "dossiers/assets/generated/AGENCY-GTM-FECI-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-HRV-BORDER-DIRECTORATE",
+      "name": "Border Directorate (Uprava za granicu)",
+      "type": "Agency",
+      "state": "HRV",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/HRV-BORDER-DIRECTORATE.md",
+      "sourceDossier": "dossiers/states/HRV.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Croatia batch-01 identity freeze + MUP Border Directorate identity sources",
+        "proposition": "Border Directorate is Schedule-ready only in qualifying external-border violence/pushback/protection-obstruction capacity",
+        "boundary": "Border-police identity does not classify ordinary checks, surveillance or unrelated police functions"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-HRV-BORDER-DIRECTORATE-status.svg",
+        "dossiers/assets/generated/AGENCY-HRV-BORDER-DIRECTORATE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-IRQ-COUNTER-TERRORISM-SERVICE",
+      "name": "Counter-Terrorism Service",
+      "type": "Agency",
+      "state": "IRQ",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/IRQ-COUNTER-TERRORISM-SERVICE.md",
+      "sourceDossier": "dossiers/states/IRQ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Iraq batch-22b Al-Karkh freeze",
+        "proposition": "Counter-Terrorism Service is expressly excluded generally from the frozen transferred-detainee abusive-capacity project",
+        "boundary": "Counterterrorism identity and project adjacency do not prove Material Participation"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-IRQ-COUNTER-TERRORISM-SERVICE-status.svg",
+        "dossiers/assets/generated/AGENCY-IRQ-COUNTER-TERRORISM-SERVICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-IRQ-MINISTRY-OF-JUSTICE",
+      "name": "Ministry of Justice",
+      "type": "Agency",
+      "state": "IRQ",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/IRQ-MINISTRY-OF-JUSTICE.md",
+      "sourceDossier": "dossiers/states/IRQ.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Iraq batch-22b Al-Karkh freeze",
+        "proposition": "Ministry of Justice is expressly excluded generally from the frozen Al-Karkh abusive-capacity project",
+        "boundary": "Ministerial identity does not inherit custody/interrogation conduct from the project"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-IRQ-MINISTRY-OF-JUSTICE-status.svg",
+        "dossiers/assets/generated/AGENCY-IRQ-MINISTRY-OF-JUSTICE-evidence.svg"
+      ]
+    },
+    {
+      "id": "AGENCY-JOR-MEDIA-COMMISSION",
+      "name": "Media Commission",
+      "type": "Agency",
+      "state": "JOR",
+      "stateContext": "S",
+      "dossier": "dossiers/agencies/JOR-MEDIA-COMMISSION.md",
+      "sourceDossier": "dossiers/states/JOR.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Jordan State dossier + promoted-ready-03a capacity boundary",
+        "proposition": "Media Commission blocking is retained only in order-specific politically grounded media-control projects",
+        "boundary": "Media-regulator identity does not classify all blocking, licensing or regulatory activity"
+      },
+      "visuals": [
+        "dossiers/assets/generated/AGENCY-JOR-MEDIA-COMMISSION-status.svg",
+        "dossiers/assets/generated/AGENCY-JOR-MEDIA-COMMISSION-evidence.svg"
+      ]
+    }
+  ]
+}

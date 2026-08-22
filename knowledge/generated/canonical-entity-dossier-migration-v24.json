@@ -1,0 +1,105 @@
+{
+  "version": 24,
+  "date": "2026-08-19",
+  "purpose": "Explicit source-precision-gap Institution tranche: materialize five treaty-body, regional-court, social-rights and African Union institutions while preserving repository-retained propositions and refusing to fabricate missing one-to-one locators.",
+  "migrationRule": "An Institution counts as migrated only when its ABox record points to a dedicated Institution dossier. Partial rows preserve the State dossier's explicit proposition and source limitations; missing exact locators remain evidence gaps and never become inferred Claim/EvidenceItem, participation or governance findings.",
+  "visualRule": "Derived visuals encode State context and label every v24 source surface as partial. R/S/N context and external review, adjudication or accountability activity terminate at the institution identity boundary and never propagate.",
+  "maxMissingDedicatedDossiers": 124,
+  "entities": [
+    {
+      "id": "INSTITUTION-UN-HUMAN-RIGHTS-COMMITTEE",
+      "name": "United Nations Human Rights Committee",
+      "type": "Institution",
+      "state": "VNM",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/UN-HUMAN-RIGHTS-COMMITTEE.md",
+      "sourceDossier": "dossiers/states/VNM.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Viet Nam State dossier counter-evidence + retained Amnesty locators",
+        "proposition": "State review credits participation in UN Human Rights Committee review as partial counter-evidence",
+        "boundary": "Treaty-body review participation does not prove Committee effectiveness or involvement in State repression"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-UN-HUMAN-RIGHTS-COMMITTEE-status.svg",
+        "dossiers/assets/generated/INSTITUTION-UN-HUMAN-RIGHTS-COMMITTEE-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-UN-WG-ARBITRARY-DETENTION",
+      "name": "United Nations Working Group on Arbitrary Detention",
+      "type": "Institution",
+      "state": "KGZ",
+      "stateContext": "S",
+      "dossier": "dossiers/institutions/UN-WG-ARBITRARY-DETENTION.md",
+      "sourceDossier": "dossiers/states/KGZ.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Kyrgyzstan dossier + grouped UN Special Procedures locators",
+        "proposition": "State dossier records Tazhibek-kyzy litigation after WGAD found her detention arbitrary",
+        "boundary": "Grouped UN provenance does not establish a one-to-one WGAD opinion locator or broader actor attribution"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-UN-WG-ARBITRARY-DETENTION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-UN-WG-ARBITRARY-DETENTION-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS",
+      "name": "African Court on Human and Peoples' Rights",
+      "type": "Institution",
+      "state": "TUN",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS.md",
+      "sourceDossier": "dossiers/states/TUN.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Tunisia State dossier + retained Amnesty 2026 locators",
+        "proposition": "State review records Tunisia's withdrawal of its Article 34(6) declaration, reducing future direct access",
+        "boundary": "Withdrawal evidence does not classify the African Court or prove every consequence of reduced access"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-AFRICAN-COURT-HUMAN-PEOPLES-RIGHTS-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-EUROPEAN-COMMITTEE-SOCIAL-RIGHTS",
+      "name": "European Committee of Social Rights",
+      "type": "Institution",
+      "state": "SWE",
+      "stateContext": "N",
+      "dossier": "dossiers/institutions/EUROPEAN-COMMITTEE-SOCIAL-RIGHTS.md",
+      "sourceDossier": "dossiers/states/SWE.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Sweden State dossier source description; exact decision locator not retained",
+        "proposition": "State review records a 2026 ECSR decision on vulnerable EU migrants' access to healthcare",
+        "boundary": "A described decision is evidence, not an ECL project finding or generic institutional effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-EUROPEAN-COMMITTEE-SOCIAL-RIGHTS-status.svg",
+        "dossiers/assets/generated/INSTITUTION-EUROPEAN-COMMITTEE-SOCIAL-RIGHTS-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-AU-PEACE-SECURITY-COUNCIL",
+      "name": "African Union Peace and Security Council",
+      "type": "Institution",
+      "state": "GNB",
+      "stateContext": "R",
+      "dossier": "dossiers/institutions/AU-PEACE-SECURITY-COUNCIL.md",
+      "sourceDossier": "dossiers/states/GNB.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "Guinea-Bissau dossier + scoped tranche-04; locator gap explicit",
+        "proposition": "State review records a March 2026 AU demand for releases, constitutional restoration and civilian subordination",
+        "boundary": "AU intervention is external evidence; missing locator and State R do not propagate to the Council"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-AU-PEACE-SECURITY-COUNCIL-status.svg",
+        "dossiers/assets/generated/INSTITUTION-AU-PEACE-SECURITY-COUNCIL-evidence.svg"
+      ]
+    }
+  ]
+}

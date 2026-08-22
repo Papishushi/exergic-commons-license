@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL","id":"INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL","type":"Institution","name":"Constitutional Council of Cambodia","aliases":["Constitutional Council"],"dossier":"../../dossiers/states/KHM.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Cambodian constitutional institution named among reform channels; no independence/effectiveness is inferred."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL",
+  "id": "INSTITUTION-KHM-CONSTITUTIONAL-COUNCIL",
+  "type": "Institution",
+  "name": "Constitutional Council of Cambodia",
+  "aliases": ["Constitutional Council"],
+  "dossier": "../../dossiers/institutions/KHM-CONSTITUTIONAL-COUNCIL.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Cambodian constitutional institution named among reform channels; no independence/effectiveness is inferred."
 }

@@ -1,1 +1,16 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-CZE-CONSTITUTIONAL-COURT","id":"INSTITUTION-CZE-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of the Czech Republic","aliases":["Czech Constitutional Court","Constitutional Court"],"dossier":"../../dossiers/states/CZE.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Czech constitutional court/counter-institution recovered from the reviewed State-dossier provenance; identity carries no governance outcome or generic effectiveness inference."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-CZE-CONSTITUTIONAL-COURT",
+  "id": "INSTITUTION-CZE-CONSTITUTIONAL-COURT",
+  "type": "Institution",
+  "name": "Constitutional Court of the Czech Republic",
+  "aliases": [
+    "Czech Constitutional Court",
+    "Constitutional Court"
+  ],
+  "dossier": "../../dossiers/institutions/CZE-CONSTITUTIONAL-COURT.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Czech constitutional court/counter-institution recovered from the reviewed State-dossier provenance; identity carries no governance outcome or generic effectiveness inference."
+}

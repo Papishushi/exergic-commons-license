@@ -4,8 +4,10 @@
   "id": "AGENCY-THA-OFFICE-ATTORNEY-GENERAL",
   "type": "Agency",
   "name": "Office of the Attorney General",
-  "aliases": ["OAG"],
-  "dossier": "../../dossiers/states/THA.md",
+  "aliases": [
+    "OAG"
+  ],
+  "dossier": "../../dossiers/agencies/THA-OFFICE-ATTORNEY-GENERAL.md",
   "lastSubstantiveReview": "2026-08-13",
   "reviewDue": "2026-09-13",
   "reviewClass": "active",

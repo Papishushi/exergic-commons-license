@@ -1,1 +1,15 @@
-{"@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-BEN-CRIET","id":"INSTITUTION-BEN-CRIET","type":"Institution","name":"CRIET (Benin)","aliases":["CRIET"],"dossier":"../../dossiers/states/BEN.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only Benin court/institution named in scoped prosecution/detention review; no case attribution is inferred from identity."}
+{
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:INSTITUTION-BEN-CRIET",
+  "id": "INSTITUTION-BEN-CRIET",
+  "type": "Institution",
+  "name": "CRIET (Benin)",
+  "aliases": [
+    "CRIET"
+  ],
+  "dossier": "../../dossiers/institutions/BEN-CRIET.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only Benin court/institution named in scoped prosecution/detention review; no case attribution is inferred from identity."
+}

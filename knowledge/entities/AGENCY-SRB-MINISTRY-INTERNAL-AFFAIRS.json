@@ -1,3 +1,13 @@
 {
-  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS","id":"AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS","type":"Agency","name":"Ministry of Internal Affairs","aliases":[],"dossier":"../../dossiers/states/SRB.md","lastSubstantiveReview":"2026-08-18","reviewDue":"2026-09-18","reviewClass":"active","reviewReason":"Identity-only promotion from the Serbia dossier. The BIA / Ministry spyware/mobile-forensic Schedule class remains proposition-specific and does not become ministry-wide governance."
+  "@context": "../../ontology/ecl-context.jsonld",
+  "iri": "ecl:AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS",
+  "id": "AGENCY-SRB-MINISTRY-INTERNAL-AFFAIRS",
+  "type": "Agency",
+  "name": "Ministry of Internal Affairs",
+  "aliases": [],
+  "dossier": "../../dossiers/agencies/SRB-MINISTRY-INTERNAL-AFFAIRS.md",
+  "lastSubstantiveReview": "2026-08-18",
+  "reviewDue": "2026-09-18",
+  "reviewClass": "active",
+  "reviewReason": "Identity-only promotion from the Serbia dossier. The BIA / Ministry spyware/mobile-forensic Schedule class remains proposition-specific and does not become ministry-wide governance."
 }

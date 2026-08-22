@@ -1,0 +1,105 @@
+{
+  "version": 15,
+  "date": "2026-08-19",
+  "purpose": "Counter-institution tranche for courts, commissions and ombuds institutions with explicit State-dossier provenance, preserving direct versus partial source granularity and refusing to convert remedial identity into blanket effectiveness or governance.",
+  "migrationRule": "An institution counts as migrated only when its entity record points to an existing dedicated institution dossier. Institutional identity, adjudication, oversight or counter-evidence never mechanically creates a governance outcome, Material Participation or effectiveness finding.",
+  "visualRule": "Generated visuals show State context and the curated institutional proposition, then stop at the institution-identity boundary. State U context and remedial adjacency do not propagate to the institution.",
+  "maxMissingDedicatedDossiers": 169,
+  "entities": [
+    {
+      "id": "INSTITUTION-COL-CONSTITUTIONAL-COURT",
+      "name": "Constitutional Court of Colombia",
+      "type": "Institution",
+      "state": "COL",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/COL-CONSTITUTIONAL-COURT.md",
+      "sourceDossier": "dossiers/states/COL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Constitutional Court Autos 262/337/767 of 2026",
+        "proposition": "Court supervised named military/ordinary jurisdiction conflicts",
+        "boundary": "Judicial correction is not blanket institutional effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-COL-CONSTITUTIONAL-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-COL-CONSTITUTIONAL-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-GMB-ACCESS-INFORMATION-COMMISSION",
+      "name": "Access to Information Commission (The Gambia)",
+      "type": "Institution",
+      "state": "GMB",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/GMB-ACCESS-INFORMATION-COMMISSION.md",
+      "sourceDossier": "dossiers/states/GMB.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "GMB State dossier / Amnesty country record",
+        "proposition": "Access-to-information commission established as counter-evidence",
+        "boundary": "Institution identity does not prove effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-GMB-ACCESS-INFORMATION-COMMISSION-status.svg",
+        "dossiers/assets/generated/INSTITUTION-GMB-ACCESS-INFORMATION-COMMISSION-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-NPL-NHRC",
+      "name": "National Human Rights Commission of Nepal",
+      "type": "Institution",
+      "state": "NPL",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/NPL-NHRC.md",
+      "sourceDossier": "dossiers/states/NPL.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "NHRC Nepal press release 883",
+        "proposition": "NHRC investigated 2025 protest violations and sent recommendations",
+        "boundary": "Recommendations do not mechanically determine ECL governance"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-NPL-NHRC-status.svg",
+        "dossiers/assets/generated/INSTITUTION-NPL-NHRC-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-SEN-SUPREME-COURT",
+      "name": "Supreme Court of Senegal",
+      "type": "Institution",
+      "state": "SEN",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/SEN-SUPREME-COURT.md",
+      "sourceDossier": "dossiers/states/SEN.md",
+      "sourceGranularity": "partial",
+      "visualModel": {
+        "source": "SEN State dossier / Amnesty country record",
+        "proposition": "Supreme Court held a ministerial media suspension unlawful",
+        "boundary": "One remedy does not prove blanket effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-SEN-SUPREME-COURT-status.svg",
+        "dossiers/assets/generated/INSTITUTION-SEN-SUPREME-COURT-evidence.svg"
+      ]
+    },
+    {
+      "id": "INSTITUTION-TTO-OMBUDSMAN",
+      "name": "Office of the Ombudsman of Trinidad and Tobago",
+      "type": "Institution",
+      "state": "TTO",
+      "stateContext": "U",
+      "dossier": "dossiers/institutions/TTO-OMBUDSMAN.md",
+      "sourceDossier": "dossiers/states/TTO.md",
+      "sourceGranularity": "direct",
+      "visualModel": {
+        "source": "Office of the Ombudsman official site",
+        "proposition": "Independent parliamentary complaint institution for maladministration",
+        "boundary": "Institutional remedy channel is not automatic case effectiveness"
+      },
+      "visuals": [
+        "dossiers/assets/generated/INSTITUTION-TTO-OMBUDSMAN-status.svg",
+        "dossiers/assets/generated/INSTITUTION-TTO-OMBUDSMAN-evidence.svg"
+      ]
+    }
+  ]
+}

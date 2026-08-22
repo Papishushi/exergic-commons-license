@@ -1,13 +1,3 @@
 {
-  "@context": "../../ontology/ecl-context.jsonld",
-  "iri": "ecl:INSTITUTION-SVK-CONSTITUTIONAL-COURT",
-  "id": "INSTITUTION-SVK-CONSTITUTIONAL-COURT",
-  "type": "Institution",
-  "name": "Constitutional Court of the Slovak Republic",
-  "aliases": ["Slovak Constitutional Court", "Constitutional Court"],
-  "dossier": "../../dossiers/states/SVK.md",
-  "lastSubstantiveReview": "2026-08-13",
-  "reviewDue": "2026-09-13",
-  "reviewClass": "active",
-  "reviewReason": "Identity-only promotion of a remediation/counter-institution explicitly controlling the SVK current-status review. This demonstrates symmetric representation of restrictive and remedial actors."
+  "@context":"../../ontology/ecl-context.jsonld","iri":"ecl:INSTITUTION-SVK-CONSTITUTIONAL-COURT","id":"INSTITUTION-SVK-CONSTITUTIONAL-COURT","type":"Institution","name":"Constitutional Court of the Slovak Republic","aliases":["Slovak Constitutional Court","Constitutional Court"],"dossier":"../../dossiers/institutions/SVK-CONSTITUTIONAL-COURT.md","lastSubstantiveReview":"2026-08-13","reviewDue":"2026-09-13","reviewClass":"active","reviewReason":"Identity-only promotion of a remediation/counter-institution explicitly controlling the SVK current-status review. This demonstrates symmetric representation of restrictive and remedial actors."
 }
